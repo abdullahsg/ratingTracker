@@ -135,8 +135,6 @@ def create_rating_chart(player_name, player_matches):
     
     fig.update_layout(
         title=f'Rating Progression for {player_name}',
-        xaxis_title='Match Number (Tournament Sequence)',
-        yaxis_title='Rating',
         hovermode='closest',
         showlegend=True,
         legend=dict(
@@ -257,8 +255,6 @@ def create_comparison_chart(selected_players, player_data):
     
     fig.update_layout(
         title=f'Rating Progression Comparison - {len(selected_players)} Players',
-        xaxis_title='Tournament Progress (Match Sequence)',
-        yaxis_title='Rating',
         hovermode='closest',
         showlegend=True,
         legend=dict(
