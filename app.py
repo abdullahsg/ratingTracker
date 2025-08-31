@@ -12,11 +12,11 @@ st.set_page_config(
     layout="wide"
 )
 
-def parse_csv_data(uploaded_file):
-    """Parse and validate the uploaded CSV file"""
+def load_stored_data():
+    """Load and validate the stored CSV data"""
     try:
-        # Read the CSV file
-        df = pd.read_csv(uploaded_file)
+        # Read the CSV file from storage
+        df = pd.read_csv('data.csv')
         
         # Check if required columns exist
         required_columns = ['SL No', 'Date', 'Player 1', 'Player 2', 'Rating P1', 'Rating P2']
@@ -45,7 +45,8 @@ def parse_csv_data(uploaded_file):
             return None
         
         # Check for missing values in critical columns
-        if df[['SL No', 'Player 1', 'Player 2', 'Date', 'Rating P1', 'Rating P2']].isnull().any(axis=1).any():
+        missing_check = df[['SL No', 'Player 1', 'Player 2', 'Date', 'Rating P1', 'Rating P2']].isnull()
+        if missing_check.any().any():
             st.warning("Some rows contain missing values. These will be excluded from analysis.")
             df = df.dropna(subset=['SL No', 'Player 1', 'Player 2', 'Date', 'Rating P1', 'Rating P2'])
         
@@ -185,139 +186,115 @@ def calculate_player_stats(player_matches):
 # Main application
 def main():
     st.title("📈 Player Rating Progression Analyzer")
-    st.markdown("Upload a CSV file to analyze player rating progression over time")
+    st.markdown("Analyze player rating progression over time from tournament data")
     
-    # File uploader
-    uploaded_file = st.file_uploader(
-        "Choose a CSV file",
-        type="csv",
-        help="CSV file should contain columns: SL No, Date, Player 1, Player 2, Rating P1, Rating P2"
-    )
+    # Load the stored data
+    df = load_stored_data()
     
-    if uploaded_file is not None:
-        # Parse the CSV data
-        df = parse_csv_data(uploaded_file)
+    if df is not None:
+        # Show basic info about the dataset
+        st.success(f"✅ Successfully loaded {len(df)} matches")
         
-        if df is not None:
-            # Show basic info about the dataset
-            st.success(f"✅ Successfully loaded {len(df)} matches")
+        # Extract player data
+        player_data = extract_player_data(df)
+        
+        if not player_data:
+            st.error("No player data could be extracted from the file.")
+            return
+        
+        # Get all unique players
+        all_players = sorted(list(player_data.keys()))
+        
+        st.info(f"Found {len(all_players)} unique players")
+        
+        # Player selection dropdown
+        selected_player = st.selectbox(
+            "Select a player to view their rating progression:",
+            options=all_players,
+            index=0 if all_players else None
+        )
+        
+        if selected_player:
+            player_matches = player_data[selected_player]
             
-            # Extract player data
-            player_data = extract_player_data(df)
+            # Create and display the chart
+            fig = create_rating_chart(selected_player, player_matches)
             
-            if not player_data:
-                st.error("No player data could be extracted from the file.")
-                return
-            
-            # Get all unique players
-            all_players = sorted(list(player_data.keys()))
-            
-            st.info(f"Found {len(all_players)} unique players")
-            
-            # Player selection dropdown
-            selected_player = st.selectbox(
-                "Select a player to view their rating progression:",
-                options=all_players,
-                index=0 if all_players else None
-            )
-            
-            if selected_player:
-                player_matches = player_data[selected_player]
+            if fig:
+                st.plotly_chart(fig, use_container_width=True)
                 
-                # Create and display the chart
-                fig = create_rating_chart(selected_player, player_matches)
+                # Calculate and display statistics
+                stats = calculate_player_stats(player_matches)
                 
-                if fig:
-                    st.plotly_chart(fig, use_container_width=True)
+                if stats:
+                    st.subheader(f"📊 Statistics for {selected_player}")
                     
-                    # Calculate and display statistics
-                    stats = calculate_player_stats(player_matches)
+                    # Create columns for statistics
+                    col1, col2, col3, col4 = st.columns(4)
                     
-                    if stats:
-                        st.subheader(f"📊 Statistics for {selected_player}")
-                        
-                        # Create columns for statistics
-                        col1, col2, col3, col4 = st.columns(4)
-                        
-                        with col1:
-                            st.metric(
-                                label="First Rating",
-                                value=f"{stats['first_rating']:.1f}",
-                                help=f"Rating on {stats['first_date'].strftime('%Y-%m-%d')}"
-                            )
-                        
-                        with col2:
-                            st.metric(
-                                label="Latest Rating",
-                                value=f"{stats['latest_rating']:.1f}",
-                                help=f"Rating on {stats['latest_date'].strftime('%Y-%m-%d')}"
-                            )
-                        
-                        with col3:
-                            st.metric(
-                                label="Number of Matches",
-                                value=stats['num_matches']
-                            )
-                        
-                        with col4:
+                    with col1:
+                        st.metric(
+                            label="First Rating",
+                            value=f"{stats['first_rating']:.1f}",
+                            help=f"Rating on {stats['first_date'].strftime('%Y-%m-%d')}"
+                        )
+                    
+                    with col2:
+                        st.metric(
+                            label="Latest Rating",
+                            value=f"{stats['latest_rating']:.1f}",
+                            help=f"Rating on {stats['latest_date'].strftime('%Y-%m-%d')}"
+                        )
+                    
+                    with col3:
+                        st.metric(
+                            label="Number of Matches",
+                            value=stats['num_matches']
+                        )
+                    
+                    with col4:
+                        delta_color = "normal"
+                        if stats['rating_change'] > 0:
                             delta_color = "normal"
-                            if stats['rating_change'] > 0:
-                                delta_color = "normal"
-                            elif stats['rating_change'] < 0:
-                                delta_color = "inverse"
-                            
-                            st.metric(
-                                label="Rating Change",
-                                value=f"{stats['rating_change']:+.1f}",
-                                delta=f"{stats['rating_change']:+.1f}",
-                                help="Total change from first to latest rating"
-                            )
+                        elif stats['rating_change'] < 0:
+                            delta_color = "inverse"
                         
-                        # Additional details
-                        st.markdown("---")
-                        st.markdown("**Period:** {} to {}".format(
-                            stats['first_date'].strftime('%B %d, %Y'),
-                            stats['latest_date'].strftime('%B %d, %Y')
-                        ))
-                        
-                        # Show recent matches
-                        st.subheader("🕐 Recent Matches")
-                        recent_matches = sorted(player_matches, key=lambda x: x['sl_no'], reverse=True)[:5]
-                        
-                        recent_df = pd.DataFrame(recent_matches)
-                        recent_df['date'] = recent_df['date'].dt.strftime('%Y-%m-%d')
-                        recent_df = recent_df.rename(columns={
-                            'sl_no': 'SL No',
-                            'date': 'Date',
-                            'rating': 'Rating',
-                            'opponent': 'Opponent'
-                        })
-                        # Reorder columns to show SL No first
-                        recent_df = recent_df[['SL No', 'Date', 'Rating', 'Opponent']]
-                        
-                        st.dataframe(recent_df, hide_index=True, width='stretch')
-                
-                else:
-                    st.error("Could not create chart for the selected player.")
+                        st.metric(
+                            label="Rating Change",
+                            value=f"{stats['rating_change']:+.1f}",
+                            delta=f"{stats['rating_change']:+.1f}",
+                            help="Total change from first to latest rating"
+                        )
+                    
+                    # Additional details
+                    st.markdown("---")
+                    st.markdown("**Period:** {} to {}".format(
+                        stats['first_date'].strftime('%B %d, %Y'),
+                        stats['latest_date'].strftime('%B %d, %Y')
+                    ))
+                    
+                    # Show recent matches
+                    st.subheader("🕐 Recent Matches")
+                    recent_matches = sorted(player_matches, key=lambda x: x['sl_no'], reverse=True)[:5]
+                    
+                    recent_df = pd.DataFrame(recent_matches)
+                    recent_df['date'] = recent_df['date'].dt.strftime('%Y-%m-%d')
+                    recent_df = recent_df.rename(columns={
+                        'sl_no': 'SL No',
+                        'date': 'Date',
+                        'rating': 'Rating',
+                        'opponent': 'Opponent'
+                    })
+                    # Reorder columns to show SL No first
+                    recent_df = recent_df[['SL No', 'Date', 'Rating', 'Opponent']]
+                    
+                    st.dataframe(recent_df, hide_index=True, width='stretch')
+            
+            else:
+                st.error("Could not create chart for the selected player.")
     
     else:
-        # Show instructions when no file is uploaded
-        st.info("👆 Please upload a CSV file to get started")
-        
-        st.markdown("### Required CSV Format")
-        st.markdown("Your CSV file should contain the following columns:")
-        
-        example_data = {
-            'SL No': [1, 2, 3],
-            'Date': ['2024-01-01', '2024-01-02', '2024-01-03'],
-            'Player 1': ['Alice', 'Bob', 'Charlie'],
-            'Player 2': ['Bob', 'Charlie', 'Alice'],
-            'Rating P1': [1200, 1250, 1180],
-            'Rating P2': [1180, 1200, 1220]
-        }
-        
-        example_df = pd.DataFrame(example_data)
-        st.dataframe(example_df, hide_index=True, width='stretch')
+        st.error("❌ Could not load tournament data. Please check the data file.")
 
 if __name__ == "__main__":
     main()
