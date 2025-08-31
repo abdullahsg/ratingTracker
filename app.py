@@ -308,16 +308,13 @@ def calculate_player_stats(player_matches):
 
 # Main application
 def main():
-    st.title("📈 Player Rating Progression Analyzer")
+    st.header("📈 Player Rating Progression Analyzer")
     st.markdown("Analyze player rating progression over time from tournament data")
     
     # Load the stored data
     df = load_stored_data()
     
     if df is not None:
-        # Show basic info about the dataset
-        st.success(f"✅ Successfully loaded {len(df)} matches")
-        
         # Extract player data
         player_data = extract_player_data(df)
         
@@ -327,8 +324,6 @@ def main():
         
         # Get all unique players
         all_players = sorted(list(player_data.keys()))
-        
-        st.info(f"Found {len(all_players)} unique players")
         
         # Create tabs for single player and comparison views
         tab1, tab2 = st.tabs(["📊 Single Player Analysis", "📈 Player Comparison"])
@@ -342,7 +337,11 @@ def main():
                 key="single_player_select"
             )
             
+            show_single_chart = False
             if selected_player:
+                show_single_chart = st.button("📊 Show Player Analysis", key="show_single_btn")
+            
+            if selected_player and show_single_chart:
                 player_matches = player_data[selected_player]
                 
                 # Create and display the chart
@@ -431,7 +430,11 @@ def main():
                 key="multi_player_select"
             )
             
+            show_comparison_chart = False
             if selected_players:
+                show_comparison_chart = st.button("📈 Compare Players", key="show_comparison_btn")
+            
+            if selected_players and show_comparison_chart:
                 if len(selected_players) > 10:
                     st.warning("⚠️ Showing more than 10 players may make the chart hard to read. Consider selecting fewer players.")
                 
