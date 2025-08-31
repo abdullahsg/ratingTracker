@@ -114,26 +114,30 @@ def create_rating_chart(player_name, player_matches):
     df = pd.DataFrame(player_matches)
     df = df.sort_values('sl_no')
     
+    # Create a continuous x-axis using SL No but display dates on hover
+    df['x_position'] = range(len(df))  # Sequential position for horizontal flow
+    
     # Create the line chart
     fig = go.Figure()
     
     fig.add_trace(go.Scatter(
-        x=df['date'],
+        x=df['x_position'],
         y=df['rating'],
         mode='lines+markers',
         name=f'{player_name} Rating',
-        line=dict(width=3, color='#1f77b4'),
+        line=dict(width=3, color='#1f77b4', shape='spline', smoothing=0.3),
         marker=dict(size=8, color='#1f77b4'),
-        hovertemplate='<b>Date:</b> %{x|%Y-%m-%d}<br>' +
+        hovertemplate='<b>Match #:</b> %{customdata[0]}<br>' +
+                      '<b>Date:</b> %{customdata[1]}<br>' +
                       '<b>Rating:</b> %{y}<br>' +
-                      '<b>Opponent:</b> %{text}<br>' +
+                      '<b>Opponent:</b> %{customdata[2]}<br>' +
                       '<extra></extra>',
-        text=df['opponent']
+        customdata=list(zip(df['sl_no'], df['date'].dt.strftime('%Y-%m-%d'), df['opponent']))
     ))
     
     fig.update_layout(
         title=f'Rating Progression for {player_name}',
-        xaxis_title='Date',
+        xaxis_title='Match Sequence',
         yaxis_title='Rating',
         hovermode='closest',
         showlegend=True,
@@ -141,8 +145,17 @@ def create_rating_chart(player_name, player_matches):
         template='plotly_white'
     )
     
-    # Add grid
-    fig.update_xaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
+    # Customize x-axis to show match numbers
+    fig.update_xaxes(
+        tickmode='linear',
+        tick0=0,
+        dtick=max(1, len(df) // 10),  # Show reasonable number of ticks
+        showgrid=True,
+        gridwidth=1,
+        gridcolor='lightgray'
+    )
+    
+    # Add grid for y-axis
     fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
     
     return fig
