@@ -336,7 +336,6 @@ def main():
         </style>
         """, unsafe_allow_html=True)
     
-    st.markdown("##### 📈 Player Rating Progression Analyzer")
     
     # Load the stored data
     df = load_stored_data()
