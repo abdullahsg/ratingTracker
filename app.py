@@ -322,8 +322,7 @@ def calculate_player_stats(player_matches):
 
 # Main application
 def main():
-    st.subheader("📈 Player Rating Progression Analyzer")
-    st.markdown("Analyze player rating progression over time from tournament data")
+    st.markdown("##### 📈 Player Rating Progression Analyzer")
     
     # Load the stored data
     df = load_stored_data()
