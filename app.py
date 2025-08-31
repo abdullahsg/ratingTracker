@@ -325,12 +325,13 @@ def main():
     # Remove top padding/margin
     st.markdown("""
         <style>
-        .stMainBlockContainer.block-container {
-            padding-top: 0rem !important;
-            margin-top: 0rem !important;
+        .main .block-container {
+            padding-top: 0rem;
+            padding-bottom: 0rem;
+            margin-top: 0rem;
         }
-        .st-emotion-cache-zy6yx3 {
-            padding-top: 0rem !important;
+        .stApp > header {
+            height: 0px;
         }
         </style>
         """, unsafe_allow_html=True)
