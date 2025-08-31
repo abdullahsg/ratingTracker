@@ -140,7 +140,7 @@ def create_rating_chart(player_name, player_matches):
         legend=dict(
             orientation="h",
             yanchor="top",
-            y=-0.1,
+            y=-0.2,
             xanchor="center",
             x=0.5
         ),
@@ -260,7 +260,7 @@ def create_comparison_chart(selected_players, player_data):
         legend=dict(
             orientation="h",
             yanchor="top",
-            y=-0.1,
+            y=-0.2,
             xanchor="center",
             x=0.5
         ),
