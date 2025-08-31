@@ -296,5 +296,3 @@ def main():
     else:
         st.error("❌ Could not load tournament data. Please check the data file.")
 
-if __name__ == "__main__":
-    main()
