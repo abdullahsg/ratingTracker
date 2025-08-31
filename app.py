@@ -139,6 +139,13 @@ def create_rating_chart(player_name, player_matches):
         yaxis_title='Rating',
         hovermode='closest',
         showlegend=True,
+        legend=dict(
+            orientation="h",
+            yanchor="top",
+            y=-0.1,
+            xanchor="center",
+            x=0.5
+        ),
         height=500,
         template='plotly_white'
     )
@@ -254,6 +261,13 @@ def create_comparison_chart(selected_players, player_data):
         yaxis_title='Rating',
         hovermode='closest',
         showlegend=True,
+        legend=dict(
+            orientation="h",
+            yanchor="top",
+            y=-0.1,
+            xanchor="center",
+            x=0.5
+        ),
         height=600,
         template='plotly_white'
     )
@@ -308,7 +322,7 @@ def calculate_player_stats(player_matches):
 
 # Main application
 def main():
-    st.header("📈 Player Rating Progression Analyzer")
+    st.subheader("📈 Player Rating Progression Analyzer")
     st.markdown("Analyze player rating progression over time from tournament data")
     
     # Load the stored data
