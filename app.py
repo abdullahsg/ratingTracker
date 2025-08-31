@@ -1,4 +1,4 @@
-import streamlit as st
+import streamlit as st, sys, platform
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
@@ -296,3 +296,7 @@ def main():
     else:
         st.error("❌ Could not load tournament data. Please check the data file.")
 
+st.set_page_config(page_title="Boot test")
+st.title("✅ Streamlit booted")
+st.write("Python:", sys.version)
+st.write("Platform:", platform.platform())
