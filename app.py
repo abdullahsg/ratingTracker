@@ -19,7 +19,7 @@ def parse_csv_data(uploaded_file):
         df = pd.read_csv(uploaded_file)
         
         # Check if required columns exist
-        required_columns = ['Player 1', 'Player 2', 'Date', 'Rating P1', 'Rating P2']
+        required_columns = ['SL No', 'Date', 'Player 1', 'Player 2', 'Rating P1', 'Rating P2']
         missing_columns = [col for col in required_columns if col not in df.columns]
         
         if missing_columns:
@@ -45,9 +45,9 @@ def parse_csv_data(uploaded_file):
             return None
         
         # Check for missing values in critical columns
-        if df[['Player 1', 'Player 2', 'Date', 'Rating P1', 'Rating P2']].isnull().any(axis=1).any():
+        if df[['SL No', 'Player 1', 'Player 2', 'Date', 'Rating P1', 'Rating P2']].isnull().any(axis=1).any():
             st.warning("Some rows contain missing values. These will be excluded from analysis.")
-            df = df.dropna(subset=['Player 1', 'Player 2', 'Date', 'Rating P1', 'Rating P2'])
+            df = df.dropna(subset=['SL No', 'Player 1', 'Player 2', 'Date', 'Rating P1', 'Rating P2'])
         
         if df.empty:
             st.error("No valid data remaining after cleaning.")
@@ -73,6 +73,7 @@ def extract_player_data(df):
             player_data[player] = []
         
         player_data[player].append({
+            'sl_no': row['SL No'],
             'date': date,
             'rating': rating,
             'opponent': row['Player 2']
@@ -88,17 +89,18 @@ def extract_player_data(df):
             player_data[player] = []
         
         player_data[player].append({
+            'sl_no': row['SL No'],
             'date': date,
             'rating': rating,
             'opponent': row['Player 1']
         })
     
-    # Sort each player's data by date and remove duplicates
+    # Sort each player's data by SL No and remove duplicates
     for player in player_data:
         # Convert to DataFrame for easier manipulation
         player_df = pd.DataFrame(player_data[player])
-        # Sort by date and remove duplicates (keeping last occurrence for same date)
-        player_df = player_df.sort_values('date').drop_duplicates(subset=['date'], keep='last')
+        # Sort by SL No and remove duplicates (keeping last occurrence for same SL No)
+        player_df = player_df.sort_values('sl_no').drop_duplicates(subset=['sl_no'], keep='last')
         player_data[player] = player_df.to_dict('records')
     
     return player_data
@@ -110,7 +112,7 @@ def create_rating_chart(player_name, player_matches):
     
     # Convert to DataFrame for easier plotting
     df = pd.DataFrame(player_matches)
-    df = df.sort_values('date')
+    df = df.sort_values('sl_no')
     
     # Create the line chart
     fig = go.Figure()
@@ -151,7 +153,7 @@ def calculate_player_stats(player_matches):
         return None
     
     df = pd.DataFrame(player_matches)
-    df = df.sort_values('date')
+    df = df.sort_values('sl_no')
     
     first_rating = df.iloc[0]['rating']
     latest_rating = df.iloc[-1]['rating']
@@ -176,7 +178,7 @@ def main():
     uploaded_file = st.file_uploader(
         "Choose a CSV file",
         type="csv",
-        help="CSV file should contain columns: Player 1, Player 2, Date, Rating P1, Rating P2"
+        help="CSV file should contain columns: SL No, Date, Player 1, Player 2, Rating P1, Rating P2"
     )
     
     if uploaded_file is not None:
@@ -267,15 +269,18 @@ def main():
                         
                         # Show recent matches
                         st.subheader("🕐 Recent Matches")
-                        recent_matches = sorted(player_matches, key=lambda x: x['date'], reverse=True)[:5]
+                        recent_matches = sorted(player_matches, key=lambda x: x['sl_no'], reverse=True)[:5]
                         
                         recent_df = pd.DataFrame(recent_matches)
                         recent_df['date'] = recent_df['date'].dt.strftime('%Y-%m-%d')
                         recent_df = recent_df.rename(columns={
+                            'sl_no': 'SL No',
                             'date': 'Date',
                             'rating': 'Rating',
                             'opponent': 'Opponent'
                         })
+                        # Reorder columns to show SL No first
+                        recent_df = recent_df[['SL No', 'Date', 'Rating', 'Opponent']]
                         
                         st.dataframe(recent_df, hide_index=True, width='stretch')
                 
@@ -290,9 +295,10 @@ def main():
         st.markdown("Your CSV file should contain the following columns:")
         
         example_data = {
+            'SL No': [1, 2, 3],
+            'Date': ['2024-01-01', '2024-01-02', '2024-01-03'],
             'Player 1': ['Alice', 'Bob', 'Charlie'],
             'Player 2': ['Bob', 'Charlie', 'Alice'],
-            'Date': ['2024-01-01', '2024-01-02', '2024-01-03'],
             'Rating P1': [1200, 1250, 1180],
             'Rating P2': [1180, 1200, 1220]
         }
