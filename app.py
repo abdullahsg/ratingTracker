@@ -19,7 +19,7 @@ def parse_csv_data(uploaded_file):
         df = pd.read_csv(uploaded_file)
         
         # Check if required columns exist
-        required_columns = ['player1', 'player2', 'date', 'rating p1', 'rating p2']
+        required_columns = ['Player 1', 'Player 2', 'Date', 'Rating P1', 'Rating P2']
         missing_columns = [col for col in required_columns if col not in df.columns]
         
         if missing_columns:
@@ -30,7 +30,7 @@ def parse_csv_data(uploaded_file):
         
         # Parse dates
         try:
-            df['date'] = pd.to_datetime(df['date'])
+            df['Date'] = pd.to_datetime(df['Date'])
         except Exception as e:
             st.error(f"Error parsing dates: {str(e)}")
             st.info("Please ensure dates are in a recognizable format (e.g., YYYY-MM-DD, MM/DD/YYYY)")
@@ -38,16 +38,16 @@ def parse_csv_data(uploaded_file):
         
         # Validate numeric ratings
         try:
-            df['rating p1'] = pd.to_numeric(df['rating p1'], errors='coerce')
-            df['rating p2'] = pd.to_numeric(df['rating p2'], errors='coerce')
+            df['Rating P1'] = pd.to_numeric(df['Rating P1'], errors='coerce')
+            df['Rating P2'] = pd.to_numeric(df['Rating P2'], errors='coerce')
         except Exception as e:
             st.error(f"Error parsing ratings: {str(e)}")
             return None
         
         # Check for missing values in critical columns
-        if df[['player1', 'player2', 'date', 'rating p1', 'rating p2']].isnull().any().any():
+        if df[['Player 1', 'Player 2', 'Date', 'Rating P1', 'Rating P2']].isnull().any(axis=1).any():
             st.warning("Some rows contain missing values. These will be excluded from analysis.")
-            df = df.dropna(subset=['player1', 'player2', 'date', 'rating p1', 'rating p2'])
+            df = df.dropna(subset=['Player 1', 'Player 2', 'Date', 'Rating P1', 'Rating P2'])
         
         if df.empty:
             st.error("No valid data remaining after cleaning.")
@@ -65,9 +65,9 @@ def extract_player_data(df):
     
     # Process player1 ratings
     for _, row in df.iterrows():
-        player = row['player1']
-        date = row['date']
-        rating = row['rating p1']
+        player = row['Player 1']
+        date = row['Date']
+        rating = row['Rating P1']
         
         if player not in player_data:
             player_data[player] = []
@@ -75,14 +75,14 @@ def extract_player_data(df):
         player_data[player].append({
             'date': date,
             'rating': rating,
-            'opponent': row['player2']
+            'opponent': row['Player 2']
         })
     
     # Process player2 ratings
     for _, row in df.iterrows():
-        player = row['player2']
-        date = row['date']
-        rating = row['rating p2']
+        player = row['Player 2']
+        date = row['Date']
+        rating = row['Rating P2']
         
         if player not in player_data:
             player_data[player] = []
@@ -90,7 +90,7 @@ def extract_player_data(df):
         player_data[player].append({
             'date': date,
             'rating': rating,
-            'opponent': row['player1']
+            'opponent': row['Player 1']
         })
     
     # Sort each player's data by date and remove duplicates
@@ -176,7 +176,7 @@ def main():
     uploaded_file = st.file_uploader(
         "Choose a CSV file",
         type="csv",
-        help="CSV file should contain columns: player1, player2, date, rating p1, rating p2"
+        help="CSV file should contain columns: Player 1, Player 2, Date, Rating P1, Rating P2"
     )
     
     if uploaded_file is not None:
@@ -277,7 +277,7 @@ def main():
                             'opponent': 'Opponent'
                         })
                         
-                        st.dataframe(recent_df, hide_index=True, use_container_width=True)
+                        st.dataframe(recent_df, hide_index=True, width='stretch')
                 
                 else:
                     st.error("Could not create chart for the selected player.")
@@ -290,15 +290,15 @@ def main():
         st.markdown("Your CSV file should contain the following columns:")
         
         example_data = {
-            'player1': ['Alice', 'Bob', 'Charlie'],
-            'player2': ['Bob', 'Charlie', 'Alice'],
-            'date': ['2024-01-01', '2024-01-02', '2024-01-03'],
-            'rating p1': [1200, 1250, 1180],
-            'rating p2': [1180, 1200, 1220]
+            'Player 1': ['Alice', 'Bob', 'Charlie'],
+            'Player 2': ['Bob', 'Charlie', 'Alice'],
+            'Date': ['2024-01-01', '2024-01-02', '2024-01-03'],
+            'Rating P1': [1200, 1250, 1180],
+            'Rating P2': [1180, 1200, 1220]
         }
         
         example_df = pd.DataFrame(example_data)
-        st.dataframe(example_df, hide_index=True, use_container_width=True)
+        st.dataframe(example_df, hide_index=True, width='stretch')
 
 if __name__ == "__main__":
     main()
