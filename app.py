@@ -163,12 +163,16 @@ def create_rating_chart(player_name, player_matches):
         tickvals=tick_vals,
         ticktext=tick_texts,
         showgrid=True,
-        gridwidth=1,
-        gridcolor='lightgray'
+        gridwidth=0.5,
+        gridcolor='rgba(128,128,128,0.2)'
     )
     
-    # Add grid for y-axis
-    fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
+    # Add subtle grid for y-axis
+    fig.update_yaxes(
+        showgrid=True, 
+        gridwidth=0.5, 
+        gridcolor='rgba(128,128,128,0.2)'
+    )
     
     return fig
 
@@ -261,14 +265,22 @@ def create_comparison_chart(selected_players, player_data):
             tickvals=tick_vals,
             ticktext=tick_texts,
             showgrid=True,
-            gridwidth=1,
-            gridcolor='lightgray'
+            gridwidth=0.5,
+            gridcolor='rgba(128,128,128,0.2)'
         )
     else:
-        fig.update_xaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
+        fig.update_xaxes(
+            showgrid=True, 
+            gridwidth=0.5, 
+            gridcolor='rgba(128,128,128,0.2)'
+        )
     
-    # Add grid for y-axis
-    fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
+    # Add subtle grid for y-axis
+    fig.update_yaxes(
+        showgrid=True, 
+        gridwidth=0.5, 
+        gridcolor='rgba(128,128,128,0.2)'
+    )
     
     return fig
 
