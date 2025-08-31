@@ -322,6 +322,18 @@ def calculate_player_stats(player_matches):
 
 # Main application
 def main():
+    # Remove top padding/margin
+    st.markdown("""
+        <style>
+        .main > div {
+            padding-top: 1rem;
+        }
+        .stApp > header {
+            background-color: transparent;
+        }
+        </style>
+        """, unsafe_allow_html=True)
+    
     st.markdown("##### 📈 Player Rating Progression Analyzer")
     
     # Load the stored data
