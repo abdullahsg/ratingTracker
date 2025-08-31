@@ -325,11 +325,13 @@ def main():
     # Remove top padding/margin
     st.markdown("""
         <style>
-        .main > div {
-            padding-top: 1rem;
+        .main .block-container {
+            padding-top: 0rem;
+            padding-bottom: 0rem;
+            margin-top: 0rem;
         }
         .stApp > header {
-            background-color: transparent;
+            height: 0px;
         }
         </style>
         """, unsafe_allow_html=True)
