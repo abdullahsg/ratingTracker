@@ -211,7 +211,7 @@ def main():
         selected_player = st.selectbox(
             "Select a player to view their rating progression:",
             options=all_players,
-            index=0 if all_players else None
+            index=None
         )
         
         if selected_player:
