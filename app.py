@@ -161,6 +161,61 @@ def create_rating_chart(player_name, player_matches):
     
     return fig
 
+def create_comparison_chart(selected_players, player_data):
+    """Create an interactive Plotly chart comparing multiple players"""
+    if not selected_players:
+        return None
+    
+    # Create the comparison chart
+    fig = go.Figure()
+    
+    # Define colors for different players
+    colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf']
+    
+    for i, player_name in enumerate(selected_players):
+        player_matches = player_data.get(player_name, [])
+        if not player_matches:
+            continue
+            
+        # Convert to DataFrame for easier plotting
+        df = pd.DataFrame(player_matches)
+        df = df.sort_values('sl_no')
+        
+        # Use SL No as x-axis for proper chronological ordering
+        color = colors[i % len(colors)]
+        
+        fig.add_trace(go.Scatter(
+            x=df['sl_no'],
+            y=df['rating'],
+            mode='lines+markers',
+            name=f'{player_name}',
+            line=dict(width=3, color=color, shape='spline', smoothing=0.3),
+            marker=dict(size=6, color=color),
+            hovertemplate='<b>Player:</b> ' + player_name + '<br>' +
+                          '<b>Match #:</b> %{x}<br>' +
+                          '<b>Rating:</b> %{y}<br>' +
+                          '<b>Date:</b> %{customdata[0]}<br>' +
+                          '<b>Opponent:</b> %{customdata[1]}<br>' +
+                          '<extra></extra>',
+            customdata=list(zip(df['date'].dt.strftime('%Y-%m-%d'), df['opponent']))
+        ))
+    
+    fig.update_layout(
+        title=f'Rating Progression Comparison - {len(selected_players)} Players',
+        xaxis_title='Match Number (SL No)',
+        yaxis_title='Rating',
+        hovermode='closest',
+        showlegend=True,
+        height=600,
+        template='plotly_white'
+    )
+    
+    # Add grid
+    fig.update_xaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
+    fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
+    
+    return fig
+
 def calculate_player_stats(player_matches):
     """Calculate statistics for a player"""
     if not player_matches:
@@ -207,27 +262,32 @@ def main():
         
         st.info(f"Found {len(all_players)} unique players")
         
-        # Player selection dropdown
-        selected_player = st.selectbox(
-            "Select a player to view their rating progression:",
-            options=all_players,
-            index=None
-        )
+        # Create tabs for single player and comparison views
+        tab1, tab2 = st.tabs(["📊 Single Player Analysis", "📈 Player Comparison"])
         
-        if selected_player:
-            player_matches = player_data[selected_player]
+        with tab1:
+            # Player selection dropdown
+            selected_player = st.selectbox(
+                "Select a player to view their rating progression:",
+                options=all_players,
+                index=None,
+                key="single_player_select"
+            )
             
-            # Create and display the chart
-            fig = create_rating_chart(selected_player, player_matches)
-            
-            if fig:
-                st.plotly_chart(fig, use_container_width=True)
+            if selected_player:
+                player_matches = player_data[selected_player]
                 
-                # Calculate and display statistics
-                stats = calculate_player_stats(player_matches)
+                # Create and display the chart
+                fig = create_rating_chart(selected_player, player_matches)
                 
-                if stats:
-                    st.subheader(f"📊 Statistics for {selected_player}")
+                if fig:
+                    st.plotly_chart(fig, use_container_width=True)
+                    
+                    # Calculate and display statistics
+                    stats = calculate_player_stats(player_matches)
+                    
+                    if stats:
+                        st.subheader(f"📊 Statistics for {selected_player}")
                     
                     # Create columns for statistics
                     col1, col2, col3, col4 = st.columns(4)
@@ -290,8 +350,87 @@ def main():
                     
                     st.dataframe(recent_df, hide_index=True, width='stretch')
             
+                else:
+                    st.error("Could not create chart for the selected player.")
+        
+        with tab2:
+            # Multi-player selection
+            st.markdown("**Select multiple players to compare their rating progressions:**")
+            selected_players = st.multiselect(
+                "Choose players for comparison:",
+                options=all_players,
+                default=[],
+                key="multi_player_select"
+            )
+            
+            if selected_players:
+                if len(selected_players) > 10:
+                    st.warning("⚠️ Showing more than 10 players may make the chart hard to read. Consider selecting fewer players.")
+                
+                # Create and display comparison chart
+                comparison_fig = create_comparison_chart(selected_players, player_data)
+                
+                if comparison_fig:
+                    st.plotly_chart(comparison_fig, use_container_width=True)
+                    
+                    # Show comparison statistics
+                    st.subheader("📊 Comparison Statistics")
+                    
+                    comparison_stats = []
+                    for player_name in selected_players:
+                        player_matches = player_data[player_name]
+                        stats = calculate_player_stats(player_matches)
+                        
+                        if stats:
+                            comparison_stats.append({
+                                'Player': player_name,
+                                'First Rating': f"{stats['first_rating']:.1f}",
+                                'Latest Rating': f"{stats['latest_rating']:.1f}",
+                                'Rating Change': f"{stats['rating_change']:+.1f}",
+                                'Total Matches': stats['num_matches'],
+                                'Period': f"{stats['first_date'].strftime('%b %Y')} - {stats['latest_date'].strftime('%b %Y')}"
+                            })
+                    
+                    if comparison_stats:
+                        comparison_df = pd.DataFrame(comparison_stats)
+                        st.dataframe(comparison_df, hide_index=True, width='stretch')
+                        
+                        # Show top performers
+                        st.markdown("---")
+                        col1, col2, col3 = st.columns(3)
+                        
+                        with col1:
+                            # Highest current rating
+                            highest_current = max(comparison_stats, key=lambda x: float(x['Latest Rating']))
+                            st.metric(
+                                "🏆 Highest Current Rating",
+                                value=highest_current['Latest Rating']
+                            )
+                            st.caption(highest_current['Player'])
+                        
+                        with col2:
+                            # Biggest improvement
+                            biggest_gain = max(comparison_stats, key=lambda x: float(x['Rating Change'].replace('+', '')))
+                            st.metric(
+                                "📈 Biggest Rating Gain",
+                                value=biggest_gain['Rating Change']
+                            )
+                            st.caption(biggest_gain['Player'])
+                        
+                        with col3:
+                            # Most active
+                            most_active = max(comparison_stats, key=lambda x: x['Total Matches'])
+                            st.metric(
+                                "🎯 Most Active Player",
+                                value=f"{most_active['Total Matches']} matches"
+                            )
+                            st.caption(most_active['Player'])
+                
+                else:
+                    st.error("Could not create comparison chart.")
+            
             else:
-                st.error("Could not create chart for the selected player.")
+                st.info("👆 Select at least 2 players to see a comparison chart")
     
     else:
         st.error("❌ Could not load tournament data. Please check the data file.")
