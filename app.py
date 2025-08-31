@@ -115,30 +115,27 @@ def create_rating_chart(player_name, player_matches):
     df = pd.DataFrame(player_matches)
     df = df.sort_values('sl_no')
     
-    # Create a continuous x-axis using SL No but display dates on hover
-    df['x_position'] = range(len(df))  # Sequential position for horizontal flow
-    
-    # Create the line chart
+    # Use SL No for x-axis positioning but show dates
     fig = go.Figure()
     
     fig.add_trace(go.Scatter(
-        x=df['x_position'],
+        x=df['sl_no'],  # Use SL No for proper sequential spacing
         y=df['rating'],
         mode='lines+markers',
         name=f'{player_name} Rating',
         line=dict(width=3, color='#1f77b4', shape='spline', smoothing=0.3),
         marker=dict(size=8, color='#1f77b4'),
-        hovertemplate='<b>Match #:</b> %{customdata[0]}<br>' +
-                      '<b>Date:</b> %{customdata[1]}<br>' +
+        hovertemplate='<b>Match #:</b> %{x}<br>' +
+                      '<b>Date:</b> %{customdata[0]}<br>' +
                       '<b>Rating:</b> %{y}<br>' +
-                      '<b>Opponent:</b> %{customdata[2]}<br>' +
+                      '<b>Opponent:</b> %{customdata[1]}<br>' +
                       '<extra></extra>',
-        customdata=list(zip(df['sl_no'], df['date'].dt.strftime('%Y-%m-%d'), df['opponent']))
+        customdata=list(zip(df['date'].dt.strftime('%Y-%m-%d'), df['opponent']))
     ))
     
     fig.update_layout(
         title=f'Rating Progression for {player_name}',
-        xaxis_title='Match Sequence',
+        xaxis_title='Match Number (Tournament Sequence)',
         yaxis_title='Rating',
         hovermode='closest',
         showlegend=True,
@@ -146,11 +143,25 @@ def create_rating_chart(player_name, player_matches):
         template='plotly_white'
     )
     
-    # Customize x-axis to show match numbers
+    # Create custom tick labels showing dates at key points
+    tick_interval = max(1, len(df) // 8)  # Show about 8 date labels
+    tick_vals = []
+    tick_texts = []
+    
+    for i in range(0, len(df), tick_interval):
+        tick_vals.append(df.iloc[i]['sl_no'])
+        tick_texts.append(df.iloc[i]['date'].strftime('%b %d'))
+    
+    # Add the last point if not already included
+    if len(df) > 0 and (len(tick_vals) == 0 or tick_vals[-1] != df.iloc[-1]['sl_no']):
+        tick_vals.append(df.iloc[-1]['sl_no'])
+        tick_texts.append(df.iloc[-1]['date'].strftime('%b %d'))
+    
+    # Customize x-axis to show dates at key matches
     fig.update_xaxes(
-        tickmode='linear',
-        tick0=0,
-        dtick=max(1, len(df) // 10),  # Show reasonable number of ticks
+        tickmode='array',
+        tickvals=tick_vals,
+        ticktext=tick_texts,
         showgrid=True,
         gridwidth=1,
         gridcolor='lightgray'
@@ -200,9 +211,42 @@ def create_comparison_chart(selected_players, player_data):
             customdata=list(zip(df['date'].dt.strftime('%Y-%m-%d'), df['opponent']))
         ))
     
+    # Get all unique dates and SL numbers for custom x-axis labels
+    all_matches = []
+    for player_name in selected_players:
+        player_matches = player_data.get(player_name, [])
+        if player_matches:
+            df_temp = pd.DataFrame(player_matches)
+            df_temp = df_temp.sort_values('sl_no')
+            all_matches.extend(zip(df_temp['sl_no'], df_temp['date']))
+    
+    # Remove duplicates and sort by SL No
+    unique_matches = list(set(all_matches))
+    unique_matches.sort(key=lambda x: x[0])  # Sort by SL No
+    
+    # Create tick labels showing dates at key match numbers
+    if unique_matches:
+        tick_interval = max(1, len(unique_matches) // 10)  # Show about 10 date labels
+        tick_vals = []
+        tick_texts = []
+        
+        for i in range(0, len(unique_matches), tick_interval):
+            sl_no, date = unique_matches[i]
+            tick_vals.append(sl_no)
+            tick_texts.append(date.strftime('%b %d'))
+        
+        # Add the last point if not already included
+        if len(unique_matches) > 0 and (len(tick_vals) == 0 or tick_vals[-1] != unique_matches[-1][0]):
+            sl_no, date = unique_matches[-1]
+            tick_vals.append(sl_no)
+            tick_texts.append(date.strftime('%b %d'))
+    else:
+        tick_vals = []
+        tick_texts = []
+    
     fig.update_layout(
         title=f'Rating Progression Comparison - {len(selected_players)} Players',
-        xaxis_title='Match Number (SL No)',
+        xaxis_title='Tournament Progress (Match Sequence)',
         yaxis_title='Rating',
         hovermode='closest',
         showlegend=True,
@@ -210,8 +254,20 @@ def create_comparison_chart(selected_players, player_data):
         template='plotly_white'
     )
     
-    # Add grid
-    fig.update_xaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
+    # Customize x-axis to show dates
+    if tick_vals:
+        fig.update_xaxes(
+            tickmode='array',
+            tickvals=tick_vals,
+            ticktext=tick_texts,
+            showgrid=True,
+            gridwidth=1,
+            gridcolor='lightgray'
+        )
+    else:
+        fig.update_xaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
+    
+    # Add grid for y-axis
     fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
     
     return fig
