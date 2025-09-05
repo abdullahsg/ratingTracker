@@ -69,6 +69,7 @@ def extract_player_data(df):
         player = row['Player 1']
         date = row['Date']
         rating = row['Rating P1']
+        result = row['Result']  # Result from Player 1's perspective
         
         if player not in player_data:
             player_data[player] = []
@@ -77,7 +78,8 @@ def extract_player_data(df):
             'sl_no': row['SL No'],
             'date': date,
             'rating': rating,
-            'opponent': row['Player 2']
+            'opponent': row['Player 2'],
+            'result': result
         })
     
     # Process player2 ratings
@@ -85,6 +87,13 @@ def extract_player_data(df):
         player = row['Player 2']
         date = row['Date']
         rating = row['Rating P2']
+        # Flip the result for Player 2 (e.g., "2-0" becomes "0-2")
+        original_result = row['Result']
+        if '-' in original_result:
+            parts = original_result.split('-')
+            flipped_result = f"{parts[1]}-{parts[0]}"
+        else:
+            flipped_result = original_result
         
         if player not in player_data:
             player_data[player] = []
@@ -93,7 +102,8 @@ def extract_player_data(df):
             'sl_no': row['SL No'],
             'date': date,
             'rating': rating,
-            'opponent': row['Player 1']
+            'opponent': row['Player 1'],
+            'result': flipped_result
         })
     
     # Sort each player's data by SL No and remove duplicates
@@ -128,9 +138,10 @@ def create_rating_chart(player_name, player_matches):
         hovertemplate='<b>Match #:</b> %{x}<br>' +
                       '<b>Date:</b> %{customdata[0]}<br>' +
                       '<b>Rating:</b> %{y}<br>' +
+                      '<b>Result:</b> %{customdata[2]}<br>' +
                       '<b>Opponent:</b> %{customdata[1]}<br>' +
                       '<extra></extra>',
-        customdata=list(zip(df['date'].dt.strftime('%Y-%m-%d'), df['opponent']))
+        customdata=list(zip(df['date'].dt.strftime('%Y-%m-%d'), df['opponent'], df['result']))
     ))
     
     fig.update_layout(
@@ -214,10 +225,11 @@ def create_comparison_chart(selected_players, player_data):
             hovertemplate='<b>Player:</b> ' + player_name + '<br>' +
                           '<b>Match #:</b> %{x}<br>' +
                           '<b>Rating:</b> %{y}<br>' +
+                          '<b>Result:</b> %{customdata[2]}<br>' +
                           '<b>Date:</b> %{customdata[0]}<br>' +
                           '<b>Opponent:</b> %{customdata[1]}<br>' +
                           '<extra></extra>',
-            customdata=list(zip(df['date'].dt.strftime('%Y-%m-%d'), df['opponent']))
+            customdata=list(zip(df['date'].dt.strftime('%Y-%m-%d'), df['opponent'], df['result']))
         ))
     
     # Get all unique dates and SL numbers for custom x-axis labels
