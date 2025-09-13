@@ -1376,3 +1376,75 @@ SL No,Date,Player 1,Player 2,Result,Rating P1,Rating P2
 1375,13-Jan-2025,Abdullah,Jubayer,3-2,1404.00,1233.00
 1376,08-Feb-2025,Abdullah,Tipu (Batman),2-3,1407.00,1252.00
 1377,08-Jan-2025,Arefin Pial (GTT-S),Md. Shahid Hasan Rabbani,2-3,1165.00,1135.00
+1378,5-Sep-2025,Tipu (GTT),Ashiqur Robin,3-0,1434.71,1174.84
+1379,5-Sep-2025,Babul Uddin,Nilanjon Dhrubo,3-0,1578.95,1322.37
+1380,5-Sep-2025,Enam Ahmed,Ishraq Sifat,3-0,1387.79,1343.46
+1381,5-Sep-2025,Nilanjon Dhrubo,Ashiqur Robin,3-0,1323.88,1173.33
+1382,5-Sep-2025,Enam Ahmed,Tipu (GTT),3-1,1398.55,1423.95
+1383,5-Sep-2025,Babul Uddin,Ishraq Sifat,3-1,1579.37,1343.04
+1384,5-Sep-2025,Enam Ahmed,Nilanjon Dhrubo,3-1,1402.41,1320.02
+1385,5-Sep-2025,Ishraq Sifat,Ashiqur Robin,3-0,1344.14,1172.23
+1386,5-Sep-2025,Babul Uddin,Tipu (GTT),3-0,1580.72,1422.60
+1387,13-Sep-2025,Fahim Bakhtiar,Towfiq (BUET),3-0,1297.83,1184.79
+1388,13-Sep-2025,Mustafiz (Vivasoft),Asad Zaman (bKash),3-0,1160.65,1184.13
+1389,13-Sep-2025,Towfiq (BUET),Mustafiz (Vivasoft),3-1,1191.33,1154.11
+1390,13-Sep-2025,Fahim Bakhtiar,Asad Zaman (bKash),3-2,1300.21,1181.75
+1391,13-Sep-2025,Fahim Bakhtiar,Mustafiz (Vivasoft),3-2,1301.75,1152.58
+1392,13-Sep-2025,Towfiq (BUET),Asad Zaman (bKash),3-0,1198.74,1174.34
+1393,13-Sep-2025,Dibya Joti (SBMCH),Abdullah,3-1,1188.63,1278.85
+1394,13-Sep-2025,Riaz (GTT-S),Mostofa (AIUB),3-1,1200.68,1097.08
+1395,13-Sep-2025,Dibya Joti (SBMCH),Mostofa (AIUB),3-0,1191.78,1093.93
+1396,13-Sep-2025,Abdullah,Riaz (GTT-S),3-0,1282.55,1196.98
+1397,13-Sep-2025,Abdullah,Mostofa (AIUB),3-0,1283.39,1093.09
+1398,13-Sep-2025,Dibya Joti (SBMCH),Riaz (GTT-S),3-1,1200.10,1188.66
+1399,13-Sep-2025,Salim (Belgium),Hasnu,3-0,1292.34,1172.59
+1400,13-Sep-2025,Tamim (ACI),Sayed (Vivasoft),3-0,1202.84,1097.16
+1401,13-Sep-2025,Hasnu,Sayed (Vivasoft),3-1,1176.41,1093.34
+1402,13-Sep-2025,Salim (Belgium),Tamim (ACI),3-0,1295.57,1199.60
+1403,13-Sep-2025,Salim (Belgium),Sayed (Vivasoft),3-0,1296.25,1092.65
+1404,13-Sep-2025,Hasnu,Tamim (ACI),3-2,1185.82,1190.19
+1405,13-Sep-2025,Shatil,Hasibur Rahman (BC),3-1,1286.96,1154.84
+1406,13-Sep-2025,Arib Akash (AIUB),Rifat (BUET),3-0,1212.19,1125.12
+1407,13-Sep-2025,Rifat (BUET),Hasibur Rahman (BC),3-1,1134.92,1145.05
+1408,13-Sep-2025,Shatil,Arib Akash (AIUB),3-1,1290.81,1208.33
+1409,13-Sep-2025,Shatil,Rifat (BUET),3-1,1292.15,1133.58
+1410,13-Sep-2025,Arib Akash (AIUB),Hasibur Rahman (BC),3-2,1212.73,1140.66
+1411,13-Sep-2025,Rashedul Hasan (SBMCH),Ahmed Shakil,3-1,1163.60,1249.41
+1412,13-Sep-2025,Noor (BC),Shoaib Chowdhury (DUFA),3-1,1135.83,1204.70
+1413,13-Sep-2025,Rashedul Hasan (SBMCH),Noor (BC),3-0,1169.92,1129.51
+1414,13-Sep-2025,Ahmed Shakil,Shoaib Chowdhury (DUFA),3-1,1254.77,1199.34
+1415,13-Sep-2025,Ahmed Shakil,Noor (BC),3-0,1256.81,1127.47
+1416,13-Sep-2025,Shoaib Chowdhury (DUFA),Rashedul Hasan (SBMCH),3-1,1205.57,1163.70
+1417,13-Sep-2025,Ahsan Rahman (FSC),Nipon,3-0,1258.41,1127.80
+1418,13-Sep-2025,Alam (DUFA),Abdullah Noman,3-0,1153.53,1075.92
+1419,13-Sep-2025,Nipon,Abdullah Noman,3-0,1132.77,1070.95
+1420,13-Sep-2025,Ahsan Rahman (FSC),Arsil Ajim (BC),3-1,1265.30,1233.46
+1421,13-Sep-2025,Ahsan Rahman (FSC),Abdullah Noman,3-0,1266.08,1070.18
+1422,13-Sep-2025,Arsil Ajim (BC),Alam (DUFA),3-0,1237.08,1149.90
+1423,13-Sep-2025,Ahsan Rahman (FSC),Alam (DUFA),3-0,1268.38,1147.60
+1424,13-Sep-2025,Arsil Ajim (BC),Nipon,3-1,1239.77,1130.09
+1425,13-Sep-2025,Arsil Ajim (BC),Abdullah Noman,3-0,1240.87,1069.07
+1426,13-Sep-2025,Nipon,Alam (DUFA),3-0,1139.16,1138.53
+1427,13-Sep-2025,Md. Shahid Hasan Rabbani,Joy (DUFA),3-0,1247.30,1141.63
+1428,13-Sep-2025,Md Hanif,Rayan CTS (GTT-G),3-0,1150.75,1071.48
+1429,13-Sep-2025,Joy (DUFA),Rayan CTS (GTT-G),3-1,1145.70,1067.41
+1430,13-Sep-2025,Md. Shahid Hasan Rabbani,Shammam,3-2,1254.94,1233.72
+1431,13-Sep-2025,Md. Shahid Hasan Rabbani,Rayan CTS (GTT-G),3-0,1255.79,1066.56
+1432,13-Sep-2025,Shammam,Md Hanif,3-0,1237.22,1147.26
+1433,13-Sep-2025,Md. Shahid Hasan Rabbani,Md Hanif,3-0,1258.33,1144.71
+1434,13-Sep-2025,Shammam,Joy (DUFA),3-0,1240.37,1142.55
+1435,13-Sep-2025,Shammam,Rayan CTS (GTT-G),3-1,1241.41,1065.52
+1436,13-Sep-2025,Md Hanif,Joy (DUFA),3-0,1152.58,1134.68
+1437,13-Sep-2025,Arsil Ajim (BC),Shammam,3-0,1248.90,1233.38
+1438,13-Sep-2025,Hasnu,Rashedul Hasan (SBMCH),3-2,1192.47,1157.04
+1439,13-Sep-2025,Shatil,Abdullah,3-2,1299.61,1275.93
+1440,13-Sep-2025,Salim (Belgium),Towfiq (BUET),3-2,1299.18,1195.81
+1441,13-Sep-2025,Ahsan Rahman (FSC),Arib Akash (AIUB),3-0,1273.15,1207.95
+1442,13-Sep-2025,Ahmed Shakil,Md. Shahid Hasan Rabbani,3-0,1264.90,1250.24
+1443,13-Sep-2025,Arsil Ajim (BC),Fahim Bakhtiar,3-0,1259.98,1290.67
+1444,13-Sep-2025,Shatil,Hasnu,3-2,1302.20,1189.88
+1445,13-Sep-2025,Salim (Belgium),Ahsan Rahman (FSC),3-0,1305.60,1266.73
+1446,13-Sep-2025,Ahmed Shakil,Dibya Joti (SBMCH),3-0,1269.22,1195.78
+1447,13-Sep-2025,Arsil Ajim (BC),Shatil,3-1,1270.49,1291.70
+1448,13-Sep-2025,Ahmed Shakil,Salim (Belgium),3-1,1279.40,1295.43
+1449,13-Sep-2025,Arsil Ajim (BC),Ahmed Shakil,3-1,1279.03,1270.85
