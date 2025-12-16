@@ -152,7 +152,7 @@ def generate_leaderboard(data_df):
     for player, data in stats.items():
         matches = data['matches']
         won = data['won']
-        win_pct = (won / matches * 100) if matches > 0 else 0.0
+        win_pct = (won / matches) if matches > 0 else 0.0
         leaderboard_data.append({
             'Player Name': player,
             'Last Rating': data['rating'],
