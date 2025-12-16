@@ -4,6 +4,8 @@ import plotly.express as px
 import plotly.graph_objects as go
 from datetime import datetime
 import io
+import rating_engine
+
 
 # Set page configuration
 st.set_page_config(
@@ -539,6 +541,80 @@ def main():
     
     else:
         st.error("❌ Could not load tournament data. Please check the data file.")
+
+    # Rating Administration Section (Sidebar or Main Area)
+    st.sidebar.markdown("---")
+    st.sidebar.header("⚙️ Rating Administration")
+    
+    if st.sidebar.button("🔄 Recalculate Ratings"):
+        with st.spinner("Recalculating ratings..."):
+            try:
+                # Load current data
+                current_df = pd.read_csv('data.csv')
+                # Load initial ratings
+                initial_ratings_df = pd.read_csv('initial_ratings.csv')
+                
+                # Perform recalculation
+                new_df = rating_engine.calculate_ratings(current_df, initial_ratings_df)
+                
+                # Show preview
+                st.subheader("📝 Recalculation Preview")
+                st.info("Ratings have been recalculated using the new formula (K=16, Divisor=150).")
+                st.dataframe(new_df.head(), use_container_width=True)
+                
+                # Convert to CSV for download
+                csv_buffer = io.StringIO()
+                new_df.to_csv(csv_buffer, index=False)
+                csv_data = csv_buffer.getvalue()
+                
+                st.download_button(
+                    label="💾 Download Updated Ratings CSV",
+                    data=csv_data,
+                    file_name="updated_ratings.csv",
+                    mime="text/csv",
+                    key="download_new_ratings"
+                )
+                
+                st.success("Calculation complete! Download the file above.")
+                
+            except Exception as e:
+                st.error(f"Error during recalculation: {str(e)}")
+
+    if st.sidebar.button("🏆 Generate Leaderboard"):
+        with st.spinner("Generating leaderboard..."):
+            try:
+                # Load current data (assuming it has fresh ratings or calculate first?)
+                # Requirement: "from data.csv we will take all columns except the rating" -> then re-calculate? 
+                # Or just use current ratings in data.csv?
+                # User said: "new csv generated on some button press where from data.csv we will take all columns except the rating"
+                # This implied the previous request for Recalculate. 
+                # For this request: "new csv generated, from data.csv where I need 5 columns..."
+                # I should probably just read data.csv. If ratings are there, use them.
+                
+                current_df = pd.read_csv('data.csv')
+                
+                # Check if ratings exist, if not, warn or calculate. 
+                # Assuming data.csv is up to date from previous steps.
+                
+                leaderboard_df = rating_engine.generate_leaderboard(current_df)
+                
+                st.subheader("🏆 Leaderboard Preview")
+                st.dataframe(leaderboard_df.head(), use_container_width=True)
+                
+                csv_buffer = io.StringIO()
+                leaderboard_df.to_csv(csv_buffer, index=False)
+                csv_data = csv_buffer.getvalue()
+                
+                st.download_button(
+                    label="💾 Download Leaderboard CSV",
+                    data=csv_data,
+                    file_name="leaderboard.csv",
+                    mime="text/csv",
+                    key="download_leaderboard"
+                )
+                
+            except Exception as e:
+                st.error(f"Error generating leaderboard: {str(e)}")
 
 if __name__ == "__main__":
     main()
