@@ -712,41 +712,7 @@ def main():
             except Exception as e:
                 st.error(f"Error during recalculation: {str(e)}")
 
-    if st.sidebar.button("🏆 Generate Leaderboard"):
-        with st.spinner("Generating leaderboard..."):
-            try:
-                # Load current data (assuming it has fresh ratings or calculate first?)
-                # Requirement: "from data.csv we will take all columns except the rating" -> then re-calculate? 
-                # Or just use current ratings in data.csv?
-                # User said: "new csv generated on some button press where from data.csv we will take all columns except the rating"
-                # This implied the previous request for Recalculate. 
-                # For this request: "new csv generated, from data.csv where I need 5 columns..."
-                # I should probably just read data.csv. If ratings are there, use them.
-                
-                current_df = pd.read_csv('data.csv')
-                
-                # Check if ratings exist, if not, warn or calculate. 
-                # Assuming data.csv is up to date from previous steps.
-                
-                leaderboard_df = rating_engine.generate_leaderboard(current_df)
-                
-                st.subheader("🏆 Leaderboard Preview")
-                st.dataframe(leaderboard_df.head(), use_container_width=True)
-                
-                csv_buffer = io.StringIO()
-                leaderboard_df.to_csv(csv_buffer, index=False)
-                csv_data = csv_buffer.getvalue()
-                
-                st.download_button(
-                    label="💾 Download Leaderboard CSV",
-                    data=csv_data,
-                    file_name="leaderboard.csv",
-                    mime="text/csv",
-                    key="download_leaderboard"
-                )
-                
-            except Exception as e:
-                st.error(f"Error generating leaderboard: {str(e)}")
+
 
 if __name__ == "__main__":
     main()

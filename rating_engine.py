@@ -105,72 +105,7 @@ def calculate_ratings(data_df, initial_ratings_df):
 
     return result_df
 
-def generate_leaderboard(data_df):
-    """
-    Generate a leaderboard with Rank, Player Name, Last Rating, Matches Played, Won, Win Percentage.
-    Assumes data_df has 'Rating P1' and 'Rating P2' populated.
-    """
-    stats = {}
 
-    for _, row in data_df.iterrows():
-        p1 = str(row['Player 1']).strip()
-        p2 = str(row['Player 2']).strip()
-        result_str = str(row['Result'])
-        r1 = row['Rating P1']
-        r2 = row['Rating P2']
-
-        # Initialize stats if needed
-        if p1 not in stats:
-            stats[p1] = {'matches': 0, 'won': 0, 'rating': 1200}
-        if p2 not in stats:
-            stats[p2] = {'matches': 0, 'won': 0, 'rating': 1200}
-
-        # Update ratings
-        stats[p1]['rating'] = r1
-        stats[p2]['rating'] = r2
-        
-        # Update match counts
-        stats[p1]['matches'] += 1
-        stats[p2]['matches'] += 1
-        
-        # Determine winner
-        try:
-            parts = result_str.split('-')
-            if len(parts) == 2:
-                s1 = int(parts[0])
-                s2 = int(parts[1])
-                
-                if s1 > s2:
-                    stats[p1]['won'] += 1
-                elif s2 > s1:
-                    stats[p2]['won'] += 1
-        except (ValueError, IndexError):
-            pass # Skip invalid results for win count?
-
-    # Convert to list
-    leaderboard_data = []
-    for player, data in stats.items():
-        matches = data['matches']
-        won = data['won']
-        win_pct = (won / matches) if matches > 0 else 0.0
-        leaderboard_data.append({
-            'Player Name': player,
-            'Last Rating': data['rating'],
-            'Matches Played': matches,
-            'Won': won,
-            'Win Percentage': round(win_pct, 2)
-        })
-
-    # create dataframe
-    df = pd.DataFrame(leaderboard_data)
-    
-    # Sort by Last Rating desc
-    df = df.sort_values(by='Last Rating', ascending=False)
-    
-    # Add Rank
-    df.insert(0, 'Rank', range(1, len(df) + 1))
-    
-    return df
 
 
 def generate_leaderboard_with_changes(data_df):
