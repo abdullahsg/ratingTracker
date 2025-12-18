@@ -361,8 +361,13 @@ def main():
         # Get all unique players
         all_players = sorted(list(player_data.keys()))
         
-        # Create tabs for single player and comparison views
-        tab1, tab2 = st.tabs(["📊 Single Player Analysis", "📈 Player Comparison"])
+        # Create tabs
+        tab1, tab3, tab4, tab2 = st.tabs([
+            "📊 Single Player Analysis", 
+            "🏆 Leaderboard", 
+            "📅 Match List",
+            "📈 Player Comparison"
+        ])
         
         with tab1:
             # Player selection dropdown
@@ -538,6 +543,133 @@ def main():
             
             else:
                 st.info("👆 Select at least 2 players to see a comparison chart")
+
+        with tab3:
+            st.header("🏆 Leaderboard")
+            
+            # Generate leaderboard with changes
+            leaderboard_df = rating_engine.generate_leaderboard_with_changes(df)
+            
+            if not leaderboard_df.empty:
+                # Function to apply styles
+                def highlight_change(row):
+                    change = row['Rating Change']
+                    is_new = row['Is New']
+                    
+                    bg_color = ''
+                    if is_new:
+                        bg_color = 'background-color: #7dc0ff' # Light Blue
+                    elif change > 0:
+                        bg_color = 'background-color: #90ee90' # Light Green
+                    elif change < 0:
+                        bg_color = 'background-color: #ffcccb' # Light Red
+                        
+                    return [bg_color if col == 'Rating Change' else '' for col in row.index]
+
+                # Format columns
+                display_df = leaderboard_df.copy()
+                
+                # Format Rating Change for display to handle "New" text
+                display_df['Rating Change Display'] = display_df.apply(
+                    lambda x: "New" if x['Is New'] else f"{x['Rating Change']:+.0f}", axis=1
+                )
+                
+                # Drop technical columns for display
+                display_cols = ['Rank', 'Player Name', 'Last Rating', 'Matches Played', 'Won', 'Win Percentage', 'Rating Change Display']
+                final_df = display_df[display_cols].rename(columns={'Rating Change Display': 'Rating Change'})
+                
+                # Apply styling to the original dataframe logic, but map to display df
+                # Streamlit dataframe styling is a bit tricky with hidden columns. 
+                # Let's try to style the specific column 'Rating Change' based on the underlying data.
+                # Actually, simpler approach: Just style the dataframe directly.
+                
+                # Re-create dataframe for styling to ensure columns align
+                # We need to preserve the logic for styling
+                
+                def style_specific_cell(x):
+                    # This function sees the whole dataframe
+                    df1 = pd.DataFrame('', index=x.index, columns=x.columns)
+                    
+                    # Logic relies on 'Is New' which is not in final_df. 
+                    # So we must compute style before dropping, OR keep 'Is New' and hide it? 
+                    # st.dataframe column_config can hide columns.
+                    
+                    return df1
+
+                # Better Approach: Add a pure data column for styling
+                leaderboard_df['Change Text'] = leaderboard_df.apply(
+                    lambda x: "New" if x['Is New'] else f"{x['Rating Change']:+.0f}", axis=1
+                )
+                
+                final_view = leaderboard_df[['Rank', 'Player Name', 'Last Rating', 'Matches Played', 'Won', 'Win Percentage', 'Change Text']]
+                final_view = final_view.rename(columns={'Change Text': 'Rating Change'})
+
+                def color_rating_change(val):
+                    # This receives the value of the cell.
+                    # Problem: "New" vs "+5" vs "-5"
+                    if val == "New":
+                        return 'background-color: #7dc0ff; color: black'
+                    try:
+                        f_val = float(val)
+                        if f_val > 0:
+                            return 'background-color: #90ee90; color: black'
+                        elif f_val < 0:
+                            return 'background-color: #ffcccb; color: black'
+                    except:
+                        pass
+                    return ''
+
+                try:
+                    st.dataframe(
+                        final_view.style.map(color_rating_change, subset=['Rating Change'])
+                                  .format({'Win Percentage': '{:.2%}', 'Last Rating': '{:.0f}'}),
+                        use_container_width=True,
+                        hide_index=True
+                    )
+                except Exception as e:
+                    st.error(f"Error displaying leaderboard: {e}")
+                    st.dataframe(final_view)
+            else:
+                st.info("No data available for leaderboard.")
+
+        with tab4:
+            st.header("📅 Match List")
+            
+            # Filter by player
+            col1, col2 = st.columns([1, 2])
+            with col1:
+                player_filter = st.multiselect(
+                    "Filter by Player:",
+                    options=all_players,
+                    key="match_list_filter"
+                )
+            
+            # Prepare match data
+            # We want all matches, sorted by Date desc
+            matches_df = df.copy()
+            matches_df['Date'] = pd.to_datetime(matches_df['Date'])
+            
+            if player_filter:
+                # Filter rows where P1 or P2 is in the list
+                mask = matches_df['Player 1'].isin(player_filter) | matches_df['Player 2'].isin(player_filter)
+                matches_df = matches_df[mask]
+            
+            # Sort
+            matches_df = matches_df.sort_values(by=['Date', 'SL No'], ascending=[False, False])
+            
+            # Format Date
+            matches_df['Date'] = matches_df['Date'].dt.strftime('%Y-%m-%d')
+            
+            # Display
+            st.dataframe(
+                matches_df[['SL No', 'Date', 'Player 1', 'Player 2', 'Result', 'Rating P1', 'Rating P2']],
+                use_container_width=True,
+                hide_index=True,
+                column_config={
+                    "Rating P1": st.column_config.NumberColumn("Rating P1", format="%d"),
+                    "Rating P2": st.column_config.NumberColumn("Rating P2", format="%d"),
+                }
+            )
     
     else:
         st.error("❌ Could not load tournament data. Please check the data file.")

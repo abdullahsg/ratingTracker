@@ -172,3 +172,111 @@ def generate_leaderboard(data_df):
     
     return df
 
+
+def generate_leaderboard_with_changes(data_df):
+    """
+    Generate leaderboard with Rank, Player Name, Last Rating, Matches Played, Won, Win Percentage, and Rating Change.
+    Rating Change = Current Rating - Previous Day's Rating (relative to the latest match date in the dataset).
+    """
+    if data_df.empty:
+        return pd.DataFrame()
+
+    # Ensure Date is datetime
+    data_df['Date'] = pd.to_datetime(data_df['Date'])
+    
+    # Identify the latest date in the dataset
+    latest_date = data_df['Date'].max()
+    previous_date_limit = latest_date - pd.Timedelta(days=1)
+    
+    # Get the latest stats (Current State)
+    # We can reuse extraction logic or do it manually here for precision
+    player_latest_status = {}
+    
+    # Sort by date, then SL No to ensure we process in order
+    sorted_df = data_df.sort_values(by=['Date', 'SL No'])
+    
+    player_ratings_history = {} # player -> list of (date, rating)
+
+    for _, row in sorted_df.iterrows():
+        p1 = str(row['Player 1']).strip()
+        p2 = str(row['Player 2']).strip()
+        date = row['Date']
+        r1 = row['Rating P1']
+        r2 = row['Rating P2']
+        
+        # Track history
+        if p1 not in player_ratings_history: player_ratings_history[p1] = []
+        player_ratings_history[p1].append({'date': date, 'rating': r1})
+        
+        if p2 not in player_ratings_history: player_ratings_history[p2] = []
+        player_ratings_history[p2].append({'date': date, 'rating': r2})
+
+    # Calculate Leaderboard Data
+    leaderboard_data = []
+    
+    # We can use the logic from generate_leaderboard for the basic stats, 
+    # but let's just re-compute to include the change logic cleanly.
+    
+    # Basic Stats Accumulation
+    stats = {}
+    for _, row in sorted_df.iterrows():
+        p1 = str(row['Player 1']).strip()
+        p2 = str(row['Player 2']).strip()
+        # Ensure stats exist
+        if p1 not in stats: stats[p1] = {'matches': 0, 'won': 0}
+        if p2 not in stats: stats[p2] = {'matches': 0, 'won': 0}
+        
+        stats[p1]['matches'] += 1
+        stats[p2]['matches'] += 1
+        
+        # Wins
+        result_str = str(row['Result'])
+        try:
+            parts = result_str.split('-')
+            if len(parts) == 2:
+                s1, s2 = int(parts[0]), int(parts[1])
+                if s1 > s2: stats[p1]['won'] += 1
+                elif s2 > s1: stats[p2]['won'] += 1
+        except: pass
+
+    for player, history in player_ratings_history.items():
+        current_rating = history[-1]['rating']
+        
+        # Find rating as of previous_date_limit (end of that day)
+        # We want the last rating where date <= previous_date_limit
+        prev_rating_val = None
+        
+        # Iterate backwards to find the last rating on or before the cutoff date
+        relevant_history = [h for h in history if h['date'] <= previous_date_limit]
+        
+        is_new = False
+        rating_change = 0
+        
+        if not relevant_history:
+            # No games before today (or before the latest date's previous day)
+            is_new = True
+            rating_change = 0 # Or current_rating - 1200? Usually "New" implies we just show "New"
+        else:
+            prev_rating_val = relevant_history[-1]['rating']
+            rating_change = current_rating - prev_rating_val
+            
+        matches = stats[player]['matches']
+        won = stats[player]['won']
+        win_pct = (won / matches) if matches > 0 else 0.0
+        
+        leaderboard_data.append({
+            'Player Name': player,
+            'Last Rating': current_rating,
+            'Matches Played': matches,
+            'Won': won,
+            'Win Percentage': round(win_pct, 2),
+            'Rating Change': rating_change,
+            'Is New': is_new
+        })
+        
+    df = pd.DataFrame(leaderboard_data)
+    if not df.empty:
+        df = df.sort_values(by='Last Rating', ascending=False)
+        df.insert(0, 'Rank', range(1, len(df) + 1))
+        
+    return df
