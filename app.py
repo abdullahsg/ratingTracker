@@ -320,14 +320,47 @@ def calculate_player_stats(player_matches):
     latest_rating = df.iloc[-1]['rating']
     num_matches = len(df)
     rating_change = latest_rating - first_rating
+
+    # Calculate additional stats
+    wins = 0
+    for match in player_matches:
+        result = match['result']
+        if '-' in str(result):
+            try:
+                parts = str(result).split('-')
+                my_score = int(parts[0])
+                opp_score = int(parts[1])
+                if my_score > opp_score:
+                    wins += 1
+            except:
+                pass
+                
+    win_ratio = (wins / num_matches) * 100 if num_matches > 0 else 0
+    
+    # Calculate rating change from previous day
+    latest_date = df.iloc[-1]['date']
+    # Filter for matches strictly before the latest date (ignoring time components if just dates)
+    # Ensure comparisons are done on the date component only
+    prev_day_matches = df[df['date'].dt.date < latest_date.date()]
+    
+    if not prev_day_matches.empty:
+        prev_day_last_rating = prev_day_matches.iloc[-1]['rating']
+        daily_rating_change = latest_rating - prev_day_last_rating
+        has_prev_day = True
+    else:
+        daily_rating_change = 0
+        has_prev_day = False
     
     return {
         'first_rating': first_rating,
         'latest_rating': latest_rating,
         'num_matches': num_matches,
-        'rating_change': rating_change,
+        'rating_change': rating_change, # Total change
+        'daily_rating_change': daily_rating_change,
+        'has_prev_day': has_prev_day,
+        'win_ratio': win_ratio,
         'first_date': df.iloc[0]['date'],
-        'latest_date': df.iloc[-1]['date']
+        'latest_date': latest_date
     }
 
 # Main application
@@ -402,37 +435,40 @@ def main():
                     
                     with col1:
                         st.metric(
-                            label="First Rating",
-                            value=f"{stats['first_rating']:.1f}",
-                            help=f"Rating on {stats['first_date'].strftime('%Y-%m-%d')}"
-                        )
-                    
-                    with col2:
-                        st.metric(
                             label="Latest Rating",
                             value=f"{stats['latest_rating']:.1f}",
                             help=f"Rating on {stats['latest_date'].strftime('%Y-%m-%d')}"
                         )
                     
-                    with col3:
+                    with col2:
                         st.metric(
-                            label="Number of Matches",
+                            label="Total Matches",
                             value=stats['num_matches']
                         )
                     
-                    with col4:
-                        delta_color = "normal"
-                        if stats['rating_change'] > 0:
-                            delta_color = "normal"
-                        elif stats['rating_change'] < 0:
-                            delta_color = "inverse"
-                        
+                    with col3:
                         st.metric(
-                            label="Rating Change",
-                            value=f"{stats['rating_change']:+.1f}",
-                            delta=f"{stats['rating_change']:+.1f}",
-                            help="Total change from first to latest rating"
+                            label="Win Ratio",
+                            value=f"{stats['win_ratio']:.1f}%"
                         )
+                    
+                    with col4:
+                        if stats['has_prev_day']:
+                            change_val = stats['daily_rating_change']
+                            delta_color = "normal" if change_val >= 0 else "inverse" # Streamlit handles colors for positive/negative automatically usually, but let's stick to default
+                            
+                            st.metric(
+                                label="Daily Change",
+                                value=f"{change_val:+.1f}",
+                                delta=f"{change_val:+.1f}",
+                                help="Change since end of previous playing day"
+                            )
+                        else:
+                            st.metric(
+                                label="Daily Change",
+                                value="N/A",
+                                help="No previous day data available"
+                            )
                     
                     # Additional details
                     st.markdown("---")
