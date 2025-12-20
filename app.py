@@ -456,7 +456,7 @@ def main():
                     # Reorder columns to show SL No first
                     recent_df = recent_df[['SL No', 'Date', 'Rating', 'Opponent']]
                     
-                    st.dataframe(recent_df, hide_index=True, width='stretch')
+                    st.dataframe(recent_df, hide_index=True, use_container_width=True)
             
                 else:
                     st.error("Could not create chart for the selected player.")
@@ -505,7 +505,7 @@ def main():
                     
                     if comparison_stats:
                         comparison_df = pd.DataFrame(comparison_stats)
-                        st.dataframe(comparison_df, hide_index=True, width='stretch')
+                        st.dataframe(comparison_df, hide_index=True, use_container_width=True)
                         
                         # Show top performers
                         st.markdown("---")
