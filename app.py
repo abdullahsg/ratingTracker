@@ -458,14 +458,14 @@ def main():
                             delta_color = "normal" if change_val >= 0 else "inverse" # Streamlit handles colors for positive/negative automatically usually, but let's stick to default
                             
                             st.metric(
-                                label="Daily Change",
+                                label="Recent Change",
                                 value=f"{change_val:+.1f}",
                                 delta=f"{change_val:+.1f}",
                                 help="Change since end of previous playing day"
                             )
                         else:
                             st.metric(
-                                label="Daily Change",
+                                label="Recent Change",
                                 value="N/A",
                                 help="No previous day data available"
                             )
