@@ -109,69 +109,42 @@ def calculate_ratings(data_df, initial_ratings_df):
 
 
 
-def calculate_player_titles(data_df):
+def calculate_championship_stats(data_df):
     """
-    Calculate the number of titles won by each player.
+    Calculate the number of titles and runner-up finishes for each player.
     A title is awarded to the winner of the last match of the day,
-    provided the match is NOT a "League" match (indicated in 'Special' column).
+    provided the match is NOT a "League" or "Clubmatch" (indicated in 'Special' column).
     """
     if data_df.empty:
-        return {}
+        return {}, {}
 
     # Ensure Date is datetime
     df = data_df.copy()
     df['Date'] = pd.to_datetime(df['Date'])
     
-    # Filter out League matches for Title consideration
-    # We treat NaN/None as NOT League (i.e., eligible for Title if it's the last match)
-    # Check if 'Special' column exists
+    # Check if 'Special' column exists and filter
     if 'Special' in df.columns:
-        # Case insensitive check for "League"
-        # We keep rows where Special is NaN OR Special does not contain "League"
-        non_league_mask = df['Special'].isna() | (~df['Special'].astype(str).str.contains('League', case=False, na=False))
-        # Wait, the requirement is: "ignore the records 'League'". 
-        # If the last match is a league match, we ignore it.
-        # Implication: The "Final" MUST be a non-league match. 
-        # But wait, "On a given day, last match is the final. Pick the winner of that match."
-        # AND "Ignore the records 'League'".
-        # This implies we should First filter out League matches completely from the "Finals Search", 
-        # OR we check the actual last match of the day, and if it is League, NO title is awarded?
-        # User said: "ignore the records 'League'. On a given day, last match is the final."
-        # This suggests: Filter out all League matches first. Then, for every day, taking the last remaining match as the final.
-        # HOWEVER, the user also said "On a given day, last match is the final".
-        # Let's re-read carefully: "Now, how to calculate, ignore the records 'League'. On a given day, last match is the final."
-        # This strongly implies: Exclude League records effectively from the dataset used for Title calculation.
-        # What if the valid final was played BEFORE a league match on the same day? 
-        # Usually finals are the absolute last. 
-        # I will assume: We look at the absolute last match of the day. If it is 'League', IGNORE IT and NO TITLE for that day?
-        # OR Filter out League matches, and THEN take the max SL No for that day?
-        # "Ignore the records 'League'" suggests filtering them out.
-        # "On a given day, last match is the final" applies to the remaining records?
-        # Actually, if I filter out League matches, I might pick a semi-final as a final if the real final was a League match.
-        # But a "Final" is usually not a "League" match.
-        # Let's assume: A Title is only awarded if the day has matches that are NOT League.
-        # And the "Final" is the last match among the NON-LEAGUE matches?
-        # Let's go with: Filter out "League" rows. Group by Date. Pick max SL No of remaining.
-        
-        filtered_df = df[non_league_mask]
+        # Filter out rows where Special contains "League" or "Clubmatch" (case insensitive)
+        def is_excluded(val):
+            s = str(val).lower()
+            return 'league' in s or 'clubmatch' in s
+            
+        mask = ~df['Special'].apply(is_excluded)
+        filtered_df = df[mask]
     else:
         filtered_df = df
 
     if filtered_df.empty:
-        return {}
+        return {}, {}
         
     titles = {}
+    runner_ups = {}
     
     # Group by Date and find the match with the maximum SL No for each date
-    # This gives us the last NON-LEAGUE match of the day.
-    # Is it safely "The Final"?
-    # If a day had [Qualifiers, Final, LeagueMatch], and we remove LeagueMatch, we get Final. Correct.
-    # If a day had [LeagueMatch, LeagueMatch], we remove all, no Final. Correct.
-    
     daily_finals = filtered_df.sort_values('SL No').groupby(filtered_df['Date'].dt.date).last()
     
     for _, row in daily_finals.iterrows():
-        # Determine winner
+        # Determine winner and loser
         result_str = str(row['Result'])
         p1 = str(row['Player 1']).strip()
         p2 = str(row['Player 2']).strip()
@@ -181,17 +154,23 @@ def calculate_player_titles(data_df):
             if len(parts) == 2:
                 s1, s2 = int(parts[0]), int(parts[1])
                 winner = None
+                loser = None
+                
                 if s1 > s2:
                     winner = p1
+                    loser = p2
                 elif s2 > s1:
                     winner = p2
+                    loser = p1
                 
                 if winner:
                     titles[winner] = titles.get(winner, 0) + 1
+                if loser:
+                    runner_ups[loser] = runner_ups.get(loser, 0) + 1
         except:
             pass
             
-    return titles
+    return titles, runner_ups
 
 def generate_leaderboard_with_changes(data_df):
     """
@@ -205,7 +184,8 @@ def generate_leaderboard_with_changes(data_df):
     data_df['Date'] = pd.to_datetime(data_df['Date'])
     
     # Calculate Titles
-    player_titles = calculate_player_titles(data_df)
+    # Calculate Titles
+    player_titles, _ = calculate_championship_stats(data_df)
     
     # Identify the latest date in the dataset
     latest_date = data_df['Date'].max()

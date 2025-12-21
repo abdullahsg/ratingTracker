@@ -390,7 +390,7 @@ def main():
         
         # Calculate titles globally
         # Need to ensure Date is datetime for title calc if not done already in load_stored_data (it is)
-        player_titles = rating_engine.calculate_player_titles(df)
+        player_titles, _ = rating_engine.calculate_championship_stats(df)
         
         if not player_data:
             st.error("No player data could be extracted from the file.")
