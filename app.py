@@ -588,19 +588,7 @@ def main():
             
             if not leaderboard_df.empty:
                 # Function to apply styles
-                def highlight_change(row):
-                    change = row['Rating Change']
-                    is_new = row['Is New']
-                    
-                    bg_color = ''
-                    if is_new:
-                        bg_color = 'background-color: #7dc0ff' # Light Blue
-                    elif change > 0:
-                        bg_color = 'background-color: #90ee90' # Light Green
-                    elif change < 0:
-                        bg_color = 'background-color: #ffcccb' # Light Red
-                        
-                    return [bg_color if col == 'Rating Change' else '' for col in row.index]
+
 
                 # Format columns
                 display_df = leaderboard_df.copy()
@@ -642,15 +630,14 @@ def main():
 
                 def color_rating_change(val):
                     # This receives the value of the cell.
-                    # Problem: "New" vs "+5" vs "-5"
                     if val == "New":
-                        return 'background-color: #7dc0ff; color: black'
+                        return 'color: #1f77b4; font-weight: bold' # Blue
                     try:
                         f_val = float(val)
                         if f_val > 0:
-                            return 'background-color: #90ee90; color: black'
+                            return 'color: #2ca02c; font-weight: bold' # Green
                         elif f_val < 0:
-                            return 'background-color: #ffcccb; color: black'
+                            return 'color: #d62728; font-weight: bold' # Red
                     except:
                         pass
                     return ''
