@@ -380,12 +380,17 @@ def main():
         """, unsafe_allow_html=True)
     
     
+
     # Load the stored data
     df = load_stored_data()
     
     if df is not None:
         # Extract player data
         player_data = extract_player_data(df)
+        
+        # Calculate titles globally
+        # Need to ensure Date is datetime for title calc if not done already in load_stored_data (it is)
+        player_titles = rating_engine.calculate_player_titles(df)
         
         if not player_data:
             st.error("No player data could be extracted from the file.")
@@ -426,12 +431,13 @@ def main():
                     
                     # Calculate and display statistics
                     stats = calculate_player_stats(player_matches)
+                    titles_count = player_titles.get(selected_player, 0)
                     
                     if stats:
                         st.subheader(f"📊 Statistics for {selected_player}")
                     
                     # Create columns for statistics
-                    col1, col2, col3, col4 = st.columns(4)
+                    col1, col2, col3, col4, col5 = st.columns(5)
                     
                     with col1:
                         st.metric(
@@ -453,6 +459,13 @@ def main():
                         )
                     
                     with col4:
+                        st.metric(
+                            label="Titles Won",
+                            value=titles_count,
+                            help="Number of times winning the final match of the day (excluding League matches)"
+                        )
+
+                    with col5:
                         if stats['has_prev_day']:
                             change_val = stats['daily_rating_change']
                             delta_color = "normal" if change_val >= 0 else "inverse" # Streamlit handles colors for positive/negative automatically usually, but let's stick to default
@@ -528,6 +541,7 @@ def main():
                     for player_name in selected_players:
                         player_matches = player_data[player_name]
                         stats = calculate_player_stats(player_matches)
+                        t_count = player_titles.get(player_name, 0)
                         
                         if stats:
                             comparison_stats.append({
@@ -536,6 +550,7 @@ def main():
                                 'Latest Rating': f"{stats['latest_rating']:.1f}",
                                 'Rating Change': f"{stats['rating_change']:+.1f}",
                                 'Total Matches': stats['num_matches'],
+                                'Titles': t_count,
                                 'Period': f"{stats['first_date'].strftime('%b %Y')} - {stats['latest_date'].strftime('%b %Y')}"
                             })
                     
@@ -566,13 +581,13 @@ def main():
                             st.caption(biggest_gain['Player'])
                         
                         with col3:
-                            # Most active
-                            most_active = max(comparison_stats, key=lambda x: x['Total Matches'])
+                            # Most titles
+                            most_titles = max(comparison_stats, key=lambda x: x['Titles'])
                             st.metric(
-                                "🎯 Most Active Player",
-                                value=f"{most_active['Total Matches']} matches"
+                                "👑 Most Titles",
+                                value=f"{most_titles['Titles']} Titles"
                             )
-                            st.caption(most_active['Player'])
+                            st.caption(most_titles['Player'])
                 
                 else:
                     st.error("Could not create comparison chart.")
@@ -589,7 +604,6 @@ def main():
             if not leaderboard_df.empty:
                 # Function to apply styles
 
-
                 # Format columns
                 display_df = leaderboard_df.copy()
                 
@@ -599,33 +613,16 @@ def main():
                 )
                 
                 # Drop technical columns for display
-                display_cols = ['Rank', 'Player Name', 'Last Rating', 'Matches Played', 'Won', 'Win Percentage', 'Rating Change Display']
+                # ensure 'Titles' is included
+                display_cols = ['Rank', 'Player Name', 'Last Rating', 'Matches Played', 'Titles', 'Won', 'Win Percentage', 'Rating Change Display']
                 final_df = display_df[display_cols].rename(columns={'Rating Change Display': 'Rating Change'})
                 
-                # Apply styling to the original dataframe logic, but map to display df
-                # Streamlit dataframe styling is a bit tricky with hidden columns. 
-                # Let's try to style the specific column 'Rating Change' based on the underlying data.
-                # Actually, simpler approach: Just style the dataframe directly.
-                
-                # Re-create dataframe for styling to ensure columns align
-                # We need to preserve the logic for styling
-                
-                def style_specific_cell(x):
-                    # This function sees the whole dataframe
-                    df1 = pd.DataFrame('', index=x.index, columns=x.columns)
-                    
-                    # Logic relies on 'Is New' which is not in final_df. 
-                    # So we must compute style before dropping, OR keep 'Is New' and hide it? 
-                    # st.dataframe column_config can hide columns.
-                    
-                    return df1
-
-                # Better Approach: Add a pure data column for styling
+                # Add a pure data column for styling
                 leaderboard_df['Change Text'] = leaderboard_df.apply(
                     lambda x: "New" if x['Is New'] else f"{x['Rating Change']:+.0f}", axis=1
                 )
                 
-                final_view = leaderboard_df[['Rank', 'Player Name', 'Last Rating', 'Matches Played', 'Won', 'Win Percentage', 'Change Text']]
+                final_view = leaderboard_df[['Rank', 'Player Name', 'Last Rating', 'Matches Played', 'Titles', 'Won', 'Win Percentage', 'Change Text']]
                 final_view = final_view.rename(columns={'Change Text': 'Rating Change'})
 
                 def color_rating_change(val):
@@ -645,7 +642,7 @@ def main():
                 try:
                     st.dataframe(
                         final_view.style.map(color_rating_change, subset=['Rating Change'])
-                                  .format({'Win Percentage': '{:.2%}', 'Last Rating': '{:.0f}'}),
+                                  .format({'Win Percentage': '{:.2%}', 'Last Rating': '{:.0f}', 'Titles': '{:.0f}'}),
                         use_container_width=True,
                         hide_index=True
                     )
