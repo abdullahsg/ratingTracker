@@ -626,9 +626,9 @@ SL No,Date,Player 1,Player 2,Result,Rating P1,Rating P2,Special
 625,15-Mar-2025,Irtiza Anam (BU),Arib Akash (AIUB),3-1,1176.0,1103.0,
 626,15-Mar-2025,Irtiza Anam (BU),Sk. Anand,3-2,1182.0,1137.0,
 627,15-Mar-2025,Sk. Anand,Arib Akash (AIUB),0-3,1127.0,1113.0,
-628,15-Mar-2025,Sameen Wasif (GTT-SS),Adri (BU),3-0,1216.0,1193.0,
-629,15-Mar-2025,Sameen Wasif (GTT-SS),Towfiq (BUET),3-1,1219.0,1124.0,
-630,15-Mar-2025,Towfiq (BUET),Adri (BU),3-0,1136.0,1181.0,
+628,15-Mar-2025,Sameen Wasif (GTT-SS),Adri (BU),3-0,1211.0,1097.0,
+629,15-Mar-2025,Sameen Wasif (GTT-SS),Towfiq (BUET),3-1,1215.0,1124.0,
+630,15-Mar-2025,Towfiq (BUET),Adri (BU),3-0,1130.0,1091.0,
 631,15-Mar-2025,Sazzad Saadi,Utpol Chowdhury (BPBL),0-3,1087.0,1108.0,
 632,15-Mar-2025,Raishul Islam,Tanzil (ULAB),0-3,1154.0,1194.0,
 633,15-Mar-2025,Sazzad Saadi,Tanzil (ULAB),0-3,1084.0,1196.0,
@@ -636,15 +636,15 @@ SL No,Date,Player 1,Player 2,Result,Rating P1,Rating P2,Special
 635,15-Mar-2025,Sazzad Saadi,Raishul Islam,0-3,1080.0,1163.0,
 636,15-Mar-2025,Tanzil (ULAB),Utpol Chowdhury (BPBL),3-2,1199.0,1099.0,
 637,15-Mar-2025,Aparesh Saha,Utpol Chowdhury (BPBL),0-3,1072.0,1106.0,
-638,15-Mar-2025,Sk. Anand,Adri (BU),3-0,1138.0,1170.0,
-639,15-Mar-2025,Sazzad Saadi,Adri (BU),1-3,1077.0,1173.0,
+638,15-Mar-2025,Sk. Anand,Adri (BU),3-0,1133.0,1085.0,
+639,15-Mar-2025,Sazzad Saadi,Adri (BU),1-3,1073.0,1093.0,
 640,15-Mar-2025,Hasnu,Arib Akash (AIUB),3-0,1184.0,1109.0,
 641,15-Mar-2025,Irtiza Anam (BU),Abir (ULAB),1-3,1173.0,1181.0,
-642,15-Mar-2025,Tanzil (ULAB),Towfiq (BUET),3-1,1204.0,1131.0,
-643,15-Mar-2025,Sameen Wasif (GTT-SS),Raishul Islam,3-2,1224.0,1158.0,
+642,15-Mar-2025,Tanzil (ULAB),Towfiq (BUET),3-1,1203.0,1126.0,
+643,15-Mar-2025,Sameen Wasif (GTT-SS),Raishul Islam,3-2,1220.0,1158.0,
 644,15-Mar-2025,Hasnu,Tanzil (ULAB),3-2,1193.0,1194.0,
-645,15-Mar-2025,Abir (ULAB),Sameen Wasif (GTT-SS),1-3,1175.0,1230.0,
-646,15-Mar-2025,Hasnu,Sameen Wasif (GTT-SS),2-3,1187.0,1235.0,
+645,15-Mar-2025,Abir (ULAB),Sameen Wasif (GTT-SS),1-3,1175.0,1225.0,
+646,15-Mar-2025,Hasnu,Sameen Wasif (GTT-SS),2-3,1187.0,1231.0,
 647,21-Mar-2025,Shujan Mahmud,Hasnu,3-0,1277.0,1184.0,
 648,21-Mar-2025,Shujan Mahmud,Md. Shahid Hasan Rabbani,3-1,1281.0,1202.0,
 649,21-Mar-2025,Md. Shahid Hasan Rabbani,Hasnu,3-0,1209.0,1177.0,
@@ -670,11 +670,11 @@ SL No,Date,Player 1,Player 2,Result,Rating P1,Rating P2,Special
 669,21-Mar-2025,Shujan Mahmud,Dipro Rahman (MTTA),1-3,1280.0,1308.0,
 670,21-Mar-2025,Dipro Rahman (MTTA),Fahim Bakhtiar,3-0,1317.0,1304.0,
 671,11-Apr-2025,Md. Shahid Hasan Rabbani,Rumman (GTT-G),3-0,1209.0,1103.0,
-672,11-Apr-2025,Md. Shahid Hasan Rabbani,Towfiq (BUET),3-2,1212.0,1128.0,
-673,11-Apr-2025,Towfiq (BUET),Rumman (GTT-G),3-0,1134.0,1097.0,
+672,11-Apr-2025,Md. Shahid Hasan Rabbani,Towfiq (BUET),3-2,1212.0,1122.0,
+673,11-Apr-2025,Towfiq (BUET),Rumman (GTT-G),3-0,1129.0,1096.0,
 674,11-Apr-2025,Tanvir Zaman (GTT-G),Rifat (BUET),0-3,1187.0,1122.0,
-675,11-Apr-2025,Tanvir Zaman (GTT-G),Sk. Anand,3-1,1193.0,1133.0,
-676,11-Apr-2025,Sk. Anand,Rifat (BUET),1-3,1124.0,1131.0,
+675,11-Apr-2025,Tanvir Zaman (GTT-G),Sk. Anand,3-1,1192.0,1128.0,
+676,11-Apr-2025,Sk. Anand,Rifat (BUET),1-3,1119.0,1130.0,
 677,11-Apr-2025,Sumon Hoq (GTT-G),Arib Akash (AIUB),2-3,1178.0,1122.0,
 678,11-Apr-2025,Eftekhar,Jamshed Mithun,3-1,1019.0,1125.0,
 679,11-Apr-2025,Sumon Hoq (GTT-G),Jamshed Mithun,0-3,1167.0,1136.0,
@@ -688,20 +688,20 @@ SL No,Date,Player 1,Player 2,Result,Rating P1,Rating P2,Special
 687,11-Apr-2025,Adv Sadat,Tareq Khan (GTT-G),3-1,1183.0,1119.0,
 688,11-Apr-2025,Hasnu,Abu Talha (RTTC),3-1,1195.0,1099.0,
 689,11-Apr-2025,Rumman (GTT-G),Abu Talha (RTTC),0-3,1089.0,1107.0,
-690,11-Apr-2025,Sk. Anand,Eftekhar,3-1,1127.0,1012.0,
+690,11-Apr-2025,Sk. Anand,Eftekhar,3-1,1122.0,1012.0,
 691,11-Apr-2025,Jamshed Mithun,Tareq Khan (GTT-G),3-2,1135.0,1111.0,
-692,11-Apr-2025,Rifat (BUET),Towfiq (BUET),0-3,1123.0,1142.0,
+692,11-Apr-2025,Rifat (BUET),Towfiq (BUET),0-3,1122.0,1137.0,
 693,11-Apr-2025,Hasnu,Sumon Hoq (GTT-G),3-0,1202.0,1162.0,
-694,11-Apr-2025,Md. Shahid Hasan Rabbani,Tanvir Zaman (GTT-G),3-1,1219.0,1186.0,
+694,11-Apr-2025,Md. Shahid Hasan Rabbani,Tanvir Zaman (GTT-G),3-1,1219.0,1185.0,
 695,11-Apr-2025,Adv Sadat,Arib Akash (AIUB),3-2,1188.0,1128.0,
 696,11-Apr-2025,Hasnu,Md. Shahid Hasan Rabbani,0-3,1195.0,1226.0,
-697,11-Apr-2025,Adv Sadat,Towfiq (BUET),3-1,1193.0,1137.0,
+697,11-Apr-2025,Adv Sadat,Towfiq (BUET),3-1,1193.0,1132.0,
 698,11-Apr-2025,Md. Shahid Hasan Rabbani,Adv Sadat,3-1,1232.0,1187.0,
 699,12-Apr-2025,Rifat Chowdhury,Shammam,3-1,1496.0,1223.0,
 700,12-Apr-2025,Rakib Hridoy,Md. Shahid Hasan Rabbani,2-3,1385.0,1247.0,
 701,12-Apr-2025,Mofakhkharul,Ahsan Rahman (FSC),0-3,1099.0,1266.0,
 702,12-Apr-2025,Rakib Hridoy,Ahsan Rahman (FSC),3-1,1387.0,1264.0,
-703,12-Apr-2025,Md. Shahid Hasan Rabbani,Mofakhkharul,3-0,1249.0,1097.0,
+703,12-Apr-2025,Md. Shahid Hasan Rabbani,Mofakhkharul,3-0,1248.0,1097.0,
 704,12-Apr-2025,Rakib Hridoy,Mofakhkharul,3-0,1388.0,1097.0,
 705,12-Apr-2025,Ahsan Rahman (FSC),Md. Shahid Hasan Rabbani,0-3,1255.0,1257.0,
 706,12-Apr-2025,Hasib Chowdhury,Dibya Joti (SBMCH),3-0,1341.0,1180.0,
@@ -715,7 +715,7 @@ SL No,Date,Player 1,Player 2,Result,Rating P1,Rating P2,Special
 714,12-Apr-2025,Mohsinul Alam (BCBL),Abdullah,1-3,1304.0,1314.0,
 715,12-Apr-2025,Hasnu,Tipu (Batman),3-0,1198.0,1143.0,
 716,12-Apr-2025,Mohsinul Alam (BCBL),Tipu (Batman),3-0,1305.0,1141.0,
-717,12-Apr-2025,Abdullah,Hasnu,3-2,1317.0,1196.0,
+717,12-Apr-2025,Abdullah,Hasnu,3-2,1317.0,1195.0,
 718,12-Apr-2025,Ahsan Rahman (FSC),Faisal Nazmul,3-1,1257.0,1143.0,
 719,12-Apr-2025,Mofakhkharul,Dibya Joti (SBMCH),0-3,1093.0,1172.0,
 720,12-Apr-2025,Tipu (Batman),Faisal Nazmul,0-3,1133.0,1151.0,
@@ -729,13 +729,13 @@ SL No,Date,Player 1,Player 2,Result,Rating P1,Rating P2,Special
 728,18-Apr-2025,Abdullah,Shammam,1-3,1311.0,1230.0,
 729,18-Apr-2025,Abdullah,Mashuq,3-1,1315.0,1241.0,
 730,18-Apr-2025,Mashuq,Shammam,2-3,1232.0,1239.0,
-731,18-Apr-2025,Mustafa Jain (CCCL),Hasnu,3-1,1324.0,1194.0,
+731,18-Apr-2025,Mustafa Jain (CCCL),Hasnu,3-1,1324.0,1193.0,
 732,18-Apr-2025,Mustafa Jain (CCCL),Ayan,1-3,1312.0,1269.0,
 733,18-Apr-2025,Ayan,Hasnu,3-0,1273.0,1190.0,
-734,18-Apr-2025,Hasib Chowdhury,Adv Sadat,3-1,1324.0,1186.0,
+734,18-Apr-2025,Hasib Chowdhury,Adv Sadat,3-1,1324.0,1185.0,
 735,18-Apr-2025,Hasib Chowdhury,Md. Shahid Hasan Rabbani,3-0,1328.0,1253.0,
-736,18-Apr-2025,Md. Shahid Hasan Rabbani,Adv Sadat,3-1,1258.0,1181.0,
-737,18-Apr-2025,Shujan Mahmud,Faisal Nazmul,3-0,1310.0,1149.0,
+736,18-Apr-2025,Md. Shahid Hasan Rabbani,Adv Sadat,3-1,1257.0,1181.0,
+737,18-Apr-2025,Shujan Mahmud,Faisal Nazmul,3-0,1309.0,1149.0,
 738,18-Apr-2025,Shujan Mahmud,Mohsinul Alam (BCBL),3-0,1317.0,1289.0,
 739,18-Apr-2025,Mohsinul Alam (BCBL),Faisal Nazmul,0-3,1275.0,1164.0,
 740,18-Apr-2025,Mashuq,Mohsinul Alam (BCBL),3-0,1243.0,1264.0,
@@ -747,41 +747,41 @@ SL No,Date,Player 1,Player 2,Result,Rating P1,Rating P2,Special
 746,18-Apr-2025,Mustafa Jain (CCCL),Shujan Mahmud,3-2,1324.0,1313.0,
 747,18-Apr-2025,Abdullah,Hasib Chowdhury,3-2,1329.0,1321.0,
 748,18-Apr-2025,Mustafa Jain (CCCL),Abdullah,2-3,1317.0,1337.0,
-749,19-Apr-2025,Arsil Ajim (BC),Sk. Anand,3-0,1221.0,1124.0,
+749,19-Apr-2025,Arsil Ajim (BC),Sk. Anand,3-0,1221.0,1119.0,
 750,19-Apr-2025,Shadab Aiman (BU),Abu Talha (RTTC),3-2,1127.0,1100.0,
 751,19-Apr-2025,Arsil Ajim (BC),Abu Talha (RTTC),3-0,1223.0,1097.0,
-752,19-Apr-2025,Sk. Anand,Shadab Aiman (BU),3-2,1132.0,1119.0,
+752,19-Apr-2025,Sk. Anand,Shadab Aiman (BU),3-2,1128.0,1119.0,
 753,19-Apr-2025,Arsil Ajim (BC),Shadab Aiman (BU),3-0,1226.0,1116.0,
-754,19-Apr-2025,Abu Talha (RTTC),Sk. Anand,3-0,1108.0,1122.0,
-755,19-Apr-2025,Hasnu,Adri (BU),1-3,1173.0,1181.0,
+754,19-Apr-2025,Abu Talha (RTTC),Sk. Anand,3-0,1107.0,1118.0,
+755,19-Apr-2025,Hasnu,Adri (BU),1-3,1168.0,1106.0,
 756,19-Apr-2025,Mafijur Rahman,Jamshed Mithun,0-3,1047.0,1138.0,
-757,19-Apr-2025,Hasnu,Jamshed Mithun,3-0,1179.0,1132.0,
-758,19-Apr-2025,Adri (BU),Mafijur Rahman,3-1,1183.0,1045.0,
-759,19-Apr-2025,Hasnu,Mafijur Rahman,3-0,1180.0,1043.0,
-760,19-Apr-2025,Jamshed Mithun,Adri (BU),3-1,1143.0,1172.0,
+757,19-Apr-2025,Hasnu,Jamshed Mithun,3-0,1174.0,1132.0,
+758,19-Apr-2025,Adri (BU),Mafijur Rahman,3-1,1110.0,1042.0,
+759,19-Apr-2025,Hasnu,Mafijur Rahman,3-0,1176.0,1040.0,
+760,19-Apr-2025,Jamshed Mithun,Adri (BU),3-1,1139.0,1104.0,
 761,19-Apr-2025,Irtiza Anam (BU),Aparesh Saha,3-1,1176.0,1069.0,
-762,19-Apr-2025,Tahmid (BU),Towfiq (BUET),0-3,1094.0,1142.0,
-763,19-Apr-2025,Irtiza Anam (BU),Towfiq (BUET),1-3,1166.0,1152.0,
-764,19-Apr-2025,Aparesh Saha,Tahmid (BU),2-3,1062.0,1101.0,
+762,19-Apr-2025,Tahmid (BU),Towfiq (BUET),0-3,1094.0,1138.0,
+763,19-Apr-2025,Irtiza Anam (BU),Towfiq (BUET),1-3,1166.0,1149.0,
+764,19-Apr-2025,Aparesh Saha,Tahmid (BU),2-3,1062.0,1100.0,
 765,19-Apr-2025,Irtiza Anam (BU),Tahmid (BU),3-1,1170.0,1096.0,
-766,19-Apr-2025,Towfiq (BUET),Aparesh Saha,3-0,1156.0,1059.0,
+766,19-Apr-2025,Towfiq (BUET),Aparesh Saha,3-0,1152.0,1059.0,
 767,19-Apr-2025,Shaju (BC),Adib Ahmed (BU),0-3,1109.0,1080.0,
 768,19-Apr-2025,Eftekhar,Kamruzzman Shawon,0-3,1011.0,1181.0,
 769,19-Apr-2025,Shaju (BC),Kamruzzman Shawon,1-3,1105.0,1185.0,
 770,19-Apr-2025,Adib Ahmed (BU),Eftekhar,3-0,1085.0,1007.0,
 771,19-Apr-2025,Shaju (BC),Eftekhar,3-0,1108.0,1004.0,
 772,19-Apr-2025,Kamruzzman Shawon,Adib Ahmed (BU),3-2,1188.0,1082.0,
-773,19-Apr-2025,Sk. Anand,Eftekhar,3-0,1124.0,1002.0,
-774,19-Apr-2025,Mafijur Rahman,Aparesh Saha,1-3,1036.0,1066.0,
+773,19-Apr-2025,Sk. Anand,Eftekhar,3-0,1120.0,1002.0,
+774,19-Apr-2025,Mafijur Rahman,Aparesh Saha,1-3,1033.0,1066.0,
 775,19-Apr-2025,Shadab Aiman (BU),Shaju (BC),0-3,1108.0,1116.0,
-776,19-Apr-2025,Jamshed Mithun,Tahmid (BU),3-0,1148.0,1091.0,
-777,19-Apr-2025,Towfiq (BUET),Adib Ahmed (BU),3-0,1160.0,1078.0,
-778,19-Apr-2025,Arsil Ajim (BC),Adri (BU),3-1,1231.0,1167.0,
-779,19-Apr-2025,Hasnu,Abu Talha (RTTC),3-1,1184.0,1104.0,
+776,19-Apr-2025,Jamshed Mithun,Tahmid (BU),3-0,1144.0,1091.0,
+777,19-Apr-2025,Towfiq (BUET),Adib Ahmed (BU),3-0,1156.0,1078.0,
+778,19-Apr-2025,Arsil Ajim (BC),Adri (BU),3-1,1228.0,1101.0,
+779,19-Apr-2025,Hasnu,Abu Talha (RTTC),3-1,1180.0,1103.0,
 780,19-Apr-2025,Kamruzzman Shawon,Irtiza Anam (BU),3-2,1195.0,1163.0,
-781,19-Apr-2025,Arsil Ajim (BC),Kamruzzman Shawon,3-0,1237.0,1189.0,
-782,19-Apr-2025,Towfiq (BUET),Hasnu,3-0,1169.0,1175.0,
-783,19-Apr-2025,Arsil Ajim (BC),Towfiq (BUET),2-3,1225.0,1181.0,
+781,19-Apr-2025,Arsil Ajim (BC),Kamruzzman Shawon,3-0,1234.0,1189.0,
+782,19-Apr-2025,Towfiq (BUET),Hasnu,3-0,1165.0,1171.0,
+783,19-Apr-2025,Arsil Ajim (BC),Towfiq (BUET),2-3,1222.0,1177.0,
 784,25-Apr-2025,Ahsan Rahman (FSC),Arib Akash (AIUB),3-0,1259.0,1126.0,
 785,25-Apr-2025,Nahidul Hasan (FSC-T),Shammam,1-3,1245.0,1244.0,
 786,25-Apr-2025,Shammam,Arib Akash (AIUB),3-0,1246.0,1124.0,
@@ -795,7 +795,7 @@ SL No,Date,Player 1,Player 2,Result,Rating P1,Rating P2,Special
 794,25-Apr-2025,Musabbir,Raquibul Bari,3-0,1263.0,1195.0,
 795,25-Apr-2025,Md. Shahid Hasan Rabbani,Mashuq,1-3,1244.0,1252.0,
 796,25-Apr-2025,Mashuq,Raquibul Bari,3-0,1256.0,1191.0,
-797,25-Apr-2025,Hasib Chowdhury,Md. Shahid Hasan Rabbani,3-2,1325.0,1241.0,
+797,25-Apr-2025,Hasib Chowdhury,Md. Shahid Hasan Rabbani,3-2,1324.0,1240.0,
 798,25-Apr-2025,Hasib Chowdhury,Mashuq,1-3,1313.0,1268.0,
 799,25-Apr-2025,Raquibul Bari,Md. Shahid Hasan Rabbani,3-1,1202.0,1230.0,
 800,25-Apr-2025,Hasib Chowdhury,Musabbir,3-2,1318.0,1258.0,
@@ -811,54 +811,54 @@ SL No,Date,Player 1,Player 2,Result,Rating P1,Rating P2,Special
 810,26-Apr-2025,Riddho (SJS),Rayan CTS (GTT-G),3-0,1132.0,1095.0,
 811,26-Apr-2025,Asif Rayhan,Rayan CTS (GTT-G),3-1,1188.0,1092.0,
 812,26-Apr-2025,Arib Akash (AIUB),Riddho (SJS),3-2,1161.0,1125.0,
-813,26-Apr-2025,Towfiq (BUET),Sharar (SJS),3-0,1185.0,1115.0,
-814,26-Apr-2025,Rifat (BUET),Hasnu,3-2,1134.0,1164.0,
-815,26-Apr-2025,Towfiq (BUET),Hasnu,3-2,1192.0,1157.0,
-816,26-Apr-2025,Sharar (SJS),Rifat (BUET),1-3,1109.0,1141.0,
-817,26-Apr-2025,Towfiq (BUET),Rifat (BUET),3-1,1197.0,1136.0,
-818,26-Apr-2025,Hasnu,Sharar (SJS),3-0,1162.0,1103.0,
-819,26-Apr-2025,Riddho (SJS),Hasnu,2-3,1120.0,1168.0,
-820,26-Apr-2025,Rayan CTS (GTT-G),Sharar (SJS),0-3,1085.0,1111.0,
-821,26-Apr-2025,Arib Akash (AIUB),Rifat (BUET),3-0,1167.0,1129.0,
-822,26-Apr-2025,Towfiq (BUET),Asif Rayhan,2-3,1188.0,1196.0,
-823,26-Apr-2025,Arib Akash (AIUB),Asif Rayhan,3-1,1177.0,1187.0,
-824,2-May-2025,Md. Shahid Hasan Rabbani,Adri (BU),3-1,1228.0,1162.0,
+813,26-Apr-2025,Towfiq (BUET),Sharar (SJS),3-0,1182.0,1115.0,
+814,26-Apr-2025,Rifat (BUET),Hasnu,3-2,1133.0,1160.0,
+815,26-Apr-2025,Towfiq (BUET),Hasnu,3-2,1189.0,1153.0,
+816,26-Apr-2025,Sharar (SJS),Rifat (BUET),1-3,1108.0,1140.0,
+817,26-Apr-2025,Towfiq (BUET),Rifat (BUET),3-1,1194.0,1135.0,
+818,26-Apr-2025,Hasnu,Sharar (SJS),3-0,1159.0,1103.0,
+819,26-Apr-2025,Riddho (SJS),Hasnu,2-3,1119.0,1165.0,
+820,26-Apr-2025,Rayan CTS (GTT-G),Sharar (SJS),0-3,1085.0,1110.0,
+821,26-Apr-2025,Arib Akash (AIUB),Rifat (BUET),3-0,1167.0,1128.0,
+822,26-Apr-2025,Towfiq (BUET),Asif Rayhan,2-3,1185.0,1196.0,
+823,26-Apr-2025,Arib Akash (AIUB),Asif Rayhan,3-1,1177.0,1186.0,
+824,2-May-2025,Md. Shahid Hasan Rabbani,Adri (BU),3-1,1225.0,1099.0,
 825,2-May-2025,Raiyad,Moynul Islam (AIUB),3-0,1148.0,998.0,
-826,2-May-2025,Adri (BU),Moynul Islam (AIUB),3-0,1164.0,997.0,
-827,2-May-2025,Md. Shahid Hasan Rabbani,Irtiza Anam (BU),3-2,1232.0,1159.0,
-828,2-May-2025,Md. Shahid Hasan Rabbani,Moynul Islam (AIUB),3-0,1233.0,997.0,
+826,2-May-2025,Adri (BU),Moynul Islam (AIUB),3-0,1102.0,996.0,
+827,2-May-2025,Md. Shahid Hasan Rabbani,Irtiza Anam (BU),3-2,1230.0,1159.0,
+828,2-May-2025,Md. Shahid Hasan Rabbani,Moynul Islam (AIUB),3-0,1230.0,995.0,
 829,2-May-2025,Irtiza Anam (BU),Raiyad,3-2,1166.0,1141.0,
-830,2-May-2025,Md. Shahid Hasan Rabbani,Raiyad,3-0,1236.0,1138.0,
-831,2-May-2025,Irtiza Anam (BU),Adri (BU),3-1,1174.0,1156.0,
-832,2-May-2025,Irtiza Anam (BU),Moynul Islam (AIUB),3-0,1175.0,996.0,
-833,2-May-2025,Raiyad,Adri (BU),3-1,1147.0,1147.0,
+830,2-May-2025,Md. Shahid Hasan Rabbani,Raiyad,3-0,1234.0,1138.0,
+831,2-May-2025,Irtiza Anam (BU),Adri (BU),3-1,1170.0,1098.0,
+832,2-May-2025,Irtiza Anam (BU),Moynul Islam (AIUB),3-0,1171.0,994.0,
+833,2-May-2025,Raiyad,Adri (BU),3-1,1143.0,1092.0,
 834,2-May-2025,Sharif,Shadab Aiman (BU),3-2,1210.0,1105.0,
-835,2-May-2025,Adib Ahmed (BU),Jamshed Mithun,3-1,1090.0,1136.0,
-836,2-May-2025,Adib Ahmed (BU),Shadab Aiman (BU),3-2,1099.0,1096.0,
-837,2-May-2025,Sharif,Hasnu,3-0,1215.0,1163.0,
-838,2-May-2025,Sharif,Adib Ahmed (BU),3-0,1218.0,1096.0,
-839,2-May-2025,Hasnu,Jamshed Mithun,3-0,1169.0,1130.0,
-840,2-May-2025,Sharif,Jamshed Mithun,3-0,1221.0,1127.0,
-841,2-May-2025,Hasnu,Shadab Aiman (BU),3-1,1173.0,1092.0,
-842,2-May-2025,Hasnu,Adib Ahmed (BU),3-0,1177.0,1093.0,
-843,2-May-2025,Shadab Aiman (BU),Jamshed Mithun,3-0,1102.0,1117.0,
-844,2-May-2025,Md. Shahid Hasan Rabbani,Hasnu,3-2,1241.0,1172.0,
-845,2-May-2025,Sharif,Irtiza Anam (BU),3-0,1226.0,1170.0,
-846,2-May-2025,Sharif,Md. Shahid Hasan Rabbani,3-1,1235.0,1232.0,
-847,11-May-2025,Arsil Ajim (BC),Munaf Ahmed,3-2,1238.0,1307.0,
+835,2-May-2025,Adib Ahmed (BU),Jamshed Mithun,3-1,1089.0,1132.0,
+836,2-May-2025,Adib Ahmed (BU),Shadab Aiman (BU),3-2,1098.0,1096.0,
+837,2-May-2025,Sharif,Hasnu,3-0,1215.0,1159.0,
+838,2-May-2025,Sharif,Adib Ahmed (BU),3-0,1217.0,1096.0,
+839,2-May-2025,Hasnu,Jamshed Mithun,3-0,1166.0,1126.0,
+840,2-May-2025,Sharif,Jamshed Mithun,3-0,1221.0,1123.0,
+841,2-May-2025,Hasnu,Shadab Aiman (BU),3-1,1170.0,1092.0,
+842,2-May-2025,Hasnu,Adib Ahmed (BU),3-0,1174.0,1092.0,
+843,2-May-2025,Shadab Aiman (BU),Jamshed Mithun,3-0,1102.0,1113.0,
+844,2-May-2025,Md. Shahid Hasan Rabbani,Hasnu,3-2,1238.0,1169.0,
+845,2-May-2025,Sharif,Irtiza Anam (BU),3-0,1226.0,1166.0,
+846,2-May-2025,Sharif,Md. Shahid Hasan Rabbani,3-1,1234.0,1229.0,
+847,11-May-2025,Arsil Ajim (BC),Munaf Ahmed,3-2,1235.0,1307.0,
 848,11-May-2025,Piash (BC),Arib Akash (AIUB),3-0,1233.0,1172.0,
 849,11-May-2025,AR Fahim,Shammam,3-1,1301.0,1253.0,
-850,11-May-2025,Munaf Ahmed,Sameen Wasif (GTT-SS),3-2,1311.0,1231.0,
+850,11-May-2025,Munaf Ahmed,Sameen Wasif (GTT-SS),3-2,1311.0,1228.0,
 851,11-May-2025,AR Fahim,Chinmoy (GTT-SS),3-0,1305.0,1236.0,
-852,11-May-2025,Shammam,Arsil Ajim (BC),3-0,1260.0,1231.0,
-853,11-May-2025,Sameen Wasif (GTT-SS),Ahmed Shakil,3-2,1242.0,1267.0,
+852,11-May-2025,Shammam,Arsil Ajim (BC),3-0,1260.0,1228.0,
+853,11-May-2025,Sameen Wasif (GTT-SS),Ahmed Shakil,3-2,1239.0,1267.0,
 854,11-May-2025,Abdullah,Mohsinul Alam (BCBL),3-1,1331.0,1260.0,
-855,11-May-2025,Sharif,Rajib (BCBL),3-0,1239.0,1151.0,
-856,11-May-2025,Abdullah,Md. Shahid Hasan Rabbani,3-1,1334.0,1229.0,
+855,11-May-2025,Sharif,Rajib (BCBL),3-0,1238.0,1151.0,
+856,11-May-2025,Abdullah,Md. Shahid Hasan Rabbani,3-1,1334.0,1227.0,
 857,11-May-2025,Mashuq,Musabbir,3-2,1272.0,1259.0,
 858,11-May-2025,Abdullah,Ahsan Rahman (FSC),3-2,1337.0,1251.0,
 859,11-May-2025,Mohsinul Alam (BCBL),Musabbir,3-1,1268.0,1251.0,
-860,11-May-2025,Md. Shahid Hasan Rabbani,Fahad Zaman (BCBL),3-1,1238.0,1245.0,
+860,11-May-2025,Md. Shahid Hasan Rabbani,Fahad Zaman (BCBL),3-1,1236.0,1245.0,
 861,11-May-2025,Mohsinul Alam (BCBL),Ahsan Rahman (FSC),3-1,1275.0,1244.0,
 862,11-May-2025,Musabbir,Rajib (BCBL),3-0,1254.0,1148.0,
 863,11-May-2025,Sharif Jubaer (bKash),Qazi Asif,3-1,1313.0,1221.0,
@@ -878,9 +878,9 @@ SL No,Date,Player 1,Player 2,Result,Rating P1,Rating P2,Special
 877,11-May-2025,Shujan Mahmud,Adv Sadat,3-0,1325.0,1188.0,
 878,11-May-2025,Shujan Mahmud,Debashish (DUFA),3-1,1326.0,1148.0,
 879,11-May-2025,Nafsan (GTT-SS),Munir (DUFA),3-0,1285.0,1148.0,
-880,11-May-2025,Shammam,Md. Shahid Hasan Rabbani,3-2,1267.0,1232.0,
-881,11-May-2025,Musabbir,Sameen Wasif (GTT-SS),3-0,1261.0,1235.0,
-882,11-May-2025,Md. Shahid Hasan Rabbani,Chinmoy (GTT-SS),3-0,1240.0,1227.0,
+880,11-May-2025,Shammam,Md. Shahid Hasan Rabbani,3-2,1267.0,1230.0,
+881,11-May-2025,Musabbir,Sameen Wasif (GTT-SS),3-0,1261.0,1231.0,
+882,11-May-2025,Md. Shahid Hasan Rabbani,Chinmoy (GTT-SS),3-0,1238.0,1227.0,
 883,11-May-2025,Showmik Aziz (GTT-SS),Shujan Mahmud,3-0,1259.0,1314.0,
 884,11-May-2025,Fahim Bakhtiar,Nafsan (GTT-SS),3-1,1307.0,1278.0,
 885,11-May-2025,Showmik Aziz (GTT-SS),Riaz (GTT-SS),3-1,1264.0,1197.0,
@@ -888,22 +888,22 @@ SL No,Date,Player 1,Player 2,Result,Rating P1,Rating P2,Special
 887,11-May-2025,Ishraq Sifat,Adv Sadat,3-2,1382.0,1187.0,
 888,11-May-2025,Masiat,Sharif Jubaer (bKash),3-0,1349.0,1322.0,
 889,11-May-2025,Wasif Shaer,Ashiqur Robin,3-0,1290.0,1136.0,
-890,11-May-2025,Abdullah,Arsil Ajim (BC),3-1,1340.0,1228.0,
+890,11-May-2025,Abdullah,Arsil Ajim (BC),3-1,1340.0,1226.0,
 891,11-May-2025,Mashuq,Piash (BC),3-0,1277.0,1227.0,
-892,11-May-2025,Fahim Bakhtiar,Md. Shahid Hasan Rabbani,3-1,1311.0,1236.0,
+892,11-May-2025,Fahim Bakhtiar,Md. Shahid Hasan Rabbani,3-1,1311.0,1234.0,
 893,11-May-2025,Musabbir,Showmik Aziz (GTT-SS),3-1,1269.0,1256.0,
-894,11-May-2025,Md. Shahid Hasan Rabbani,Imam Hasan (GTT-SS),3-1,1243.0,1211.0,
+894,11-May-2025,Md. Shahid Hasan Rabbani,Imam Hasan (GTT-SS),3-1,1241.0,1211.0,
 895,11-May-2025,Abdullah,Wasif Shaer,3-1,1345.0,1285.0,
 896,11-May-2025,Masiat,Mashuq,3-0,1353.0,1273.0,
 897,11-May-2025,Abdullah,Adv Sadat,3-0,1346.0,1186.0,
-898,11-May-2025,Md. Shahid Hasan Rabbani,Abdullah,3-2,1256.0,1333.0,
+898,11-May-2025,Md. Shahid Hasan Rabbani,Abdullah,3-2,1254.0,1333.0,
 899,11-May-2025,Musabbir,Mashuq,3-1,1277.0,1265.0,
 900,5-Jun-2025,Abdullah,Sauvik Sarker (BRAC),3-2,1336.0,1227.0,
 901,5-Jun-2025,Ahsan Rahman (FSC),Faisal Mahmud (CNBL),3-0,1247.0,1147.0,
 902,5-Jun-2025,Sauvik Sarker (BRAC),Faisal Mahmud (CNBL),3-1,1231.0,1143.0,
-903,5-Jun-2025,Abdullah,Shammam,3-0,1340.0,1263.0,
-904,5-Jun-2025,Abdullah,Faisal Mahmud (CNBL),3-0,1341.0,1143.0,
-905,5-Jun-2025,Shammam,Ahsan Rahman (FSC),3-1,1270.0,1240.0,
+903,5-Jun-2025,Abdullah,Shammam,3-0,1340.0,1262.0,
+904,5-Jun-2025,Abdullah,Faisal Mahmud (CNBL),3-0,1340.0,1143.0,
+905,5-Jun-2025,Shammam,Ahsan Rahman (FSC),3-1,1269.0,1240.0,
 906,5-Jun-2025,Abdullah,Ahsan Rahman (FSC),3-1,1343.0,1237.0,
 907,5-Jun-2025,Shammam,Sauvik Sarker (BRAC),3-0,1275.0,1225.0,
 908,5-Jun-2025,Shammam,Faisal Mahmud (CNBL),3-0,1277.0,1141.0,
@@ -915,62 +915,62 @@ SL No,Date,Player 1,Player 2,Result,Rating P1,Rating P2,Special
 914,5-Jun-2025,Hasib Chowdhury,Nipon,3-1,1328.0,1108.0,
 915,5-Jun-2025,Musabbir,S M Imam Hasan,3-1,1276.0,1179.0,
 916,5-Jun-2025,Mustafa Jain (CCCL),Badrul (CNBL),3-0,1319.0,1178.0,
-917,5-Jun-2025,Wasif Shaer,Sk. Anand,3-0,1286.0,1123.0,
-918,5-Jun-2025,Sk. Anand,Badrul (CNBL),3-0,1134.0,1167.0,
+917,5-Jun-2025,Wasif Shaer,Sk. Anand,3-0,1286.0,1119.0,
+918,5-Jun-2025,Sk. Anand,Badrul (CNBL),3-0,1130.0,1167.0,
 919,5-Jun-2025,Wasif Shaer,Mustafa Jain (CCCL),3-1,1296.0,1309.0,
-920,5-Jun-2025,Mustafa Jain (CCCL),Sk. Anand,3-0,1310.0,1133.0,
+920,5-Jun-2025,Mustafa Jain (CCCL),Sk. Anand,3-0,1310.0,1129.0,
 921,5-Jun-2025,Wasif Shaer,Badrul (CNBL),3-0,1298.0,1165.0,
-922,5-Jun-2025,Shujan Mahmud,Hasnu,3-1,1315.0,1170.0,
-923,5-Jun-2025,Munaf Ahmed,Abdullah Noman,3-0,1312.0,1099.0,
-924,5-Jun-2025,Hasnu,Abdullah Noman,3-0,1174.0,1095.0,
+922,5-Jun-2025,Shujan Mahmud,Hasnu,3-1,1315.0,1168.0,
+923,5-Jun-2025,Munaf Ahmed,Abdullah Noman,3-0,1311.0,1099.0,
+924,5-Jun-2025,Hasnu,Abdullah Noman,3-0,1172.0,1095.0,
 925,5-Jun-2025,Munaf Ahmed,Shujan Mahmud,3-0,1320.0,1307.0,
 926,5-Jun-2025,Shujan Mahmud,Abdullah Noman,3-0,1308.0,1095.0,
-927,5-Jun-2025,Munaf Ahmed,Hasnu,3-0,1321.0,1173.0,
-928,5-Jun-2025,Musabbir,Abdullah,3-0,1288.0,1332.0,
-929,5-Jun-2025,Mustafa Jain (CCCL),Munaf Ahmed,3-2,1318.0,1313.0,
+927,5-Jun-2025,Munaf Ahmed,Hasnu,3-0,1321.0,1170.0,
+928,5-Jun-2025,Musabbir,Abdullah,3-0,1288.0,1331.0,
+929,5-Jun-2025,Mustafa Jain (CCCL),Munaf Ahmed,3-2,1318.0,1312.0,
 930,5-Jun-2025,Wasif Shaer,Shujan Mahmud,3-0,1306.0,1299.0,
 931,5-Jun-2025,Hasib Chowdhury,Shammam,3-1,1333.0,1272.0,
 932,5-Jun-2025,Mustafa Jain (CCCL),Musabbir,3-0,1324.0,1282.0,
-933,5-Jun-2025,Wasif Shaer,Hasib Chowdhury,3-1,1316.0,1324.0,
-934,5-Jun-2025,Wasif Shaer,Mustafa Jain (CCCL),3-2,1325.0,1316.0,
+933,5-Jun-2025,Wasif Shaer,Hasib Chowdhury,3-1,1316.0,1323.0,
+934,5-Jun-2025,Wasif Shaer,Mustafa Jain (CCCL),3-2,1324.0,1316.0,
 935,17-Jun-2025,Babul Uddin,Abdullah,3-0,1571.0,1331.0,League
 936,17-Jun-2025,Hasib Chowdhury,Enam Ahmed,3-0,1335.0,1369.0,League
 937,17-Jun-2025,Mustafa Jain (CCCL),Ashiqur Robin,3-0,1317.0,1135.0,League
 938,17-Jun-2025,Enam Ahmed,Abdullah,3-2,1374.0,1325.0,League
 939,17-Jun-2025,Babul Uddin,Mustafa Jain (CCCL),3-1,1571.0,1317.0,League
-940,17-Jun-2025,Hasib Chowdhury,Ashiqur Robin,3-0,1336.0,1135.0,League
+940,17-Jun-2025,Hasib Chowdhury,Ashiqur Robin,3-0,1335.0,1135.0,League
 941,17-Jun-2025,Mustafa Jain (CCCL),Enam Ahmed,3-0,1328.0,1363.0,League
 942,17-Jun-2025,Abdullah,Ashiqur Robin,3-1,1326.0,1134.0,League
 943,17-Jun-2025,Babul Uddin,Hasib Chowdhury,3-1,1572.0,1335.0,League
 944,17-Jun-2025,Sharif Jubaer (bKash),Shammam,3-0,1327.0,1267.0,League
 945,17-Jun-2025,AR Fahim,Musabbir,3-1,1312.0,1275.0,League
-946,17-Jun-2025,S M Imam Hasan,Arsil Ajim (BC),3-2,1190.0,1217.0,League
+946,17-Jun-2025,S M Imam Hasan,Arsil Ajim (BC),3-2,1190.0,1215.0,League
 947,17-Jun-2025,AR Fahim,Shammam,3-0,1317.0,1262.0,League
-948,17-Jun-2025,Sharif Jubaer (bKash),S M Imam Hasan,3-1,1329.0,1189.0,League
-949,17-Jun-2025,Musabbir,Arsil Ajim (BC),3-2,1280.0,1213.0,League
+948,17-Jun-2025,Sharif Jubaer (bKash),S M Imam Hasan,3-1,1329.0,1188.0,League
+949,17-Jun-2025,Musabbir,Arsil Ajim (BC),3-2,1280.0,1211.0,League
 950,17-Jun-2025,AR Fahim,S M Imam Hasan,3-0,1319.0,1187.0,League
-951,17-Jun-2025,Arsil Ajim (BC),Shammam,3-2,1224.0,1251.0,League
-952,17-Jun-2025,Sharif Jubaer (bKash),Musabbir,3-2,1334.0,1275.0,League
+951,17-Jun-2025,Arsil Ajim (BC),Shammam,3-2,1221.0,1251.0,League
+952,17-Jun-2025,Sharif Jubaer (bKash),Musabbir,3-2,1334.0,1274.0,League
 953,17-Jun-2025,Wasif Shaer,Paris Amin (DUFA),3-0,1327.0,1217.0,League
 954,17-Jun-2025,Masiat,Shoaib Chowdhury (DUFA),3-0,1356.0,1228.0,League
 955,17-Jun-2025,Shujan Mahmud,Fahim Bakhtiar,3-2,1308.0,1303.0,League
 956,17-Jun-2025,Masiat,Paris Amin (DUFA),3-0,1357.0,1216.0,League
 957,17-Jun-2025,Wasif Shaer,Shujan Mahmud,3-2,1334.0,1301.0,League
-958,17-Jun-2025,Fahim Bakhtiar,Shoaib Chowdhury (DUFA),3-0,1307.0,1224.0,League
+958,17-Jun-2025,Fahim Bakhtiar,Shoaib Chowdhury (DUFA),3-0,1306.0,1224.0,League
 959,17-Jun-2025,Shujan Mahmud,Masiat,3-0,1312.0,1346.0,League
 960,17-Jun-2025,Fahim Bakhtiar,Paris Amin (DUFA),3-0,1310.0,1212.0,League
-961,17-Jun-2025,Wasif Shaer,Shoaib Chowdhury (DUFA),3-1,1337.0,1222.0,League
-962,17-Jun-2025,Babul Uddin,Abu Talha (RTTC),3-0,1572.0,1104.0,League
-963,17-Jun-2025,Enam Ahmed,Eftekhar,3-0,1363.0,1002.0,League
+961,17-Jun-2025,Wasif Shaer,Shoaib Chowdhury (DUFA),3-1,1336.0,1222.0,League
+962,17-Jun-2025,Babul Uddin,Abu Talha (RTTC),3-0,1572.0,1103.0,League
+963,17-Jun-2025,Enam Ahmed,Eftekhar,3-0,1363.0,1001.0,League
 964,17-Jun-2025,Ashiqur Robin,Al Amin Ronie,3-0,1139.0,1083.0,League
-965,17-Jun-2025,Enam Ahmed,Abu Talha (RTTC),3-0,1364.0,1103.0,League
+965,17-Jun-2025,Enam Ahmed,Abu Talha (RTTC),3-0,1363.0,1103.0,League
 966,17-Jun-2025,Babul Uddin,Al Amin Ronie,3-0,1572.0,1083.0,League
 967,17-Jun-2025,Ashiqur Robin,Eftekhar,3-0,1141.0,1000.0,League
 968,17-Jun-2025,Enam Ahmed,Al Amin Ronie,3-0,1364.0,1083.0,League
-969,17-Jun-2025,Ashiqur Robin,Abu Talha (RTTC),3-2,1147.0,1098.0,League
+969,17-Jun-2025,Ashiqur Robin,Abu Talha (RTTC),3-2,1147.0,1097.0,League
 970,17-Jun-2025,Babul Uddin,Eftekhar,3-0,1572.0,1000.0,League
 971,17-Jun-2025,Rifat Chowdhury,Adittya,3-0,1500.0,1221.0,League
-972,17-Jun-2025,Rakib Hridoy,Raishul Islam,3-1,1385.0,1158.0,League
+972,17-Jun-2025,Rakib Hridoy,Raishul Islam,3-1,1385.0,1157.0,League
 973,17-Jun-2025,Niloy,Mahjoob (Batman),3-0,1127.0,1046.0,League
 974,17-Jun-2025,Rifat Chowdhury,Raishul Islam,3-0,1500.0,1157.0,League
 975,17-Jun-2025,Niloy,Adittya,3-1,1140.0,1208.0,League
@@ -978,15 +978,15 @@ SL No,Date,Player 1,Player 2,Result,Rating P1,Rating P2,Special
 977,17-Jun-2025,Niloy,Raishul Islam,3-2,1149.0,1148.0,League
 978,17-Jun-2025,Rifat Chowdhury,Mahjoob (Batman),3-0,1500.0,1046.0,League
 979,17-Jun-2025,Rakib Hridoy,Adittya,3-1,1387.0,1207.0,League
-980,17-Jun-2025,Nilanjon Dhrubo,Eftekhar,3-0,1250.0,1000.0,League
-981,17-Jun-2025,Ishraq Sifat,Adri (BU),3-0,1382.0,1146.0,League
+980,17-Jun-2025,Nilanjon Dhrubo,Eftekhar,3-0,1250.0,999.0,League
+981,17-Jun-2025,Ishraq Sifat,Adri (BU),3-0,1382.0,1092.0,League
 982,17-Jun-2025,Tipu (GTT),Al Amin Ronie,3-0,1451.0,1083.0,League
-983,17-Jun-2025,Ishraq Sifat,Eftekhar,3-0,1382.0,1000.0,League
+983,17-Jun-2025,Ishraq Sifat,Eftekhar,3-0,1382.0,999.0,League
 984,17-Jun-2025,Nilanjon Dhrubo,Al Amin Ronie,3-0,1251.0,1082.0,League
-985,17-Jun-2025,Tipu (GTT),Adri (BU),3-0,1451.0,1146.0,League
+985,17-Jun-2025,Tipu (GTT),Adri (BU),3-0,1451.0,1092.0,League
 986,17-Jun-2025,Ishraq Sifat,Al Amin Ronie,3-0,1382.0,1081.0,League
-987,17-Jun-2025,Tipu (GTT),Eftekhar,3-0,1451.0,1000.0,League
-988,17-Jun-2025,Nilanjon Dhrubo,Adri (BU),3-1,1254.0,1144.0,League
+987,17-Jun-2025,Tipu (GTT),Eftekhar,3-0,1451.0,999.0,League
+988,17-Jun-2025,Nilanjon Dhrubo,Adri (BU),3-1,1253.0,1091.0,League
 989,17-Jun-2025,Shujan Mahmud,Farid (DUFA),3-0,1313.0,1080.0,
 990,17-Jun-2025,Shujan Mahmud,Joy (DUFA),3-0,1314.0,1147.0,
 991,17-Jun-2025,Debashish (DUFA),Joy (DUFA),3-2,1156.0,1139.0,
@@ -1030,166 +1030,166 @@ SL No,Date,Player 1,Player 2,Result,Rating P1,Rating P2,Special
 1029,17-Jun-2025,Paris Amin (DUFA),SB Nasim (DUFA),3-0,1235.0,1250.0,
 1030,17-Jun-2025,Paris Amin (DUFA),Shoaib Chowdhury (DUFA),3-1,1244.0,1238.0,
 1031,29-Jun-2025,Shammam,Eftekhar,3-1,1251.0,999.0,League
-1032,29-Jun-2025,Ahsan Rahman (FSC),Adri (BU),3-0,1247.0,1141.0,League
+1032,29-Jun-2025,Ahsan Rahman (FSC),Adri (BU),3-0,1246.0,1089.0,League
 1033,29-Jun-2025,S M Imam Hasan,Al Amin Ronie,3-1,1189.0,1079.0,League
-1034,29-Jun-2025,Ahsan Rahman (FSC),Eftekhar,3-1,1247.0,999.0,League
+1034,29-Jun-2025,Ahsan Rahman (FSC),Eftekhar,3-1,1246.0,999.0,League
 1035,29-Jun-2025,Shammam,Al Amin Ronie,3-0,1252.0,1078.0,League
-1036,29-Jun-2025,S M Imam Hasan,Adri (BU),3-0,1194.0,1136.0,League
-1037,29-Jun-2025,Ahsan Rahman (FSC),Al Amin Ronie,3-0,1248.0,1077.0,League
-1038,29-Jun-2025,S M Imam Hasan,Eftekhar,3-0,1195.0,998.0,League
-1039,29-Jun-2025,Shammam,Adri (BU),3-1,1255.0,1133.0,League
+1036,29-Jun-2025,S M Imam Hasan,Adri (BU),3-0,1192.0,1086.0,League
+1037,29-Jun-2025,Ahsan Rahman (FSC),Al Amin Ronie,3-0,1247.0,1077.0,League
+1038,29-Jun-2025,S M Imam Hasan,Eftekhar,3-0,1193.0,998.0,League
+1039,29-Jun-2025,Shammam,Adri (BU),3-1,1253.0,1085.0,League
 1040,29-Jun-2025,Ishraq Sifat,Adittya,3-0,1383.0,1206.0,League
 1041,29-Jun-2025,Tipu (GTT),Mahjoob (Batman),3-0,1451.0,1046.0,League
-1042,29-Jun-2025,Nilanjon Dhrubo,Raishul Islam,3-1,1257.0,1146.0,League
+1042,29-Jun-2025,Nilanjon Dhrubo,Raishul Islam,3-1,1255.0,1146.0,League
 1043,29-Jun-2025,Tipu (GTT),Adittya,3-1,1451.0,1206.0,League
-1044,29-Jun-2025,Ishraq Sifat,Raishul Islam,3-0,1384.0,1145.0,League
-1045,29-Jun-2025,Nilanjon Dhrubo,Mahjoob (Batman),3-0,1257.0,1045.0,League
+1044,29-Jun-2025,Ishraq Sifat,Raishul Islam,3-0,1383.0,1145.0,League
+1045,29-Jun-2025,Nilanjon Dhrubo,Mahjoob (Batman),3-0,1256.0,1045.0,League
 1046,29-Jun-2025,Tipu (GTT),Raishul Islam,3-0,1451.0,1145.0,League
-1047,29-Jun-2025,Nilanjon Dhrubo,Adittya,3-0,1262.0,1201.0,League
-1048,29-Jun-2025,Ishraq Sifat,Mahjoob (Batman),3-0,1384.0,1045.0,League
-1049,29-Jun-2025,Tipu (GTT),S M Imam Hasan,3-0,1452.0,1195.0,League
+1047,29-Jun-2025,Nilanjon Dhrubo,Adittya,3-0,1261.0,1201.0,League
+1048,29-Jun-2025,Ishraq Sifat,Mahjoob (Batman),3-0,1383.0,1045.0,League
+1049,29-Jun-2025,Tipu (GTT),S M Imam Hasan,3-0,1452.0,1192.0,League
 1050,29-Jun-2025,Ishraq Sifat,Musabbir,3-1,1386.0,1272.0,League
-1051,29-Jun-2025,Nilanjon Dhrubo,Shammam,3-1,1270.0,1247.0,League
-1052,29-Jun-2025,Ishraq Sifat,S M Imam Hasan,3-1,1387.0,1194.0,League
-1053,29-Jun-2025,Shammam,Tipu (GTT),3-1,1262.0,1436.0,League
-1054,29-Jun-2025,Nilanjon Dhrubo,Musabbir,3-0,1278.0,1264.0,League
-1055,29-Jun-2025,Ishraq Sifat,Shammam,3-2,1389.0,1260.0,League
-1056,29-Jun-2025,S M Imam Hasan,Nilanjon Dhrubo,3-1,1207.0,1265.0,League
+1051,29-Jun-2025,Nilanjon Dhrubo,Shammam,3-1,1269.0,1246.0,League
+1052,29-Jun-2025,Ishraq Sifat,S M Imam Hasan,3-1,1387.0,1192.0,League
+1053,29-Jun-2025,Shammam,Tipu (GTT),3-1,1261.0,1436.0,League
+1054,29-Jun-2025,Nilanjon Dhrubo,Musabbir,3-0,1277.0,1264.0,League
+1055,29-Jun-2025,Ishraq Sifat,Shammam,3-2,1389.0,1259.0,League
+1056,29-Jun-2025,S M Imam Hasan,Nilanjon Dhrubo,3-1,1204.0,1264.0,League
 1057,29-Jun-2025,Musabbir,Tipu (GTT),3-0,1279.0,1421.0,League
 1058,29-Jun-2025,Hasib Chowdhury,Eftekhar,3-0,1335.0,998.0,League
-1059,29-Jun-2025,Mashuq,Adri (BU),3-1,1267.0,1131.0,League
-1060,29-Jun-2025,Abdullah,Al Amin Ronie,3-0,1327.0,1076.0,League
-1061,29-Jun-2025,Mashuq,Eftekhar,3-0,1267.0,998.0,League
+1059,29-Jun-2025,Mashuq,Adri (BU),3-1,1266.0,1084.0,League
+1060,29-Jun-2025,Abdullah,Al Amin Ronie,3-0,1326.0,1076.0,League
+1061,29-Jun-2025,Mashuq,Eftekhar,3-0,1266.0,998.0,League
 1062,29-Jun-2025,Hasib Chowdhury,Al Amin Ronie,3-0,1335.0,1076.0,League
-1063,29-Jun-2025,Abdullah,Adri (BU),3-0,1327.0,1131.0,League
-1064,29-Jun-2025,Mashuq,Al Amin Ronie,3-0,1268.0,1075.0,League
-1065,29-Jun-2025,Abdullah,Eftekhar,3-0,1327.0,998.0,League
-1066,29-Jun-2025,Hasib Chowdhury,Adri (BU),3-0,1336.0,1130.0,League
-1067,29-Jun-2025,Masiat,Abdullah,3-1,1353.0,1321.0,League
-1068,29-Jun-2025,Wasif Shaer,Hasib Chowdhury,3-0,1345.0,1328.0,League
-1069,29-Jun-2025,Mustafa Jain (CCCL),Munaf Ahmed,3-1,1335.0,1306.0,League
-1070,29-Jun-2025,Hasib Chowdhury,Masiat,3-1,1338.0,1343.0,League
-1071,29-Jun-2025,Munaf Ahmed,Abdullah,3-1,1315.0,1312.0,League
-1072,29-Jun-2025,Wasif Shaer,Mustafa Jain (CCCL),3-2,1352.0,1328.0,League
+1063,29-Jun-2025,Abdullah,Adri (BU),3-0,1327.0,1084.0,League
+1064,29-Jun-2025,Mashuq,Al Amin Ronie,3-0,1267.0,1075.0,League
+1065,29-Jun-2025,Abdullah,Eftekhar,3-0,1327.0,997.0,League
+1066,29-Jun-2025,Hasib Chowdhury,Adri (BU),3-0,1336.0,1084.0,League
+1067,29-Jun-2025,Masiat,Abdullah,3-1,1353.0,1320.0,League
+1068,29-Jun-2025,Wasif Shaer,Hasib Chowdhury,3-0,1344.0,1328.0,League
+1069,29-Jun-2025,Mustafa Jain (CCCL),Munaf Ahmed,3-1,1335.0,1305.0,League
+1070,29-Jun-2025,Hasib Chowdhury,Masiat,3-1,1337.0,1343.0,League
+1071,29-Jun-2025,Munaf Ahmed,Abdullah,3-1,1314.0,1311.0,League
+1072,29-Jun-2025,Wasif Shaer,Mustafa Jain (CCCL),3-2,1352.0,1327.0,League
 1073,29-Jun-2025,Munaf Ahmed,Hasib Chowdhury,3-1,1324.0,1328.0,League
-1074,29-Jun-2025,Mustafa Jain (CCCL),Masiat,3-2,1337.0,1334.0,League
-1075,29-Jun-2025,Wasif Shaer,Abdullah,3-1,1358.0,1306.0,League
-1076,2-Jul-2025,AR Fahim,Abdullah,3-0,1326.0,1299.0,League
-1077,2-Jul-2025,Sharif Jubaer (bKash),Hasib Chowdhury,3-1,1342.0,1321.0,League
-1078,2-Jul-2025,Arsil Ajim (BC),Mustafa Jain (CCCL),3-0,1237.0,1323.0,League
+1074,29-Jun-2025,Mustafa Jain (CCCL),Masiat,3-2,1336.0,1334.0,League
+1075,29-Jun-2025,Wasif Shaer,Abdullah,3-1,1357.0,1306.0,League
+1076,2-Jul-2025,AR Fahim,Abdullah,3-0,1326.0,1298.0,League
+1077,2-Jul-2025,Sharif Jubaer (bKash),Hasib Chowdhury,3-1,1342.0,1320.0,League
+1078,2-Jul-2025,Arsil Ajim (BC),Mustafa Jain (CCCL),3-0,1235.0,1323.0,League
 1079,2-Jul-2025,Sharif Jubaer (bKash),Abdullah,3-1,1347.0,1293.0,League
 1080,2-Jul-2025,AR Fahim,Mustafa Jain (CCCL),3-0,1334.0,1315.0,League
-1081,2-Jul-2025,Hasib Chowdhury,Arsil Ajim (BC),3-0,1324.0,1234.0,League
+1081,2-Jul-2025,Hasib Chowdhury,Arsil Ajim (BC),3-0,1324.0,1232.0,League
 1082,2-Jul-2025,Mustafa Jain (CCCL),Sharif Jubaer (bKash),3-0,1325.0,1337.0,League
-1083,2-Jul-2025,Abdullah,Arsil Ajim (BC),3-1,1298.0,1229.0,League
-1084,2-Jul-2025,AR Fahim,Hasib Chowdhury,3-2,1341.0,1317.0,League
-1085,2-Jul-2025,Adittya,Shammam,3-1,1212.0,1249.0,League
-1086,2-Jul-2025,Ahsan Rahman (FSC),Mahjoob (Batman),3-1,1249.0,1045.0,League
-1087,2-Jul-2025,S M Imam Hasan,Raishul Islam,3-1,1211.0,1141.0,League
-1088,2-Jul-2025,Ahsan Rahman (FSC),Adittya,3-2,1255.0,1206.0,League
-1089,2-Jul-2025,Shammam,Raishul Islam,3-1,1251.0,1138.0,League
-1090,2-Jul-2025,S M Imam Hasan,Mahjoob (Batman),3-0,1212.0,1043.0,League
-1091,2-Jul-2025,Ahsan Rahman (FSC),Raishul Islam,3-2,1257.0,1136.0,League
-1092,2-Jul-2025,Adittya,S M Imam Hasan,3-2,1215.0,1204.0,League
-1093,2-Jul-2025,Shammam,Mahjoob (Batman),3-2,1252.0,1043.0,League
+1083,2-Jul-2025,Abdullah,Arsil Ajim (BC),3-1,1297.0,1227.0,League
+1084,2-Jul-2025,AR Fahim,Hasib Chowdhury,3-2,1341.0,1316.0,League
+1085,2-Jul-2025,Adittya,Shammam,3-1,1212.0,1248.0,League
+1086,2-Jul-2025,Ahsan Rahman (FSC),Mahjoob (Batman),3-1,1248.0,1045.0,League
+1087,2-Jul-2025,S M Imam Hasan,Raishul Islam,3-1,1209.0,1140.0,League
+1088,2-Jul-2025,Ahsan Rahman (FSC),Adittya,3-2,1254.0,1206.0,League
+1089,2-Jul-2025,Shammam,Raishul Islam,3-1,1250.0,1138.0,League
+1090,2-Jul-2025,S M Imam Hasan,Mahjoob (Batman),3-0,1210.0,1043.0,League
+1091,2-Jul-2025,Ahsan Rahman (FSC),Raishul Islam,3-2,1256.0,1135.0,League
+1092,2-Jul-2025,Adittya,S M Imam Hasan,3-2,1214.0,1202.0,League
+1093,2-Jul-2025,Shammam,Mahjoob (Batman),3-2,1251.0,1043.0,League
 1094,2-Jul-2025,Tipu (GTT),Shujan Mahmud,3-1,1424.0,1302.0,League
-1095,2-Jul-2025,Ishraq Sifat,Paris Amin (DUFA),3-1,1391.0,1242.0,League
-1096,2-Jul-2025,Nilanjon Dhrubo,Shoaib Chowdhury (DUFA),3-2,1272.0,1232.0,League
+1095,2-Jul-2025,Ishraq Sifat,Paris Amin (DUFA),3-1,1390.0,1242.0,League
+1096,2-Jul-2025,Nilanjon Dhrubo,Shoaib Chowdhury (DUFA),3-2,1271.0,1232.0,League
 1097,2-Jul-2025,Tipu (GTT),Paris Amin (DUFA),3-0,1425.0,1241.0,League
-1098,2-Jul-2025,Shujan Mahmud,Nilanjon Dhrubo,3-0,1308.0,1266.0,League
+1098,2-Jul-2025,Shujan Mahmud,Nilanjon Dhrubo,3-0,1308.0,1265.0,League
 1099,2-Jul-2025,Ishraq Sifat,Shoaib Chowdhury (DUFA),3-0,1392.0,1231.0,League
-1100,2-Jul-2025,Nilanjon Dhrubo,Paris Amin (DUFA),3-0,1272.0,1235.0,League
+1100,2-Jul-2025,Nilanjon Dhrubo,Paris Amin (DUFA),3-0,1271.0,1235.0,League
 1101,2-Jul-2025,Tipu (GTT),Shoaib Chowdhury (DUFA),3-1,1425.0,1230.0,League
-1102,2-Jul-2025,Ishraq Sifat,Shujan Mahmud,3-0,1395.0,1305.0,League
-1103,11-Jul-2025,AR Fahim,Eftekhar,3-0,1342.0,998.0,League
+1102,2-Jul-2025,Ishraq Sifat,Shujan Mahmud,3-0,1395.0,1304.0,League
+1103,11-Jul-2025,AR Fahim,Eftekhar,3-0,1341.0,997.0,League
 1104,11-Jul-2025,Sharif Jubaer (bKash),Al Amin Ronie,3-0,1338.0,1075.0,League
-1105,11-Jul-2025,Ayan,Shadab Aiman (BU),3-0,1268.0,1101.0,League
-1106,11-Jul-2025,Sharif Jubaer (bKash),Eftekhar,3-0,1338.0,998.0,League
-1107,11-Jul-2025,AR Fahim,Shadab Aiman (BU),3-1,1342.0,1101.0,League
+1105,11-Jul-2025,Ayan,Shadab Aiman (BU),3-0,1268.0,1100.0,League
+1106,11-Jul-2025,Sharif Jubaer (bKash),Eftekhar,3-0,1338.0,997.0,League
+1107,11-Jul-2025,AR Fahim,Shadab Aiman (BU),3-1,1342.0,1100.0,League
 1108,11-Jul-2025,Ayan,Al Amin Ronie,3-0,1269.0,1074.0,League
 1109,11-Jul-2025,Sharif Jubaer (bKash),Shadab Aiman (BU),3-0,1338.0,1100.0,League
 1110,11-Jul-2025,Ayan,Eftekhar,3-0,1269.0,997.0,League
 1111,11-Jul-2025,AR Fahim,Al Amin Ronie,3-1,1342.0,1074.0,League
-1112,11-Jul-2025,Babul Uddin,Adittya,3-1,1572.0,1215.0,League
+1112,11-Jul-2025,Babul Uddin,Adittya,3-1,1572.0,1214.0,League
 1113,11-Jul-2025,Enam Ahmed,Tipu (Batman),3-1,1364.0,1133.0,League
-1114,11-Jul-2025,Ashiqur Robin,Raishul Islam,3-1,1154.0,1129.0,League
+1114,11-Jul-2025,Ashiqur Robin,Raishul Islam,3-1,1154.0,1128.0,League
 1115,11-Jul-2025,Babul Uddin,Tipu (Batman),3-0,1572.0,1133.0,League
 1116,11-Jul-2025,Ashiqur Robin,Adittya,3-0,1165.0,1203.0,League
 1117,11-Jul-2025,Enam Ahmed,Raishul Islam,3-0,1365.0,1128.0,League
 1118,11-Jul-2025,Ashiqur Robin,Tipu (Batman),3-0,1171.0,1127.0,League
 1119,11-Jul-2025,Babul Uddin,Raishul Islam,3-0,1572.0,1128.0,League
 1120,11-Jul-2025,Enam Ahmed,Adittya,3-0,1366.0,1202.0,League
-1121,11-Jul-2025,AR Fahim,Nilanjon Dhrubo,3-1,1346.0,1268.0,League
+1121,11-Jul-2025,AR Fahim,Nilanjon Dhrubo,3-1,1346.0,1267.0,League
 1122,11-Jul-2025,Tipu (GTT),Sharif Jubaer (bKash),3-0,1429.0,1335.0,League
-1123,11-Jul-2025,Ishraq Sifat,Arsil Ajim (BC),3-0,1397.0,1228.0,League
-1124,11-Jul-2025,Nilanjon Dhrubo,Sharif Jubaer (bKash),3-1,1280.0,1323.0,League
-1125,11-Jul-2025,Ishraq Sifat,AR Fahim,3-2,1402.0,1341.0,League
-1126,11-Jul-2025,Tipu (GTT),Arsil Ajim (BC),3-1,1429.0,1227.0,League
+1123,11-Jul-2025,Ishraq Sifat,Arsil Ajim (BC),3-0,1396.0,1226.0,League
+1124,11-Jul-2025,Nilanjon Dhrubo,Sharif Jubaer (bKash),3-1,1279.0,1323.0,League
+1125,11-Jul-2025,Ishraq Sifat,AR Fahim,3-2,1401.0,1341.0,League
+1126,11-Jul-2025,Tipu (GTT),Arsil Ajim (BC),3-1,1429.0,1225.0,League
 1127,11-Jul-2025,Sharif Jubaer (bKash),Ishraq Sifat,3-2,1335.0,1389.0,League
-1128,11-Jul-2025,Nilanjon Dhrubo,Arsil Ajim (BC),3-0,1285.0,1222.0,League
+1128,11-Jul-2025,Nilanjon Dhrubo,Arsil Ajim (BC),3-0,1284.0,1221.0,League
 1129,11-Jul-2025,Tipu (GTT),AR Fahim,3-0,1433.0,1338.0,League
 1130,11-Jul-2025,Hasib Chowdhury,Shujan Mahmud,3-1,1324.0,1297.0,League
 1131,11-Jul-2025,Mustafa Jain (CCCL),Shoaib Chowdhury (DUFA),3-0,1328.0,1227.0,League
-1132,11-Jul-2025,Abdullah,Alam (DUFA),3-0,1300.0,1151.0,League
+1132,11-Jul-2025,Abdullah,Alam (DUFA),3-0,1299.0,1151.0,League
 1133,11-Jul-2025,Mustafa Jain (CCCL),Shujan Mahmud,3-0,1334.0,1291.0,League
 1134,11-Jul-2025,Hasib Chowdhury,Alam (DUFA),3-0,1325.0,1150.0,League
 1135,11-Jul-2025,Abdullah,Shoaib Chowdhury (DUFA),3-0,1303.0,1223.0,League
 1136,11-Jul-2025,Mustafa Jain (CCCL),Alam (DUFA),3-0,1335.0,1149.0,League
-1137,11-Jul-2025,Abdullah,Shujan Mahmud,3-2,1311.0,1284.0,League
-1138,11-Jul-2025,Hasib Chowdhury,Shoaib Chowdhury (DUFA),3-1,1328.0,1220.0,League
+1137,11-Jul-2025,Abdullah,Shujan Mahmud,3-2,1310.0,1284.0,League
+1138,11-Jul-2025,Hasib Chowdhury,Shoaib Chowdhury (DUFA),3-1,1327.0,1220.0,League
 1139,11-Jul-2025,Babul Uddin,AR Fahim,3-2,1572.0,1337.0,League
 1140,11-Jul-2025,Sharif Jubaer (bKash),Ashiqur Robin,3-0,1337.0,1170.0,League
 1141,11-Jul-2025,Enam Ahmed,Ayan,3-0,1369.0,1266.0,League
 1142,11-Jul-2025,Babul Uddin,Sharif Jubaer (bKash),3-1,1573.0,1336.0,League
 1143,11-Jul-2025,Enam Ahmed,AR Fahim,3-0,1375.0,1331.0,League
 1144,11-Jul-2025,Ayan,Ashiqur Robin,3-0,1269.0,1167.0,League
-1145,11-Jul-2025,Sharif Jubaer (bKash),Enam Ahmed,3-1,1347.0,1365.0,League
+1145,11-Jul-2025,Sharif Jubaer (bKash),Enam Ahmed,3-1,1346.0,1365.0,League
 1146,11-Jul-2025,Babul Uddin,Ayan,3-0,1573.0,1269.0,League
-1147,11-Jul-2025,AR Fahim,Ashiqur Robin,3-0,1333.0,1166.0,League
+1147,11-Jul-2025,AR Fahim,Ashiqur Robin,3-0,1332.0,1166.0,League
 1148,11-Jul-2025,Rifat Chowdhury,Musabbir,3-0,1501.0,1278.0,League
-1149,11-Jul-2025,Rakib Hridoy,Shammam,3-0,1388.0,1250.0,League
-1150,11-Jul-2025,Niloy,S M Imam Hasan,3-2,1160.0,1193.0,League
+1149,11-Jul-2025,Rakib Hridoy,Shammam,3-0,1388.0,1249.0,League
+1150,11-Jul-2025,Niloy,S M Imam Hasan,3-2,1160.0,1191.0,League
 1151,11-Jul-2025,Rakib Hridoy,Musabbir,3-0,1391.0,1276.0,League
-1152,11-Jul-2025,Rifat Chowdhury,S M Imam Hasan,3-1,1501.0,1193.0,League
-1153,11-Jul-2025,Niloy,Shammam,3-2,1173.0,1238.0,League
-1154,11-Jul-2025,Rakib Hridoy,S M Imam Hasan,3-0,1392.0,1192.0,League
-1155,11-Jul-2025,Niloy,Musabbir,3-2,1186.0,1263.0,League
-1156,11-Jul-2025,Rifat Chowdhury,Shammam,3-1,1501.0,1237.0,League
+1152,11-Jul-2025,Rifat Chowdhury,S M Imam Hasan,3-1,1501.0,1191.0,League
+1153,11-Jul-2025,Niloy,Shammam,3-2,1173.0,1236.0,League
+1154,11-Jul-2025,Rakib Hridoy,S M Imam Hasan,3-0,1391.0,1190.0,League
+1155,11-Jul-2025,Niloy,Musabbir,3-2,1186.0,1262.0,League
+1156,11-Jul-2025,Rifat Chowdhury,Shammam,3-1,1501.0,1236.0,League
 1157,13-Jul-2025,Sharif Jubaer (bKash),Rifat Chowdhury,3-0,1361.0,1487.0,League
 1158,13-Jul-2025,AR Fahim,Rakib Hridoy,3-1,1344.0,1380.0,League
 1159,13-Jul-2025,Ayan,Niloy,3-1,1273.0,1183.0,League
 1160,13-Jul-2025,Rifat Chowdhury,AR Fahim,3-2,1488.0,1342.0,League
 1161,13-Jul-2025,Sharif Jubaer (bKash),Niloy,3-1,1362.0,1182.0,League
 1162,13-Jul-2025,Ayan,Rakib Hridoy,3-2,1286.0,1367.0,League
-1163,13-Jul-2025,AR Fahim,Niloy,3-0,1344.0,1181.0,League
-1164,13-Jul-2025,Rifat Chowdhury,Ayan,3-1,1489.0,1286.0,League
+1163,13-Jul-2025,AR Fahim,Niloy,3-0,1343.0,1181.0,League
+1164,13-Jul-2025,Rifat Chowdhury,Ayan,3-1,1489.0,1285.0,League
 1165,13-Jul-2025,Rakib Hridoy,Sharif Jubaer (bKash),3-1,1374.0,1354.0,League
 1166,23-Jul-2025,Masiat,Adittya,3-0,1336.0,1200.0,League
 1167,23-Jul-2025,Rubel,Wasif Shaer,3-2,1405.0,1352.0,League
 1168,23-Jul-2025,Fahim Bakhtiar,Raishul Islam,3-1,1311.0,1127.0,League
-1169,23-Jul-2025,Wasif Shaer,Adittya,3-1,1353.0,1199.0,League
-1170,23-Jul-2025,Masiat,Raishul Islam,3-0,1337.0,1127.0,League
-1171,23-Jul-2025,Rubel,Fahim Bakhtiar,3-1,1409.0,1308.0,League
+1169,23-Jul-2025,Wasif Shaer,Adittya,3-1,1353.0,1198.0,League
+1170,23-Jul-2025,Masiat,Raishul Islam,3-0,1337.0,1126.0,League
+1171,23-Jul-2025,Rubel,Fahim Bakhtiar,3-1,1408.0,1308.0,League
 1172,23-Jul-2025,Wasif Shaer,Raishul Islam,3-2,1354.0,1126.0,League
 1173,23-Jul-2025,Adittya,Fahim Bakhtiar,3-1,1212.0,1294.0,League
-1174,23-Jul-2025,Rubel,Masiat,3-1,1413.0,1333.0,League
+1174,23-Jul-2025,Rubel,Masiat,3-1,1412.0,1333.0,League
 1175,23-Jul-2025,Rubel,AR Fahim,3-2,1417.0,1339.0,League
-1176,23-Jul-2025,Sharif Jubaer (bKash),Adittya,3-0,1356.0,1211.0,League
-1177,23-Jul-2025,Arsil Ajim (BC),Raishul Islam,3-1,1225.0,1123.0,League
-1178,23-Jul-2025,AR Fahim,Adittya,3-0,1341.0,1209.0,League
-1179,23-Jul-2025,Rubel,Arsil Ajim (BC),3-0,1417.0,1225.0,League
-1180,23-Jul-2025,Sharif Jubaer (bKash),Raishul Islam,3-0,1356.0,1123.0,League
-1181,23-Jul-2025,Arsil Ajim (BC),Adittya,3-0,1232.0,1202.0,League
+1176,23-Jul-2025,Sharif Jubaer (bKash),Adittya,3-0,1356.0,1210.0,League
+1177,23-Jul-2025,Arsil Ajim (BC),Raishul Islam,3-1,1224.0,1123.0,League
+1178,23-Jul-2025,AR Fahim,Adittya,3-0,1341.0,1208.0,League
+1179,23-Jul-2025,Rubel,Arsil Ajim (BC),3-0,1417.0,1223.0,League
+1180,23-Jul-2025,Sharif Jubaer (bKash),Raishul Islam,3-0,1356.0,1122.0,League
+1181,23-Jul-2025,Arsil Ajim (BC),Adittya,3-0,1230.0,1201.0,League
 1182,23-Jul-2025,AR Fahim,Raishul Islam,3-0,1342.0,1122.0,League
 1183,23-Jul-2025,Rubel,Sharif Jubaer (bKash),3-1,1422.0,1352.0,League
 1184,23-Jul-2025,Rifat Chowdhury,Tipu (GTT),3-1,1494.0,1428.0,League
 1185,23-Jul-2025,Rakib Hridoy,Ishraq Sifat,3-1,1383.0,1380.0,League
-1186,23-Jul-2025,Nilanjon Dhrubo,Niloy,3-2,1288.0,1178.0,League
+1186,23-Jul-2025,Nilanjon Dhrubo,Niloy,3-2,1287.0,1178.0,League
 1187,23-Jul-2025,Rifat Chowdhury,Ishraq Sifat,3-0,1496.0,1378.0,League
-1188,23-Jul-2025,Tipu (GTT),Niloy,3-2,1428.0,1178.0,League
-1189,23-Jul-2025,Nilanjon Dhrubo,Rakib Hridoy,3-1,1301.0,1370.0,League
-1190,23-Jul-2025,Ishraq Sifat,Niloy,3-0,1379.0,1177.0,League
-1191,23-Jul-2025,Rifat Chowdhury,Nilanjon Dhrubo,3-1,1497.0,1300.0,League
+1188,23-Jul-2025,Tipu (GTT),Niloy,3-2,1428.0,1177.0,League
+1189,23-Jul-2025,Nilanjon Dhrubo,Rakib Hridoy,3-1,1300.0,1370.0,League
+1190,23-Jul-2025,Ishraq Sifat,Niloy,3-0,1378.0,1177.0,League
+1191,23-Jul-2025,Rifat Chowdhury,Nilanjon Dhrubo,3-1,1497.0,1299.0,League
 1192,23-Jul-2025,Tipu (GTT),Rakib Hridoy,3-1,1433.0,1366.0,League
 1193,23-Jul-2025,Rifat Chowdhury,Enam Ahmed,3-2,1499.0,1363.0,League
 1194,23-Jul-2025,Rakib Hridoy,Ashiqur Robin,3-0,1366.0,1165.0,League
@@ -1200,86 +1200,86 @@ SL No,Date,Player 1,Player 2,Result,Rating P1,Rating P2,Special
 1199,23-Jul-2025,Niloy,Ashiqur Robin,3-1,1184.0,1173.0,League
 1200,23-Jul-2025,Babul Uddin,Rifat Chowdhury,3-1,1577.0,1480.0,League
 1201,23-Jul-2025,Enam Ahmed,Rakib Hridoy,3-2,1372.0,1358.0,League
-1202,26-Jul-2025,Ahsan Rahman (FSC),Niloy,3-1,1261.0,1180.0,
+1202,26-Jul-2025,Ahsan Rahman (FSC),Niloy,3-1,1260.0,1180.0,
 1203,26-Jul-2025,Niloy,Sultan Mahmud,3-0,1182.0,1048.0,
-1204,26-Jul-2025,Ahsan Rahman (FSC),Sultan Mahmud,3-0,1262.0,1048.0,
+1204,26-Jul-2025,Ahsan Rahman (FSC),Sultan Mahmud,3-0,1260.0,1047.0,
 1205,26-Jul-2025,Faisal Nazmul,Tanvir Rahman (MTTA),3-1,1166.0,1080.0,
-1206,26-Jul-2025,Raishul Islam,Tanvir Rahman (MTTA),3-1,1128.0,1075.0,
+1206,26-Jul-2025,Raishul Islam,Tanvir Rahman (MTTA),3-1,1127.0,1075.0,
 1207,26-Jul-2025,Raishul Islam,Faisal Nazmul,3-2,1138.0,1156.0,
-1208,26-Jul-2025,Sharif,Joy (DUFA),3-0,1242.0,1142.0,
-1209,26-Jul-2025,Md Hanif,Hasnu,3-2,1159.0,1164.0,
+1208,26-Jul-2025,Sharif,Joy (DUFA),3-0,1241.0,1142.0,
+1209,26-Jul-2025,Md Hanif,Hasnu,3-2,1159.0,1161.0,
 1210,26-Jul-2025,Joy (DUFA),Md Hanif,3-2,1151.0,1150.0,
-1211,26-Jul-2025,Hasnu,Sharif,3-0,1176.0,1229.0,
-1212,26-Jul-2025,Sharif,Md Hanif,3-0,1233.0,1147.0,
-1213,26-Jul-2025,Hasnu,Joy (DUFA),3-2,1182.0,1144.0,
+1211,26-Jul-2025,Hasnu,Sharif,3-0,1173.0,1229.0,
+1212,26-Jul-2025,Sharif,Md Hanif,3-0,1232.0,1146.0,
+1213,26-Jul-2025,Hasnu,Joy (DUFA),3-2,1180.0,1144.0,
 1214,26-Jul-2025,Shoaib Chowdhury (DUFA),Abdullah Noman,3-1,1222.0,1093.0,
-1215,26-Jul-2025,Asif Rayhan,Aparesh Saha,3-0,1186.0,1064.0,
-1216,26-Jul-2025,Aparesh Saha,Abdullah Noman,3-1,1074.0,1083.0,
+1215,26-Jul-2025,Asif Rayhan,Aparesh Saha,3-0,1185.0,1063.0,
+1216,26-Jul-2025,Aparesh Saha,Abdullah Noman,3-1,1073.0,1083.0,
 1217,26-Jul-2025,Shoaib Chowdhury (DUFA),Asif Rayhan,3-2,1228.0,1180.0,
 1218,26-Jul-2025,Shoaib Chowdhury (DUFA),Aparesh Saha,3-0,1229.0,1072.0,
 1219,26-Jul-2025,Asif Rayhan,Abdullah Noman,3-0,1183.0,1080.0,
-1220,26-Jul-2025,Arsil Ajim (BC),Safwan (MTTA),3-0,1235.0,1137.0,
+1220,26-Jul-2025,Arsil Ajim (BC),Safwan (MTTA),3-0,1233.0,1137.0,
 1221,26-Jul-2025,Arib Akash (AIUB),Rayan CTS (GTT-G),3-0,1175.0,1081.0,
 1222,26-Jul-2025,Safwan (MTTA),Rayan CTS (GTT-G),3-0,1142.0,1077.0,
-1223,26-Jul-2025,Arsil Ajim (BC),Arib Akash (AIUB),3-0,1239.0,1171.0,
-1224,26-Jul-2025,Arsil Ajim (BC),Rayan CTS (GTT-G),3-1,1241.0,1075.0,
+1223,26-Jul-2025,Arsil Ajim (BC),Arib Akash (AIUB),3-0,1238.0,1171.0,
+1224,26-Jul-2025,Arsil Ajim (BC),Rayan CTS (GTT-G),3-1,1239.0,1075.0,
 1225,26-Jul-2025,Arib Akash (AIUB),Safwan (MTTA),3-1,1177.0,1135.0,
 1226,26-Jul-2025,Nipon,Rafan (MTTA),3-1,1121.0,1188.0,
 1227,26-Jul-2025,Fayez (ULAB),Rafan (MTTA),3-0,1226.0,1182.0,
 1228,26-Jul-2025,Nipon,Fayez (ULAB),3-2,1135.0,1212.0,
 1229,26-Jul-2025,Sauvik Sarker (BRAC),Noor (BC),3-1,1221.0,1115.0,
-1230,26-Jul-2025,Adittya,Sauvik Sarker (BRAC),3-1,1211.0,1212.0,
-1231,26-Jul-2025,Raiyad,Adittya,3-0,1159.0,1199.0,
-1232,26-Jul-2025,Raiyad,Sauvik Sarker (BRAC),3-2,1170.0,1200.0,
-1233,26-Jul-2025,Adittya,Noor (BC),3-0,1203.0,1112.0,
-1234,26-Jul-2025,Noor (BC),Raiyad,3-2,1123.0,1158.0,
+1230,26-Jul-2025,Adittya,Sauvik Sarker (BRAC),3-1,1210.0,1212.0,
+1231,26-Jul-2025,Raiyad,Adittya,3-0,1155.0,1199.0,
+1232,26-Jul-2025,Raiyad,Sauvik Sarker (BRAC),3-2,1166.0,1200.0,
+1233,26-Jul-2025,Adittya,Noor (BC),3-0,1202.0,1112.0,
+1234,26-Jul-2025,Noor (BC),Raiyad,3-2,1123.0,1155.0,
 1235,26-Jul-2025,Fayez (ULAB),Adittya,3-0,1220.0,1195.0,
 1236,26-Jul-2025,Faisal Nazmul,Shoaib Chowdhury (DUFA),3-0,1168.0,1217.0,
-1237,26-Jul-2025,Niloy,Hasnu,3-1,1190.0,1174.0,
-1238,26-Jul-2025,Asif Rayhan,Nipon,3-0,1188.0,1130.0,
-1239,26-Jul-2025,Arib Akash (AIUB),Raiyad,3-2,1184.0,1152.0,
-1240,26-Jul-2025,Ahsan Rahman (FSC),Fayez (ULAB),3-0,1267.0,1214.0,
-1241,26-Jul-2025,Arsil Ajim (BC),Faisal Nazmul,3-0,1244.0,1164.0,
+1237,26-Jul-2025,Niloy,Hasnu,3-1,1190.0,1172.0,
+1238,26-Jul-2025,Asif Rayhan,Nipon,3-0,1188.0,1129.0,
+1239,26-Jul-2025,Arib Akash (AIUB),Raiyad,3-2,1184.0,1149.0,
+1240,26-Jul-2025,Ahsan Rahman (FSC),Fayez (ULAB),3-0,1266.0,1214.0,
+1241,26-Jul-2025,Arsil Ajim (BC),Faisal Nazmul,3-0,1243.0,1164.0,
 1242,26-Jul-2025,Niloy,Asif Rayhan,3-0,1198.0,1180.0,
-1243,26-Jul-2025,Arib Akash (AIUB),Raishul Islam,3-2,1189.0,1133.0,
-1244,26-Jul-2025,Arsil Ajim (BC),Ahsan Rahman (FSC),3-2,1254.0,1258.0,
-1245,26-Jul-2025,Niloy,Arib Akash (AIUB),3-1,1206.0,1182.0,
-1246,26-Jul-2025,Arsil Ajim (BC),Niloy,3-2,1259.0,1200.0,
+1243,26-Jul-2025,Arib Akash (AIUB),Raishul Islam,3-2,1189.0,1132.0,
+1244,26-Jul-2025,Arsil Ajim (BC),Ahsan Rahman (FSC),3-2,1252.0,1257.0,
+1245,26-Jul-2025,Niloy,Arib Akash (AIUB),3-1,1205.0,1181.0,
+1246,26-Jul-2025,Arsil Ajim (BC),Niloy,3-2,1258.0,1200.0,
 1247,26-Jul-2025,AR Fahim,Samir Majumder,3-0,1345.0,1247.0,
-1248,26-Jul-2025,Shammam,Abdullah Mamun,3-1,1241.0,1164.0,
+1248,26-Jul-2025,Shammam,Abdullah Mamun,3-1,1240.0,1164.0,
 1249,26-Jul-2025,Samir Majumder,Abdullah Mamun,3-1,1250.0,1160.0,
-1250,26-Jul-2025,AR Fahim,Shammam,3-2,1348.0,1239.0,
-1251,26-Jul-2025,Abdullah Mamun,AR Fahim,3-2,1175.0,1333.0,
-1252,26-Jul-2025,Shammam,Samir Majumder,3-1,1247.0,1242.0,
-1253,26-Jul-2025,Abdullah,Ahsan Rahman (FSC),3-1,1316.0,1253.0,
-1254,26-Jul-2025,Arib Akash (AIUB),Md. Shahid Hasan Rabbani,3-2,1194.0,1244.0,
-1255,26-Jul-2025,Ahsan Rahman (FSC),Arib Akash (AIUB),3-0,1258.0,1189.0,
-1256,26-Jul-2025,Abdullah,Md. Shahid Hasan Rabbani,3-2,1320.0,1240.0,
-1257,26-Jul-2025,Arib Akash (AIUB),Abdullah,3-1,1203.0,1306.0,
-1258,26-Jul-2025,Ahsan Rahman (FSC),Md. Shahid Hasan Rabbani,3-1,1264.0,1233.0,
-1259,26-Jul-2025,Jubayer,Hasnu,3-0,1319.0,1173.0,
+1250,26-Jul-2025,AR Fahim,Shammam,3-2,1348.0,1238.0,
+1251,26-Jul-2025,Abdullah Mamun,AR Fahim,3-2,1175.0,1332.0,
+1252,26-Jul-2025,Shammam,Samir Majumder,3-1,1246.0,1242.0,
+1253,26-Jul-2025,Abdullah,Ahsan Rahman (FSC),3-1,1315.0,1252.0,
+1254,26-Jul-2025,Arib Akash (AIUB),Md. Shahid Hasan Rabbani,3-2,1193.0,1242.0,
+1255,26-Jul-2025,Ahsan Rahman (FSC),Arib Akash (AIUB),3-0,1256.0,1189.0,
+1256,26-Jul-2025,Abdullah,Md. Shahid Hasan Rabbani,3-2,1319.0,1238.0,
+1257,26-Jul-2025,Arib Akash (AIUB),Abdullah,3-1,1203.0,1305.0,
+1258,26-Jul-2025,Ahsan Rahman (FSC),Md. Shahid Hasan Rabbani,3-1,1263.0,1231.0,
+1259,26-Jul-2025,Jubayer,Hasnu,3-0,1319.0,1171.0,
 1260,26-Jul-2025,Ahmed Shakil,Jubayer,3-0,1278.0,1308.0,
-1261,26-Jul-2025,Arsil Ajim (BC),Ahmed Shakil,3-2,1268.0,1269.0,
-1262,26-Jul-2025,Jubayer,Arsil Ajim (BC),3-2,1313.0,1263.0,
-1263,26-Jul-2025,Ahmed Shakil,Hasnu,3-0,1272.0,1170.0,
-1264,26-Jul-2025,Hasnu,Arsil Ajim (BC),3-0,1183.0,1250.0,
-1265,26-Jul-2025,Arib Akash (AIUB),Hasnu,3-0,1210.0,1176.0,
-1266,26-Jul-2025,AR Fahim,Arib Akash (AIUB),3-0,1335.0,1208.0,
-1267,26-Jul-2025,Abdullah,Jubayer,3-0,1314.0,1305.0,
-1268,26-Jul-2025,Shammam,Ahmed Shakil,3-1,1257.0,1263.0,
-1269,26-Jul-2025,Samir Majumder,Ahsan Rahman (FSC),3-1,1251.0,1255.0,
-1270,26-Jul-2025,AR Fahim,Abdullah,3-0,1342.0,1307.0,
-1271,26-Jul-2025,Samir Majumder,Shammam,3-0,1259.0,1249.0,
+1261,26-Jul-2025,Arsil Ajim (BC),Ahmed Shakil,3-2,1267.0,1269.0,
+1262,26-Jul-2025,Jubayer,Arsil Ajim (BC),3-2,1313.0,1261.0,
+1263,26-Jul-2025,Ahmed Shakil,Hasnu,3-0,1272.0,1168.0,
+1264,26-Jul-2025,Hasnu,Arsil Ajim (BC),3-0,1181.0,1248.0,
+1265,26-Jul-2025,Arib Akash (AIUB),Hasnu,3-0,1210.0,1174.0,
+1266,26-Jul-2025,AR Fahim,Arib Akash (AIUB),3-0,1335.0,1207.0,
+1267,26-Jul-2025,Abdullah,Jubayer,3-0,1313.0,1305.0,
+1268,26-Jul-2025,Shammam,Ahmed Shakil,3-1,1256.0,1262.0,
+1269,26-Jul-2025,Samir Majumder,Ahsan Rahman (FSC),3-1,1251.0,1254.0,
+1270,26-Jul-2025,AR Fahim,Abdullah,3-0,1341.0,1307.0,
+1271,26-Jul-2025,Samir Majumder,Shammam,3-0,1259.0,1248.0,
 1272,26-Jul-2025,Samir Majumder,AR Fahim,3-2,1272.0,1329.0,
-1273,29-Jul-2025,Masiat,Shammam,3-0,1336.0,1245.0,League
-1274,29-Jul-2025,Wasif Shaer,Md. Shahid Hasan Rabbani,3-2,1356.0,1231.0,League
+1273,29-Jul-2025,Masiat,Shammam,3-0,1336.0,1244.0,League
+1274,29-Jul-2025,Wasif Shaer,Md. Shahid Hasan Rabbani,3-2,1356.0,1229.0,League
 1275,29-Jul-2025,Musabbir,Munaf Ahmed,3-2,1274.0,1312.0,League
-1276,29-Jul-2025,Shammam,Wasif Shaer,3-2,1259.0,1343.0,League
-1277,29-Jul-2025,Masiat,Musabbir,3-2,1341.0,1270.0,League
-1278,29-Jul-2025,Munaf Ahmed,Md. Shahid Hasan Rabbani,3-2,1316.0,1227.0,League
-1279,29-Jul-2025,Wasif Shaer,Musabbir,3-0,1347.0,1266.0,League
-1280,29-Jul-2025,Munaf Ahmed,Shammam,3-1,1321.0,1254.0,League
-1281,29-Jul-2025,Masiat,Md. Shahid Hasan Rabbani,3-0,1343.0,1225.0,League
+1276,29-Jul-2025,Shammam,Wasif Shaer,3-2,1258.0,1342.0,League
+1277,29-Jul-2025,Masiat,Musabbir,3-2,1341.0,1269.0,League
+1278,29-Jul-2025,Munaf Ahmed,Md. Shahid Hasan Rabbani,3-2,1316.0,1226.0,League
+1279,29-Jul-2025,Wasif Shaer,Musabbir,3-0,1346.0,1266.0,League
+1280,29-Jul-2025,Munaf Ahmed,Shammam,3-1,1320.0,1253.0,League
+1281,29-Jul-2025,Masiat,Md. Shahid Hasan Rabbani,3-0,1343.0,1223.0,League
 1282,29-Jul-2025,Rakib Muktadir,Wasif Shaer,3-2,1358.0,1339.0,League
 1283,29-Jul-2025,Masiat,Eftekhar,3-0,1343.0,997.0,League
 1284,29-Jul-2025,Munaf Ahmed,Al Amin Ronie,3-1,1321.0,1073.0,League
@@ -1287,245 +1287,245 @@ SL No,Date,Player 1,Player 2,Result,Rating P1,Rating P2,Special
 1286,29-Jul-2025,Wasif Shaer,Al Amin Ronie,3-0,1339.0,1073.0,League
 1287,29-Jul-2025,Munaf Ahmed,Eftekhar,3-0,1321.0,997.0,League
 1288,29-Jul-2025,Masiat,Al Amin Ronie,3-0,1352.0,1073.0,League
-1289,29-Jul-2025,Munaf Ahmed,Rakib Muktadir,3-2,1331.0,1339.0,League
+1289,29-Jul-2025,Munaf Ahmed,Rakib Muktadir,3-2,1330.0,1339.0,League
 1290,29-Jul-2025,Wasif Shaer,Eftekhar,3-0,1339.0,997.0,League
 1291,8-Aug-2025,Masiat,Himel (MTTA),3-0,1353.0,1100.0,League
 1292,8-Aug-2025,Wasif Shaer,Enam Ahmed,3-2,1349.0,1362.0,League
 1293,8-Aug-2025,Babul Uddin,Munaf Ahmed,3-0,1577.0,1330.0,League
 1294,8-Aug-2025,Enam Ahmed,Masiat,3-0,1369.0,1345.0,League
 1295,8-Aug-2025,Munaf Ahmed,Himel (MTTA),3-0,1331.0,1099.0,League
-1296,8-Aug-2025,Babul Uddin,Wasif Shaer,3-1,1578.0,1349.0,League
+1296,8-Aug-2025,Babul Uddin,Wasif Shaer,3-1,1578.0,1348.0,League
 1297,8-Aug-2025,Enam Ahmed,Munaf Ahmed,3-0,1375.0,1325.0,League
 1298,8-Aug-2025,Babul Uddin,Masiat,3-1,1578.0,1345.0,League
 1299,8-Aug-2025,Wasif Shaer,Himel (MTTA),3-0,1349.0,1099.0,League
-1300,8-Aug-2025,Hasib Chowdhury,Adittya,3-0,1330.0,1193.0,League
-1301,8-Aug-2025,Rubel,Abdullah,3-1,1424.0,1305.0,League
-1302,8-Aug-2025,Raishul Islam,Sharif,3-2,1146.0,1220.0,League
-1303,8-Aug-2025,Abdullah,Adittya,3-1,1307.0,1191.0,League
-1304,8-Aug-2025,Hasib Chowdhury,Raishul Islam,3-2,1331.0,1145.0,League
+1300,8-Aug-2025,Hasib Chowdhury,Adittya,3-0,1329.0,1193.0,League
+1301,8-Aug-2025,Rubel,Abdullah,3-1,1424.0,1304.0,League
+1302,8-Aug-2025,Raishul Islam,Sharif,3-2,1145.0,1219.0,League
+1303,8-Aug-2025,Abdullah,Adittya,3-1,1307.0,1190.0,League
+1304,8-Aug-2025,Hasib Chowdhury,Raishul Islam,3-2,1330.0,1145.0,League
 1305,8-Aug-2025,Rubel,Sharif,3-1,1425.0,1219.0,League
-1306,8-Aug-2025,Abdullah,Raishul Islam,3-2,1309.0,1144.0,League
-1307,8-Aug-2025,Sharif,Adittya,3-0,1226.0,1185.0,League
+1306,8-Aug-2025,Abdullah,Raishul Islam,3-2,1308.0,1143.0,League
+1307,8-Aug-2025,Sharif,Adittya,3-0,1225.0,1184.0,League
 1308,8-Aug-2025,Rubel,Hasib Chowdhury,3-2,1428.0,1327.0,League
 1309,8-Aug-2025,Rifat Chowdhury,Hasib Chowdhury,3-0,1481.0,1326.0,League
 1310,8-Aug-2025,Rakib Hridoy,Abdullah,3-1,1363.0,1303.0,League
-1311,8-Aug-2025,Rakib Hridoy,Hasib Chowdhury,3-1,1369.0,1320.0,League
-1312,8-Aug-2025,Niloy,Abdullah,3-1,1214.0,1290.0,League
+1311,8-Aug-2025,Rakib Hridoy,Hasib Chowdhury,3-1,1368.0,1320.0,League
+1312,8-Aug-2025,Niloy,Abdullah,3-1,1213.0,1290.0,League
 1313,8-Aug-2025,Hasib Chowdhury,Niloy,3-1,1323.0,1211.0,League
 1314,8-Aug-2025,Rifat Chowdhury,Abdullah,3-0,1482.0,1289.0,League
-1315,8-Aug-2025,Babul Uddin,S M Imam Hasan,3-0,1578.0,1192.0,League
-1316,8-Aug-2025,Ahsan Rahman (FSC),Ashiqur Robin,3-0,1259.0,1169.0,League
-1317,8-Aug-2025,Enam Ahmed,Shammam,3-0,1377.0,1252.0,League
-1318,8-Aug-2025,Babul Uddin,Ahsan Rahman (FSC),3-2,1578.0,1258.0,League
-1319,8-Aug-2025,Enam Ahmed,S M Imam Hasan,3-0,1378.0,1191.0,League
-1320,8-Aug-2025,Ashiqur Robin,Shammam,3-1,1182.0,1239.0,League
-1321,8-Aug-2025,Enam Ahmed,Ahsan Rahman (FSC),3-0,1380.0,1256.0,League
-1322,8-Aug-2025,Babul Uddin,Shammam,3-1,1578.0,1239.0,League
-1323,8-Aug-2025,S M Imam Hasan,Ashiqur Robin,3-2,1198.0,1174.0,League
+1315,8-Aug-2025,Babul Uddin,S M Imam Hasan,3-0,1578.0,1190.0,League
+1316,8-Aug-2025,Ahsan Rahman (FSC),Ashiqur Robin,3-0,1258.0,1169.0,League
+1317,8-Aug-2025,Enam Ahmed,Shammam,3-0,1377.0,1251.0,League
+1318,8-Aug-2025,Babul Uddin,Ahsan Rahman (FSC),3-2,1578.0,1257.0,League
+1319,8-Aug-2025,Enam Ahmed,S M Imam Hasan,3-0,1378.0,1189.0,League
+1320,8-Aug-2025,Ashiqur Robin,Shammam,3-1,1182.0,1238.0,League
+1321,8-Aug-2025,Enam Ahmed,Ahsan Rahman (FSC),3-0,1380.0,1255.0,League
+1322,8-Aug-2025,Babul Uddin,Shammam,3-1,1578.0,1238.0,League
+1323,8-Aug-2025,S M Imam Hasan,Ashiqur Robin,3-2,1197.0,1174.0,League
 1324,15-Aug-2025,Masiat,AR Fahim,3-0,1352.0,1322.0,League
 1325,15-Aug-2025,Wasif Shaer,Sharif Jubaer (bKash),3-2,1357.0,1344.0,League
-1326,15-Aug-2025,Shujan Mahmud,Arsil Ajim (BC),3-0,1290.0,1244.0,League
+1326,15-Aug-2025,Shujan Mahmud,Arsil Ajim (BC),3-0,1290.0,1243.0,League
 1327,15-Aug-2025,Masiat,Sharif Jubaer (bKash),3-1,1359.0,1336.0,League
 1328,15-Aug-2025,AR Fahim,Shujan Mahmud,3-0,1328.0,1284.0,League
-1329,15-Aug-2025,Wasif Shaer,Arsil Ajim (BC),3-0,1359.0,1241.0,League
+1329,15-Aug-2025,Wasif Shaer,Arsil Ajim (BC),3-0,1359.0,1240.0,League
 1330,15-Aug-2025,Sharif Jubaer (bKash),Shujan Mahmud,3-2,1341.0,1279.0,League
-1331,15-Aug-2025,Masiat,Arsil Ajim (BC),3-0,1362.0,1239.0,League
-1332,15-Aug-2025,Wasif Shaer,AR Fahim,3-0,1366.0,1322.0,League
-1333,29-Aug-2025,Tipu (GTT),Abdullah,3-2,1435.0,1288.0,League
-1334,29-Aug-2025,Hasib Chowdhury,Nilanjon Dhrubo,3-1,1329.0,1293.0,League
-1335,29-Aug-2025,Ishraq Sifat,Mashuq,3-2,1381.0,1266.0,League
-1336,29-Aug-2025,Nilanjon Dhrubo,Abdullah,3-0,1301.0,1280.0,League
+1331,15-Aug-2025,Masiat,Arsil Ajim (BC),3-0,1361.0,1238.0,League
+1332,15-Aug-2025,Wasif Shaer,AR Fahim,3-0,1365.0,1322.0,League
+1333,29-Aug-2025,Tipu (GTT),Abdullah,3-2,1434.0,1287.0,League
+1334,29-Aug-2025,Hasib Chowdhury,Nilanjon Dhrubo,3-1,1329.0,1292.0,League
+1335,29-Aug-2025,Ishraq Sifat,Mashuq,3-2,1381.0,1265.0,League
+1336,29-Aug-2025,Nilanjon Dhrubo,Abdullah,3-0,1300.0,1280.0,League
 1337,29-Aug-2025,Tipu (GTT),Mashuq,3-0,1436.0,1264.0,League
-1338,29-Aug-2025,Hasib Chowdhury,Ishraq Sifat,3-2,1341.0,1370.0,League
-1339,29-Aug-2025,Nilanjon Dhrubo,Mashuq,3-0,1307.0,1259.0,League
-1340,29-Aug-2025,Abdullah,Ishraq Sifat,3-1,1293.0,1357.0,League
+1338,29-Aug-2025,Hasib Chowdhury,Ishraq Sifat,3-2,1340.0,1370.0,League
+1339,29-Aug-2025,Nilanjon Dhrubo,Mashuq,3-0,1306.0,1258.0,League
+1340,29-Aug-2025,Abdullah,Ishraq Sifat,3-1,1292.0,1357.0,League
 1341,29-Aug-2025,Tipu (GTT),Hasib Chowdhury,3-0,1439.0,1337.0,League
-1342,29-Aug-2025,Nilanjon Dhrubo,Masiat,3-2,1318.0,1350.0,League
-1343,29-Aug-2025,Wasif Shaer,Tipu (GTT),3-1,1378.0,1427.0,League
+1342,29-Aug-2025,Nilanjon Dhrubo,Masiat,3-2,1317.0,1350.0,League
+1343,29-Aug-2025,Wasif Shaer,Tipu (GTT),3-1,1377.0,1426.0,League
 1344,29-Aug-2025,Ishraq Sifat,Munaf Ahmed,3-1,1363.0,1319.0,League
-1345,29-Aug-2025,Tipu (GTT),Masiat,3-0,1430.0,1347.0,League
-1346,29-Aug-2025,Nilanjon Dhrubo,Munaf Ahmed,3-2,1326.0,1311.0,League
+1345,29-Aug-2025,Tipu (GTT),Masiat,3-0,1430.0,1346.0,League
+1346,29-Aug-2025,Nilanjon Dhrubo,Munaf Ahmed,3-2,1325.0,1311.0,League
 1347,29-Aug-2025,Wasif Shaer,Ishraq Sifat,3-0,1385.0,1356.0,League
-1348,29-Aug-2025,Tipu (GTT),Munaf Ahmed,3-0,1433.0,1309.0,League
-1349,29-Aug-2025,Masiat,Ishraq Sifat,3-1,1355.0,1348.0,League
+1348,29-Aug-2025,Tipu (GTT),Munaf Ahmed,3-0,1432.0,1308.0,League
+1349,29-Aug-2025,Masiat,Ishraq Sifat,3-1,1355.0,1347.0,League
 1350,29-Aug-2025,Wasif Shaer,Nilanjon Dhrubo,3-0,1389.0,1321.0,League
-1351,29-Aug-2025,Hasib Chowdhury,S M Imam Hasan,3-0,1339.0,1197.0,League
-1352,29-Aug-2025,Mashuq,Ahsan Rahman (FSC),3-1,1266.0,1248.0,League
-1353,29-Aug-2025,Abdullah,Md. Shahid Hasan Rabbani,3-2,1297.0,1221.0,League
-1354,29-Aug-2025,S M Imam Hasan,Mashuq,3-0,1209.0,1255.0,League
-1355,29-Aug-2025,Md. Shahid Hasan Rabbani,Hasib Chowdhury,3-2,1234.0,1325.0,League
-1356,29-Aug-2025,Ahsan Rahman (FSC),Abdullah,3-0,1259.0,1286.0,League
-1357,29-Aug-2025,Md. Shahid Hasan Rabbani,Mashuq,3-1,1244.0,1245.0,League
-1358,29-Aug-2025,Abdullah,S M Imam Hasan,3-1,1290.0,1205.0,League
-1359,29-Aug-2025,Hasib Chowdhury,Ahsan Rahman (FSC),3-2,1330.0,1255.0,League
+1351,29-Aug-2025,Hasib Chowdhury,S M Imam Hasan,3-0,1339.0,1195.0,League
+1352,29-Aug-2025,Mashuq,Ahsan Rahman (FSC),3-1,1266.0,1247.0,League
+1353,29-Aug-2025,Abdullah,Md. Shahid Hasan Rabbani,3-2,1297.0,1219.0,League
+1354,29-Aug-2025,S M Imam Hasan,Mashuq,3-0,1207.0,1254.0,League
+1355,29-Aug-2025,Md. Shahid Hasan Rabbani,Hasib Chowdhury,3-2,1233.0,1325.0,League
+1356,29-Aug-2025,Ahsan Rahman (FSC),Abdullah,3-0,1258.0,1286.0,League
+1357,29-Aug-2025,Md. Shahid Hasan Rabbani,Mashuq,3-1,1242.0,1244.0,League
+1358,29-Aug-2025,Abdullah,S M Imam Hasan,3-1,1289.0,1203.0,League
+1359,29-Aug-2025,Hasib Chowdhury,Ahsan Rahman (FSC),3-2,1329.0,1254.0,League
 1360,29-Aug-2025,Rakib Muktadir,Rubel,3-0,1352.0,1415.0,League
-1361,29-Aug-2025,Adittya,Al Amin Ronie,3-0,1187.0,1071.0,League
-1362,29-Aug-2025,Raishul Islam,Adri (BU),3-1,1151.0,1123.0,League
-1363,29-Aug-2025,Rakib Muktadir,Adittya,3-0,1353.0,1186.0,League
-1364,29-Aug-2025,Rubel,Adri (BU),3-0,1415.0,1123.0,League
-1365,29-Aug-2025,Raishul Islam,Al Amin Ronie,3-1,1154.0,1067.0,League
-1366,29-Aug-2025,Adri (BU),Adittya,3-0,1134.0,1174.0,League
-1367,29-Aug-2025,Rakib Muktadir,Raishul Islam,3-0,1354.0,1154.0,League
-1368,29-Aug-2025,Rubel,Al Amin Ronie,3-0,1416.0,1067.0,League
+1361,29-Aug-2025,Adittya,Al Amin Ronie,3-0,1187.0,1070.0,League
+1362,29-Aug-2025,Raishul Islam,Adri (BU),3-1,1148.0,1079.0,League
+1363,29-Aug-2025,Rakib Muktadir,Adittya,3-0,1353.0,1185.0,League
+1364,29-Aug-2025,Rubel,Adri (BU),3-0,1415.0,1079.0,League
+1365,29-Aug-2025,Raishul Islam,Al Amin Ronie,3-1,1152.0,1067.0,League
+1366,29-Aug-2025,Adri (BU),Adittya,3-0,1092.0,1172.0,League
+1367,29-Aug-2025,Rakib Muktadir,Raishul Islam,3-0,1354.0,1151.0,League
+1368,29-Aug-2025,Rubel,Al Amin Ronie,3-0,1415.0,1067.0,League
 1369,5-Sep-2025,Rifat Chowdhury,Rakib Muktadir,3-1,1484.0,1352.0,League
-1370,5-Sep-2025,Rakib Hridoy,Eftekhar,3-0,1369.0,997.0,League
-1371,5-Sep-2025,Niloy,Adri (BU),3-0,1215.0,1131.0,League
-1372,5-Sep-2025,Rakib Hridoy,Rakib Muktadir,3-2,1376.0,1345.0,League
-1373,5-Sep-2025,Rifat Chowdhury,Adri (BU),3-0,1484.0,1130.0,League
-1374,5-Sep-2025,Niloy,Eftekhar,3-0,1215.0,996.0,League
-1375,5-Sep-2025,Rakib Hridoy,Adri (BU),3-0,1376.0,1130.0,League
-1376,5-Sep-2025,Rakib Muktadir,Niloy,3-0,1347.0,1213.0,League
+1370,5-Sep-2025,Rakib Hridoy,Eftekhar,3-0,1368.0,997.0,League
+1371,5-Sep-2025,Niloy,Adri (BU),3-0,1213.0,1090.0,League
+1372,5-Sep-2025,Rakib Hridoy,Rakib Muktadir,3-2,1375.0,1345.0,League
+1373,5-Sep-2025,Rifat Chowdhury,Adri (BU),3-0,1484.0,1090.0,League
+1374,5-Sep-2025,Niloy,Eftekhar,3-0,1214.0,996.0,League
+1375,5-Sep-2025,Rakib Hridoy,Adri (BU),3-0,1376.0,1090.0,League
+1376,5-Sep-2025,Rakib Muktadir,Niloy,3-0,1347.0,1212.0,League
 1377,5-Sep-2025,Rifat Chowdhury,Eftekhar,3-0,1484.0,996.0,League
 1378,5-Sep-2025,Tipu (GTT),Ashiqur Robin,3-0,1433.0,1174.0,League
-1379,5-Sep-2025,Babul Uddin,Nilanjon Dhrubo,3-0,1579.0,1321.0,League
-1380,5-Sep-2025,Enam Ahmed,Ishraq Sifat,3-0,1386.0,1342.0,League
-1381,5-Sep-2025,Nilanjon Dhrubo,Ashiqur Robin,3-0,1323.0,1173.0,League
+1379,5-Sep-2025,Babul Uddin,Nilanjon Dhrubo,3-0,1579.0,1320.0,League
+1380,5-Sep-2025,Enam Ahmed,Ishraq Sifat,3-0,1386.0,1341.0,League
+1381,5-Sep-2025,Nilanjon Dhrubo,Ashiqur Robin,3-0,1322.0,1172.0,League
 1382,5-Sep-2025,Enam Ahmed,Tipu (GTT),3-1,1397.0,1422.0,League
 1383,5-Sep-2025,Babul Uddin,Ishraq Sifat,3-1,1579.0,1341.0,League
-1384,5-Sep-2025,Enam Ahmed,Nilanjon Dhrubo,3-1,1401.0,1319.0,League
-1385,5-Sep-2025,Ishraq Sifat,Ashiqur Robin,3-0,1342.0,1172.0,League
+1384,5-Sep-2025,Enam Ahmed,Nilanjon Dhrubo,3-1,1401.0,1318.0,League
+1385,5-Sep-2025,Ishraq Sifat,Ashiqur Robin,3-0,1342.0,1171.0,League
 1386,5-Sep-2025,Babul Uddin,Tipu (GTT),3-0,1580.0,1421.0,League
-1387,13-Sep-2025,Fahim Bakhtiar,Towfiq (BUET),3-0,1297.0,1186.0,
+1387,13-Sep-2025,Fahim Bakhtiar,Towfiq (BUET),3-0,1297.0,1183.0,
 1388,13-Sep-2025,Mustafiz (Vivasoft),Asad Zaman (bKash),3-0,1161.0,1184.0,
-1389,13-Sep-2025,Towfiq (BUET),Mustafiz (Vivasoft),3-1,1192.0,1154.0,
+1389,13-Sep-2025,Towfiq (BUET),Mustafiz (Vivasoft),3-1,1190.0,1154.0,
 1390,13-Sep-2025,Fahim Bakhtiar,Asad Zaman (bKash),3-2,1299.0,1181.0,
-1391,13-Sep-2025,Fahim Bakhtiar,Mustafiz (Vivasoft),3-2,1301.0,1153.0,
-1392,13-Sep-2025,Towfiq (BUET),Asad Zaman (bKash),3-0,1200.0,1174.0,
+1391,13-Sep-2025,Fahim Bakhtiar,Mustafiz (Vivasoft),3-2,1301.0,1152.0,
+1392,13-Sep-2025,Towfiq (BUET),Asad Zaman (bKash),3-0,1197.0,1174.0,
 1393,13-Sep-2025,Dibya Joti (SBMCH),Abdullah,3-1,1185.0,1276.0,
 1394,13-Sep-2025,Riaz (GTT-SS),Mostofa (AIUB),3-1,1200.0,1097.0,
 1395,13-Sep-2025,Dibya Joti (SBMCH),Mostofa (AIUB),3-0,1189.0,1094.0,
-1396,13-Sep-2025,Abdullah,Riaz (GTT-SS),3-0,1280.0,1196.0,
-1397,13-Sep-2025,Abdullah,Mostofa (AIUB),3-0,1281.0,1093.0,
+1396,13-Sep-2025,Abdullah,Riaz (GTT-SS),3-0,1279.0,1196.0,
+1397,13-Sep-2025,Abdullah,Mostofa (AIUB),3-0,1280.0,1093.0,
 1398,13-Sep-2025,Dibya Joti (SBMCH),Riaz (GTT-SS),3-1,1197.0,1188.0,
-1399,13-Sep-2025,Salim (Belgium),Hasnu,3-0,1292.0,1174.0,
+1399,13-Sep-2025,Salim (Belgium),Hasnu,3-0,1292.0,1172.0,
 1400,13-Sep-2025,Tamim (ACI),Sayed (Vivasoft),3-0,1203.0,1097.0,
-1401,13-Sep-2025,Hasnu,Sayed (Vivasoft),3-1,1177.0,1093.0,
+1401,13-Sep-2025,Hasnu,Sayed (Vivasoft),3-1,1176.0,1093.0,
 1402,13-Sep-2025,Salim (Belgium),Tamim (ACI),3-0,1296.0,1200.0,
 1403,13-Sep-2025,Salim (Belgium),Sayed (Vivasoft),3-0,1296.0,1093.0,
-1404,13-Sep-2025,Hasnu,Tamim (ACI),3-2,1187.0,1190.0,
+1404,13-Sep-2025,Hasnu,Tamim (ACI),3-2,1185.0,1190.0,
 1405,13-Sep-2025,Shatil,Hasibur Rahman (BC),3-1,1287.0,1155.0,
-1406,13-Sep-2025,Arib Akash (AIUB),Rifat (BUET),3-0,1212.0,1126.0,
+1406,13-Sep-2025,Arib Akash (AIUB),Rifat (BUET),3-0,1211.0,1125.0,
 1407,13-Sep-2025,Rifat (BUET),Hasibur Rahman (BC),3-1,1135.0,1145.0,
-1408,13-Sep-2025,Shatil,Arib Akash (AIUB),3-1,1291.0,1208.0,
-1409,13-Sep-2025,Shatil,Rifat (BUET),3-1,1292.0,1134.0,
+1408,13-Sep-2025,Shatil,Arib Akash (AIUB),3-1,1291.0,1207.0,
+1409,13-Sep-2025,Shatil,Rifat (BUET),3-1,1292.0,1133.0,
 1410,13-Sep-2025,Arib Akash (AIUB),Hasibur Rahman (BC),3-2,1212.0,1140.0,
 1411,13-Sep-2025,Rashedul Hasan (SBMCH),Ahmed Shakil,3-1,1164.0,1249.0,
 1412,13-Sep-2025,Noor (BC),Shoaib Chowdhury (DUFA),3-1,1136.0,1204.0,
-1413,13-Sep-2025,Rashedul Hasan (SBMCH),Noor (BC),3-0,1170.0,1130.0,
+1413,13-Sep-2025,Rashedul Hasan (SBMCH),Noor (BC),3-0,1170.0,1129.0,
 1414,13-Sep-2025,Ahmed Shakil,Shoaib Chowdhury (DUFA),3-1,1254.0,1199.0,
-1415,13-Sep-2025,Ahmed Shakil,Noor (BC),3-0,1256.0,1128.0,
+1415,13-Sep-2025,Ahmed Shakil,Noor (BC),3-0,1256.0,1127.0,
 1416,13-Sep-2025,Shoaib Chowdhury (DUFA),Rashedul Hasan (SBMCH),3-1,1205.0,1164.0,
-1417,13-Sep-2025,Ahsan Rahman (FSC),Nipon,3-0,1257.0,1127.0,
+1417,13-Sep-2025,Ahsan Rahman (FSC),Nipon,3-0,1256.0,1127.0,
 1418,13-Sep-2025,Alam (DUFA),Abdullah Noman,3-0,1153.0,1076.0,
 1419,13-Sep-2025,Nipon,Abdullah Noman,3-0,1132.0,1071.0,
-1420,13-Sep-2025,Ahsan Rahman (FSC),Arsil Ajim (BC),3-1,1264.0,1232.0,
-1421,13-Sep-2025,Ahsan Rahman (FSC),Abdullah Noman,3-0,1265.0,1070.0,
-1422,13-Sep-2025,Arsil Ajim (BC),Alam (DUFA),3-0,1236.0,1150.0,
-1423,13-Sep-2025,Ahsan Rahman (FSC),Alam (DUFA),3-0,1267.0,1147.0,
-1424,13-Sep-2025,Arsil Ajim (BC),Nipon,3-1,1239.0,1130.0,
-1425,13-Sep-2025,Arsil Ajim (BC),Abdullah Noman,3-0,1240.0,1069.0,
+1420,13-Sep-2025,Ahsan Rahman (FSC),Arsil Ajim (BC),3-1,1263.0,1231.0,
+1421,13-Sep-2025,Ahsan Rahman (FSC),Abdullah Noman,3-0,1264.0,1070.0,
+1422,13-Sep-2025,Arsil Ajim (BC),Alam (DUFA),3-0,1235.0,1150.0,
+1423,13-Sep-2025,Ahsan Rahman (FSC),Alam (DUFA),3-0,1266.0,1147.0,
+1424,13-Sep-2025,Arsil Ajim (BC),Nipon,3-1,1238.0,1130.0,
+1425,13-Sep-2025,Arsil Ajim (BC),Abdullah Noman,3-0,1239.0,1069.0,
 1426,13-Sep-2025,Nipon,Alam (DUFA),3-0,1139.0,1138.0,
-1427,13-Sep-2025,Md. Shahid Hasan Rabbani,Joy (DUFA),3-0,1247.0,1142.0,
+1427,13-Sep-2025,Md. Shahid Hasan Rabbani,Joy (DUFA),3-0,1245.0,1141.0,
 1428,13-Sep-2025,Md Hanif,Rayan CTS (GTT-G),3-0,1151.0,1071.0,
-1429,13-Sep-2025,Joy (DUFA),Rayan CTS (GTT-G),3-1,1146.0,1067.0,
-1430,13-Sep-2025,Md. Shahid Hasan Rabbani,Shammam,3-2,1254.0,1232.0,
-1431,13-Sep-2025,Md. Shahid Hasan Rabbani,Rayan CTS (GTT-G),3-0,1255.0,1067.0,
-1432,13-Sep-2025,Shammam,Md Hanif,3-0,1235.0,1147.0,
-1433,13-Sep-2025,Md. Shahid Hasan Rabbani,Md Hanif,3-0,1258.0,1145.0,
+1429,13-Sep-2025,Joy (DUFA),Rayan CTS (GTT-G),3-1,1145.0,1067.0,
+1430,13-Sep-2025,Md. Shahid Hasan Rabbani,Shammam,3-2,1253.0,1231.0,
+1431,13-Sep-2025,Md. Shahid Hasan Rabbani,Rayan CTS (GTT-G),3-0,1254.0,1066.0,
+1432,13-Sep-2025,Shammam,Md Hanif,3-0,1234.0,1147.0,
+1433,13-Sep-2025,Md. Shahid Hasan Rabbani,Md Hanif,3-0,1256.0,1144.0,
 1434,13-Sep-2025,Shammam,Joy (DUFA),3-0,1238.0,1142.0,
-1435,13-Sep-2025,Shammam,Rayan CTS (GTT-G),3-1,1240.0,1065.0,
-1436,13-Sep-2025,Md Hanif,Joy (DUFA),3-0,1152.0,1135.0,
-1437,13-Sep-2025,Arsil Ajim (BC),Shammam,3-0,1248.0,1232.0,
-1438,13-Sep-2025,Hasnu,Rashedul Hasan (SBMCH),3-2,1193.0,1157.0,
-1439,13-Sep-2025,Shatil,Abdullah,3-2,1299.0,1274.0,
-1440,13-Sep-2025,Salim (Belgium),Towfiq (BUET),3-2,1299.0,1197.0,
-1441,13-Sep-2025,Ahsan Rahman (FSC),Arib Akash (AIUB),3-0,1272.0,1207.0,
-1442,13-Sep-2025,Ahmed Shakil,Md. Shahid Hasan Rabbani,3-0,1264.0,1249.0,
-1443,13-Sep-2025,Arsil Ajim (BC),Fahim Bakhtiar,3-0,1259.0,1290.0,
-1444,13-Sep-2025,Shatil,Hasnu,3-2,1302.0,1191.0,
-1445,13-Sep-2025,Salim (Belgium),Ahsan Rahman (FSC),3-0,1306.0,1266.0,
-1446,13-Sep-2025,Ahmed Shakil,Dibya Joti (SBMCH),3-0,1269.0,1193.0,
-1447,13-Sep-2025,Arsil Ajim (BC),Shatil,3-1,1269.0,1291.0,
-1448,13-Sep-2025,Ahmed Shakil,Salim (Belgium),3-1,1279.0,1295.0,
-1449,13-Sep-2025,Arsil Ajim (BC),Ahmed Shakil,3-1,1278.0,1270.0,
+1435,13-Sep-2025,Shammam,Rayan CTS (GTT-G),3-1,1239.0,1065.0,
+1436,13-Sep-2025,Md Hanif,Joy (DUFA),3-0,1152.0,1134.0,
+1437,13-Sep-2025,Arsil Ajim (BC),Shammam,3-0,1247.0,1231.0,
+1438,13-Sep-2025,Hasnu,Rashedul Hasan (SBMCH),3-2,1192.0,1157.0,
+1439,13-Sep-2025,Shatil,Abdullah,3-2,1299.0,1273.0,
+1440,13-Sep-2025,Salim (Belgium),Towfiq (BUET),3-2,1299.0,1194.0,
+1441,13-Sep-2025,Ahsan Rahman (FSC),Arib Akash (AIUB),3-0,1271.0,1207.0,
+1442,13-Sep-2025,Ahmed Shakil,Md. Shahid Hasan Rabbani,3-0,1264.0,1248.0,
+1443,13-Sep-2025,Arsil Ajim (BC),Fahim Bakhtiar,3-0,1258.0,1289.0,
+1444,13-Sep-2025,Shatil,Hasnu,3-2,1302.0,1189.0,
+1445,13-Sep-2025,Salim (Belgium),Ahsan Rahman (FSC),3-0,1305.0,1265.0,
+1446,13-Sep-2025,Ahmed Shakil,Dibya Joti (SBMCH),3-0,1268.0,1193.0,
+1447,13-Sep-2025,Arsil Ajim (BC),Shatil,3-1,1268.0,1291.0,
+1448,13-Sep-2025,Ahmed Shakil,Salim (Belgium),3-1,1278.0,1295.0,
+1449,13-Sep-2025,Arsil Ajim (BC),Ahmed Shakil,3-1,1277.0,1270.0,
 1450,14-Sep-2025,Rifat Chowdhury,Masiat,3-1,1486.0,1353.0,League
-1451,14-Sep-2025,Wasif Shaer,Niloy,3-0,1390.0,1212.0,League
-1452,14-Sep-2025,Rakib Hridoy,Munaf Ahmed,3-1,1380.0,1305.0,League
+1451,14-Sep-2025,Wasif Shaer,Niloy,3-0,1390.0,1211.0,League
+1452,14-Sep-2025,Rakib Hridoy,Munaf Ahmed,3-1,1380.0,1304.0,League
 1453,14-Sep-2025,Rifat Chowdhury,Wasif Shaer,3-1,1489.0,1387.0,League
-1454,14-Sep-2025,Masiat,Rakib Hridoy,3-2,1363.0,1371.0,League
-1455,14-Sep-2025,Niloy,Munaf Ahmed,3-1,1225.0,1292.0,League
-1456,14-Sep-2025,Wasif Shaer,Rakib Hridoy,3-1,1394.0,1364.0,League
+1454,14-Sep-2025,Masiat,Rakib Hridoy,3-2,1363.0,1370.0,League
+1455,14-Sep-2025,Niloy,Munaf Ahmed,3-1,1224.0,1291.0,League
+1456,14-Sep-2025,Wasif Shaer,Rakib Hridoy,3-1,1394.0,1363.0,League
 1457,14-Sep-2025,Rifat Chowdhury,Munaf Ahmed,3-0,1490.0,1291.0,League
-1458,14-Sep-2025,Masiat,Niloy,3-0,1365.0,1224.0,League
-1459,26-Sep-2025,Babul Uddin,Niloy,3-0,1580.0,1224.0,League
-1460,26-Sep-2025,Enam Ahmed,Rifat Chowdhury,3-2,1414.0,1477.0,League
-1461,26-Sep-2025,Rakib Hridoy,Ashiqur Robin,3-1,1364.0,1171.0,League
+1458,14-Sep-2025,Masiat,Niloy,3-0,1364.0,1222.0,League
+1459,26-Sep-2025,Babul Uddin,Niloy,3-0,1580.0,1222.0,League
+1460,26-Sep-2025,Enam Ahmed,Rifat Chowdhury,3-2,1413.0,1477.0,League
+1461,26-Sep-2025,Rakib Hridoy,Ashiqur Robin,3-1,1364.0,1170.0,League
 1462,26-Sep-2025,Babul Uddin,Rifat Chowdhury,3-2,1583.0,1474.0,League
-1463,26-Sep-2025,Niloy,Ashiqur Robin,3-1,1228.0,1166.0,League
+1463,26-Sep-2025,Niloy,Ashiqur Robin,3-1,1227.0,1165.0,League
 1464,26-Sep-2025,Rakib Hridoy,Enam Ahmed,3-1,1375.0,1403.0,League
-1465,26-Sep-2025,Rifat Chowdhury,Ashiqur Robin,3-0,1474.0,1166.0,League
-1466,26-Sep-2025,Babul Uddin,Rakib Hridoy,3-1,1584.0,1375.0,League
-1467,26-Sep-2025,Enam Ahmed,Niloy,3-0,1404.0,1227.0,League
+1465,26-Sep-2025,Rifat Chowdhury,Ashiqur Robin,3-0,1474.0,1165.0,League
+1466,26-Sep-2025,Babul Uddin,Rakib Hridoy,3-1,1584.0,1374.0,League
+1467,26-Sep-2025,Enam Ahmed,Niloy,3-0,1404.0,1226.0,League
 1468,11-Oct-2025,Rezanur Ashik,Adv Sadat,3-0,1351.0,1185.0,
-1469,11-Oct-2025,Dollar Mehedi (MTTA),Eftekhar,3-0,1193.0,996.0,
-1470,11-Oct-2025,Adv Sadat,Eftekhar,3-0,1186.0,995.0,
+1469,11-Oct-2025,Dollar Mehedi (MTTA),Eftekhar,3-0,1193.0,995.0,
+1470,11-Oct-2025,Adv Sadat,Eftekhar,3-0,1185.0,995.0,
 1471,11-Oct-2025,Rezanur Ashik,Dollar Mehedi (MTTA),3-1,1352.0,1191.0,
-1472,11-Oct-2025,Rezanur Ashik,Eftekhar,3-0,1353.0,995.0,
+1472,11-Oct-2025,Rezanur Ashik,Eftekhar,3-0,1353.0,994.0,
 1473,11-Oct-2025,Adv Sadat,Dollar Mehedi (MTTA),3-1,1194.0,1183.0,
-1474,11-Oct-2025,Ishraq Sifat,Abdullah Mamun,3-1,1344.0,1174.0,
-1475,11-Oct-2025,Arsil Ajim (BC),Himel (MTTA),3-1,1279.0,1098.0,
+1474,11-Oct-2025,Ishraq Sifat,Abdullah Mamun,3-1,1343.0,1174.0,
+1475,11-Oct-2025,Arsil Ajim (BC),Himel (MTTA),3-1,1278.0,1098.0,
 1476,11-Oct-2025,Abdullah Mamun,Himel (MTTA),3-1,1178.0,1094.0,
-1477,11-Oct-2025,Ishraq Sifat,Arsil Ajim (BC),3-0,1348.0,1275.0,
+1477,11-Oct-2025,Ishraq Sifat,Arsil Ajim (BC),3-0,1348.0,1274.0,
 1478,11-Oct-2025,Ishraq Sifat,Himel (MTTA),3-0,1348.0,1094.0,
 1479,11-Oct-2025,Arsil Ajim (BC),Abdullah Mamun,3-2,1277.0,1175.0,
 1480,11-Oct-2025,Dibya Joti (SBMCH),Mustafa Jain (CCCL),3-1,1207.0,1321.0,
 1481,11-Oct-2025,Shammam,Shadab Aiman (BU),3-0,1233.0,1098.0,
-1482,11-Oct-2025,Dibya Joti (SBMCH),Shadab Aiman (BU),3-1,1210.0,1096.0,
-1483,11-Oct-2025,Shammam,Mustafa Jain (CCCL),3-1,1246.0,1308.0,
+1482,11-Oct-2025,Dibya Joti (SBMCH),Shadab Aiman (BU),3-1,1210.0,1095.0,
+1483,11-Oct-2025,Shammam,Mustafa Jain (CCCL),3-1,1245.0,1308.0,
 1484,11-Oct-2025,Mustafa Jain (CCCL),Shadab Aiman (BU),3-0,1309.0,1095.0,
-1485,11-Oct-2025,Dibya Joti (SBMCH),Shammam,3-1,1220.0,1236.0,
-1486,11-Oct-2025,AR Fahim,Hasnu,3-0,1324.0,1189.0,
-1487,11-Oct-2025,Ahsan Rahman (FSC),Nipon,3-1,1268.0,1137.0,
-1488,11-Oct-2025,Nipon,Hasnu,3-2,1148.0,1178.0,
-1489,11-Oct-2025,AR Fahim,Ahsan Rahman (FSC),3-0,1329.0,1263.0,
-1490,11-Oct-2025,AR Fahim,Nipon,3-0,1330.0,1147.0,
-1491,11-Oct-2025,Ahsan Rahman (FSC),Hasnu,3-1,1266.0,1174.0,
+1485,11-Oct-2025,Dibya Joti (SBMCH),Shammam,3-1,1220.0,1235.0,
+1486,11-Oct-2025,AR Fahim,Hasnu,3-0,1324.0,1187.0,
+1487,11-Oct-2025,Ahsan Rahman (FSC),Nipon,3-1,1267.0,1137.0,
+1488,11-Oct-2025,Nipon,Hasnu,3-2,1148.0,1176.0,
+1489,11-Oct-2025,AR Fahim,Ahsan Rahman (FSC),3-0,1328.0,1262.0,
+1490,11-Oct-2025,AR Fahim,Nipon,3-0,1329.0,1147.0,
+1491,11-Oct-2025,Ahsan Rahman (FSC),Hasnu,3-1,1265.0,1173.0,
 1492,11-Oct-2025,Frank,Ashiqur Robin,3-0,1331.0,1164.0,
-1493,11-Oct-2025,Saleh Junior (MTTA),Joy (DUFA),3-1,1271.0,1133.0,
-1494,11-Oct-2025,Ashiqur Robin,Joy (DUFA),3-0,1171.0,1127.0,
+1493,11-Oct-2025,Saleh Junior (MTTA),Joy (DUFA),3-1,1271.0,1132.0,
+1494,11-Oct-2025,Ashiqur Robin,Joy (DUFA),3-0,1170.0,1126.0,
 1495,11-Oct-2025,Frank,Saleh Junior (MTTA),3-0,1336.0,1266.0,
 1496,11-Oct-2025,Frank,Joy (DUFA),3-0,1336.0,1126.0,
-1497,11-Oct-2025,Ashiqur Robin,Saleh Junior (MTTA),3-0,1184.0,1253.0,
+1497,11-Oct-2025,Ashiqur Robin,Saleh Junior (MTTA),3-0,1183.0,1253.0,
 1498,11-Oct-2025,Jubayer,Aurio (BU),3-2,1306.0,1149.0,
-1499,11-Oct-2025,Abdullah,Md Hanif,3-0,1276.0,1150.0,
+1499,11-Oct-2025,Abdullah,Md Hanif,3-0,1275.0,1150.0,
 1500,11-Oct-2025,Md Hanif,Aurio (BU),3-2,1158.0,1141.0,
-1501,11-Oct-2025,Jubayer,Abdullah,3-2,1312.0,1270.0,
+1501,11-Oct-2025,Jubayer,Abdullah,3-2,1312.0,1269.0,
 1502,11-Oct-2025,Jubayer,Md Hanif,3-2,1314.0,1157.0,
 1503,11-Oct-2025,Abdullah,Aurio (BU),3-0,1271.0,1139.0,
-1504,11-Oct-2025,Shammam,Abdullah,3-2,1246.0,1261.0,
-1505,11-Oct-2025,Frank,Arsil Ajim (BC),3-0,1341.0,1273.0,
+1504,11-Oct-2025,Shammam,Abdullah,3-2,1245.0,1261.0,
+1505,11-Oct-2025,Frank,Arsil Ajim (BC),3-0,1341.0,1272.0,
 1506,11-Oct-2025,Jubayer,Adv Sadat,3-0,1316.0,1192.0,
-1507,11-Oct-2025,Ahsan Rahman (FSC),Ashiqur Robin,3-0,1270.0,1180.0,
+1507,11-Oct-2025,Ahsan Rahman (FSC),Ashiqur Robin,3-0,1269.0,1180.0,
 1508,11-Oct-2025,Rezanur Ashik,Shammam,3-0,1355.0,1243.0,
 1509,11-Oct-2025,AR Fahim,Frank,3-0,1338.0,1332.0,
 1510,11-Oct-2025,Dibya Joti (SBMCH),Jubayer,3-2,1233.0,1303.0,
-1511,11-Oct-2025,Ahsan Rahman (FSC),Ishraq Sifat,3-2,1282.0,1336.0,
+1511,11-Oct-2025,Ahsan Rahman (FSC),Ishraq Sifat,3-2,1281.0,1336.0,
 1512,11-Oct-2025,Rezanur Ashik,AR Fahim,3-1,1362.0,1331.0,
-1513,11-Oct-2025,Dibya Joti (SBMCH),Ahsan Rahman (FSC),3-1,1244.0,1271.0,
-1514,11-Oct-2025,Rezanur Ashik,Dibya Joti (SBMCH),3-2,1364.0,1242.0,
-1515,18-Oct-2025,Dr. Nuruzzaman Shakil,Ahsan Rahman (FSC),3-0,1451.0,1270.0,
+1513,11-Oct-2025,Dibya Joti (SBMCH),Ahsan Rahman (FSC),3-1,1244.0,1270.0,
+1514,11-Oct-2025,Rezanur Ashik,Dibya Joti (SBMCH),3-2,1364.0,1241.0,
+1515,18-Oct-2025,Dr. Nuruzzaman Shakil,Ahsan Rahman (FSC),3-0,1451.0,1269.0,
 1516,18-Oct-2025,Samir Majumder,Ahnaf Rifat (DU),3-0,1273.0,1099.0,
 1517,18-Oct-2025,Ahsan Rahman (FSC),Ahnaf Rifat (DU),3-0,1271.0,1098.0,
 1518,18-Oct-2025,Dr. Nuruzzaman Shakil,Samir Majumder,3-1,1452.0,1272.0,
 1519,18-Oct-2025,Dr. Nuruzzaman Shakil,Ahnaf Rifat (DU),3-0,1452.0,1098.0,
 1520,18-Oct-2025,Samir Majumder,Ahsan Rahman (FSC),3-1,1280.0,1263.0,
-1521,18-Oct-2025,Tipu (GTT),Ahmed Shakil,3-0,1422.0,1269.0,
-1522,18-Oct-2025,Arsil Ajim (BC),Rayhan Ibn Sajjad (DU),3-0,1274.0,1099.0,
+1521,18-Oct-2025,Tipu (GTT),Ahmed Shakil,3-0,1422.0,1268.0,
+1522,18-Oct-2025,Arsil Ajim (BC),Rayhan Ibn Sajjad (DU),3-0,1273.0,1099.0,
 1523,18-Oct-2025,Ahmed Shakil,Rayhan Ibn Sajjad (DU),3-0,1270.0,1098.0,
 1524,18-Oct-2025,Arsil Ajim (BC),Tipu (GTT),3-1,1288.0,1408.0,
 1525,18-Oct-2025,Tipu (GTT),Rayhan Ibn Sajjad (DU),3-0,1408.0,1098.0,
 1526,18-Oct-2025,Arsil Ajim (BC),Ahmed Shakil,3-2,1295.0,1263.0,
-1527,18-Oct-2025,Rubel,Abdullah,3-0,1417.0,1260.0,
+1527,18-Oct-2025,Rubel,Abdullah,3-0,1417.0,1259.0,
 1528,18-Oct-2025,Shatil,Nipon,3-0,1293.0,1145.0,
 1529,18-Oct-2025,Abdullah,Nipon,3-2,1262.0,1143.0,
 1530,18-Oct-2025,Rubel,Shatil,3-2,1419.0,1291.0,
@@ -1537,71 +1537,71 @@ SL No,Date,Player 1,Player 2,Result,Rating P1,Rating P2,Special
 1536,18-Oct-2025,Rezanur Ashik,Jubayer,3-1,1356.0,1299.0,
 1537,18-Oct-2025,Rezanur Ashik,Md Hanif,3-0,1357.0,1152.0,
 1538,18-Oct-2025,Showmik Aziz (GTT-SS),Jubayer,3-2,1281.0,1289.0,
-1539,18-Oct-2025,Rakib Muktadir,Shammam,3-1,1350.0,1241.0,
-1540,18-Oct-2025,Abdullah Fahim,Faisal Nazmul,3-0,1315.0,1163.0,
+1539,18-Oct-2025,Rakib Muktadir,Shammam,3-1,1349.0,1240.0,
+1540,18-Oct-2025,Abdullah Fahim,Faisal Nazmul,3-0,1315.0,1162.0,
 1541,18-Oct-2025,Shammam,Faisal Nazmul,3-0,1244.0,1159.0,
 1542,18-Oct-2025,Rakib Muktadir,Abdullah Fahim,3-0,1355.0,1309.0,
 1543,18-Oct-2025,Rakib Muktadir,Faisal Nazmul,3-1,1356.0,1158.0,
 1544,18-Oct-2025,Abdullah Fahim,Shammam,3-1,1314.0,1240.0,
-1545,18-Oct-2025,AR Fahim,Ashiqur Robin,3-0,1333.0,1179.0,
+1545,18-Oct-2025,AR Fahim,Ashiqur Robin,3-0,1332.0,1178.0,
 1546,18-Oct-2025,Dibya Joti (SBMCH),Eftekhar,3-0,1242.0,994.0,
-1547,18-Oct-2025,Ashiqur Robin,Eftekhar,3-1,1179.0,994.0,
-1548,18-Oct-2025,Ishraq Sifat,AR Fahim,3-1,1344.0,1325.0,
+1547,18-Oct-2025,Ashiqur Robin,Eftekhar,3-1,1179.0,993.0,
+1548,18-Oct-2025,Ishraq Sifat,AR Fahim,3-1,1343.0,1325.0,
 1549,18-Oct-2025,AR Fahim,Eftekhar,3-0,1325.0,993.0,
 1550,18-Oct-2025,Ishraq Sifat,Dibya Joti (SBMCH),3-2,1346.0,1239.0,
 1551,18-Oct-2025,Dibya Joti (SBMCH),AR Fahim,3-2,1252.0,1312.0,
-1552,18-Oct-2025,Ashiqur Robin,Ishraq Sifat,3-1,1194.0,1332.0,
-1553,18-Oct-2025,Ishraq Sifat,Eftekhar,3-0,1332.0,993.0,
-1554,18-Oct-2025,Dibya Joti (SBMCH),Ashiqur Robin,3-0,1256.0,1190.0,
-1555,18-Oct-2025,Dibya Joti (SBMCH),Shatil,3-1,1267.0,1287.0,
+1552,18-Oct-2025,Ashiqur Robin,Ishraq Sifat,3-1,1194.0,1331.0,
+1553,18-Oct-2025,Ishraq Sifat,Eftekhar,3-0,1331.0,993.0,
+1554,18-Oct-2025,Dibya Joti (SBMCH),Ashiqur Robin,3-0,1256.0,1189.0,
+1555,18-Oct-2025,Dibya Joti (SBMCH),Shatil,3-1,1267.0,1286.0,
 1556,18-Oct-2025,Rakib Muktadir,Tipu (GTT),3-1,1367.0,1397.0,
-1557,18-Oct-2025,Ishraq Sifat,Samir Majumder,3-1,1337.0,1275.0,
+1557,18-Oct-2025,Ishraq Sifat,Samir Majumder,3-1,1336.0,1275.0,
 1558,18-Oct-2025,Abdullah Fahim,Rezanur Ashik,3-1,1324.0,1346.0,
 1559,18-Oct-2025,Dr. Nuruzzaman Shakil,Dibya Joti (SBMCH),3-0,1453.0,1266.0,
 1560,18-Oct-2025,Ishraq Sifat,Rubel,3-1,1349.0,1407.0,
-1561,18-Oct-2025,Arsil Ajim (BC),Abdullah Fahim,3-0,1305.0,1314.0,
-1562,18-Oct-2025,Ishraq Sifat,Arsil Ajim (BC),3-1,1355.0,1300.0,
+1561,18-Oct-2025,Arsil Ajim (BC),Abdullah Fahim,3-0,1304.0,1314.0,
+1562,18-Oct-2025,Ishraq Sifat,Arsil Ajim (BC),3-1,1354.0,1299.0,
 1563,18-Oct-2025,Dr. Nuruzzaman Shakil,Showmik Aziz (GTT-SS),3-1,1454.0,1280.0,
-1564,18-Oct-2025,Dr. Nuruzzaman Shakil,Ishraq Sifat,3-1,1457.0,1352.0,
-1565,15-Nov-2025,Towfiq (BUET),Aurio (BU),3-0,1201.0,1134.0,
+1564,18-Oct-2025,Dr. Nuruzzaman Shakil,Ishraq Sifat,3-1,1457.0,1351.0,
+1565,15-Nov-2025,Towfiq (BUET),Aurio (BU),3-0,1199.0,1134.0,
 1566,15-Nov-2025,Nipon,Ziaul Huq,3-0,1148.0,1095.0,
 1567,15-Nov-2025,Aurio (BU),Ziaul Huq,3-1,1140.0,1089.0,
-1568,15-Nov-2025,Towfiq (BUET),Nipon,3-2,1206.0,1143.0,
-1569,15-Nov-2025,Towfiq (BUET),Ziaul Huq,3-0,1209.0,1087.0,
+1568,15-Nov-2025,Towfiq (BUET),Nipon,3-2,1204.0,1143.0,
+1569,15-Nov-2025,Towfiq (BUET),Ziaul Huq,3-0,1206.0,1087.0,
 1570,15-Nov-2025,Nipon,Aurio (BU),3-1,1151.0,1132.0,
-1571,15-Nov-2025,Hussain (BU),Sk. Anand,3-1,1190.0,1128.0,
-1572,15-Nov-2025,Raihan Mastafa,Raiyad,3-0,1139.0,1142.0,
-1573,15-Nov-2025,Sk. Anand,Raihan Mastafa,3-1,1137.0,1131.0,
-1574,15-Nov-2025,Hussain (BU),Raiyad,3-0,1196.0,1137.0,
+1571,15-Nov-2025,Hussain (BU),Sk. Anand,3-1,1190.0,1125.0,
+1572,15-Nov-2025,Raihan Mastafa,Raiyad,3-0,1139.0,1139.0,
+1573,15-Nov-2025,Sk. Anand,Raihan Mastafa,3-1,1134.0,1130.0,
+1574,15-Nov-2025,Hussain (BU),Raiyad,3-0,1195.0,1134.0,
 1575,15-Nov-2025,Hussain (BU),Raihan Mastafa,3-0,1200.0,1126.0,
-1576,15-Nov-2025,Sk. Anand,Raiyad,3-1,1145.0,1129.0,
+1576,15-Nov-2025,Sk. Anand,Raiyad,3-1,1142.0,1126.0,
 1577,15-Nov-2025,Asif Rayhan,Eftekhar,3-0,1181.0,992.0,
 1578,15-Nov-2025,Eshan (Lalbagh),Joy (DUFA),3-0,1157.0,1119.0,
 1579,15-Nov-2025,Eshan (Lalbagh),Eftekhar,3-1,1158.0,991.0,
-1580,15-Nov-2025,Rashedul Hasan (SBMCH),Asif Rayhan,3-1,1167.0,1172.0,
-1581,15-Nov-2025,Eshan (Lalbagh),Asif Rayhan,3-2,1167.0,1163.0,
+1580,15-Nov-2025,Rashedul Hasan (SBMCH),Asif Rayhan,3-1,1166.0,1171.0,
+1581,15-Nov-2025,Eshan (Lalbagh),Asif Rayhan,3-2,1167.0,1162.0,
 1582,15-Nov-2025,Rashedul Hasan (SBMCH),Joy (DUFA),3-1,1172.0,1114.0,
 1583,15-Nov-2025,Asif Rayhan,Joy (DUFA),3-1,1168.0,1109.0,
 1584,15-Nov-2025,Rashedul Hasan (SBMCH),Eftekhar,3-0,1173.0,990.0,
 1585,15-Nov-2025,Eshan (Lalbagh),Rashedul Hasan (SBMCH),3-1,1175.0,1164.0,
 1586,15-Nov-2025,Joy (DUFA),Eftekhar,3-2,1111.0,988.0,
-1587,15-Nov-2025,Abir (ULAB),Adri (BU),3-1,1181.0,1125.0,
+1587,15-Nov-2025,Abir (ULAB),Adri (BU),3-1,1178.0,1086.0,
 1588,15-Nov-2025,Tahmid (AIUB),Sakib Khan Redoy,3-0,1105.0,1045.0,
-1589,15-Nov-2025,Adri (BU),Tahmid (AIUB),3-0,1132.0,1098.0,
-1590,15-Nov-2025,Hasnu,Abir (ULAB),3-2,1183.0,1172.0,
-1591,15-Nov-2025,Abir (ULAB),Tahmid (AIUB),3-2,1176.0,1094.0,
-1592,15-Nov-2025,Hasnu,Sakib Khan Redoy,3-0,1184.0,1043.0,
-1593,15-Nov-2025,Abir (ULAB),Sakib Khan Redoy,3-0,1178.0,1041.0,
-1594,15-Nov-2025,Hasnu,Adri (BU),3-2,1189.0,1127.0,
-1595,15-Nov-2025,Hasnu,Tahmid (AIUB),3-0,1192.0,1091.0,
-1596,15-Nov-2025,Adri (BU),Sakib Khan Redoy,3-1,1130.0,1038.0,
-1597,15-Nov-2025,Towfiq (BUET),Sk. Anand,3-0,1213.0,1140.0,
-1598,15-Nov-2025,Rashedul Hasan (SBMCH),Hasnu,3-1,1174.0,1183.0,
-1599,15-Nov-2025,Abir (ULAB),Eshan (Lalbagh),3-0,1186.0,1167.0,
+1589,15-Nov-2025,Adri (BU),Tahmid (AIUB),3-0,1096.0,1096.0,
+1590,15-Nov-2025,Hasnu,Abir (ULAB),3-2,1181.0,1170.0,
+1591,15-Nov-2025,Abir (ULAB),Tahmid (AIUB),3-2,1174.0,1092.0,
+1592,15-Nov-2025,Hasnu,Sakib Khan Redoy,3-0,1183.0,1043.0,
+1593,15-Nov-2025,Abir (ULAB),Sakib Khan Redoy,3-0,1176.0,1041.0,
+1594,15-Nov-2025,Hasnu,Adri (BU),3-2,1186.0,1092.0,
+1595,15-Nov-2025,Hasnu,Tahmid (AIUB),3-0,1189.0,1089.0,
+1596,15-Nov-2025,Adri (BU),Sakib Khan Redoy,3-1,1097.0,1036.0,
+1597,15-Nov-2025,Towfiq (BUET),Sk. Anand,3-0,1211.0,1137.0,
+1598,15-Nov-2025,Rashedul Hasan (SBMCH),Hasnu,3-1,1174.0,1180.0,
+1599,15-Nov-2025,Abir (ULAB),Eshan (Lalbagh),3-0,1184.0,1167.0,
 1600,15-Nov-2025,Hussain (BU),Nipon,3-1,1205.0,1146.0,
-1601,15-Nov-2025,Towfiq (BUET),Rashedul Hasan (SBMCH),3-0,1219.0,1168.0,
-1602,15-Nov-2025,Hussain (BU),Abir (ULAB),3-2,1212.0,1179.0,
-1603,15-Nov-2025,Hussain (BU),Towfiq (BUET),3-1,1220.0,1210.0,
+1601,15-Nov-2025,Towfiq (BUET),Rashedul Hasan (SBMCH),3-0,1216.0,1168.0,
+1602,15-Nov-2025,Hussain (BU),Abir (ULAB),3-2,1211.0,1177.0,
+1603,15-Nov-2025,Hussain (BU),Towfiq (BUET),3-1,1220.0,1208.0,
 1604,8-Nov-2025,Rushi,Inaya Zaheen,3-0,908.0,892.0,
 1605,8-Nov-2025,Ahona Nondini,Irisha Momtaz,3-1,908.0,892.0,
 1606,8-Nov-2025,Ahona Nondini,Rushi,3-0,916.0,900.0,
@@ -1626,241 +1626,241 @@ SL No,Date,Player 1,Player 2,Result,Rating P1,Rating P2,Special
 1625,8-Nov-2025,Mansuran Taharat,Irisha Momtaz,3-1,936.0,908.0,
 1626,8-Nov-2025,Tasmin Zahia Zara,Mansuran Taharat,3-1,932.0,927.0,
 1627,22-Nov-2025,Wasif Shaer,Adv Sadat,3-0,1395.0,1191.0,
-1628,22-Nov-2025,Arib Akash (AIUB),Ziaul Huq,3-0,1210.0,1084.0,
+1628,22-Nov-2025,Arib Akash (AIUB),Ziaul Huq,3-0,1209.0,1084.0,
 1629,22-Nov-2025,Adv Sadat,Ziaul Huq,3-1,1194.0,1082.0,
-1630,22-Nov-2025,Wasif Shaer,Arib Akash (AIUB),3-1,1396.0,1209.0,
+1630,22-Nov-2025,Wasif Shaer,Arib Akash (AIUB),3-1,1396.0,1208.0,
 1631,22-Nov-2025,Wasif Shaer,Ziaul Huq,3-0,1396.0,1082.0,
-1632,22-Nov-2025,Arib Akash (AIUB),Adv Sadat,3-2,1216.0,1187.0,
-1633,22-Nov-2025,Jubayer,Hasnu,3-0,1292.0,1180.0,
-1634,22-Nov-2025,Imam Hasan (GTT-SS),Tahmid (BU),3-1,1214.0,1089.0,
-1635,22-Nov-2025,Hasnu,Tahmid (BU),3-0,1183.0,1086.0,
+1632,22-Nov-2025,Arib Akash (AIUB),Adv Sadat,3-2,1215.0,1186.0,
+1633,22-Nov-2025,Jubayer,Hasnu,3-0,1292.0,1177.0,
+1634,22-Nov-2025,Imam Hasan (GTT-SS),Tahmid (BU),3-1,1213.0,1088.0,
+1635,22-Nov-2025,Hasnu,Tahmid (BU),3-0,1181.0,1085.0,
 1636,22-Nov-2025,Jubayer,Imam Hasan (GTT-SS),3-2,1296.0,1210.0,
 1637,22-Nov-2025,Jubayer,Tahmid (BU),3-1,1296.0,1085.0,
-1638,22-Nov-2025,Imam Hasan (GTT-SS),Hasnu,3-1,1216.0,1177.0,
+1638,22-Nov-2025,Imam Hasan (GTT-SS),Hasnu,3-1,1216.0,1174.0,
 1639,22-Nov-2025,Showmik Aziz (GTT-SS),Mushfiq (Lalbagh),3-0,1283.0,1177.0,
-1640,22-Nov-2025,Adri (BU),Towfiq (BUET),3-2,1142.0,1198.0,
-1641,22-Nov-2025,Adri (BU),Mushfiq (Lalbagh),3-2,1152.0,1167.0,
-1642,22-Nov-2025,Showmik Aziz (GTT-SS),Towfiq (BUET),3-0,1287.0,1194.0,
-1643,22-Nov-2025,Showmik Aziz (GTT-SS),Adri (BU),3-1,1288.0,1151.0,
-1644,22-Nov-2025,Mushfiq (Lalbagh),Towfiq (BUET),3-0,1177.0,1185.0,
-1645,22-Nov-2025,Shujan Mahmud,Adittya,3-1,1282.0,1172.0,
-1646,22-Nov-2025,Abdullah,Joy (DUFA),3-0,1258.0,1110.0,
-1647,22-Nov-2025,Adittya,Joy (DUFA),3-1,1176.0,1105.0,
+1640,22-Nov-2025,Adri (BU),Towfiq (BUET),3-2,1111.0,1195.0,
+1641,22-Nov-2025,Adri (BU),Mushfiq (Lalbagh),3-2,1123.0,1165.0,
+1642,22-Nov-2025,Showmik Aziz (GTT-SS),Towfiq (BUET),3-0,1286.0,1191.0,
+1643,22-Nov-2025,Showmik Aziz (GTT-SS),Adri (BU),3-1,1288.0,1121.0,
+1644,22-Nov-2025,Mushfiq (Lalbagh),Towfiq (BUET),3-0,1175.0,1182.0,
+1645,22-Nov-2025,Shujan Mahmud,Adittya,3-1,1281.0,1169.0,
+1646,22-Nov-2025,Abdullah,Joy (DUFA),3-0,1257.0,1110.0,
+1647,22-Nov-2025,Adittya,Joy (DUFA),3-1,1174.0,1105.0,
 1648,22-Nov-2025,Abdullah,Shujan Mahmud,3-1,1267.0,1272.0,
 1649,22-Nov-2025,Shujan Mahmud,Joy (DUFA),3-0,1273.0,1104.0,
-1650,22-Nov-2025,Abdullah,Adittya,3-0,1270.0,1173.0,
+1650,22-Nov-2025,Abdullah,Adittya,3-0,1270.0,1171.0,
 1651,22-Nov-2025,Samir Majumder,Asad Hossain,3-0,1276.0,1112.0,
 1652,22-Nov-2025,Nipon,Eftekhar,3-2,1147.0,987.0,
 1653,22-Nov-2025,Eftekhar,Asad Hossain,3-1,1001.0,1098.0,
 1654,22-Nov-2025,Shammam,Samir Majumder,3-1,1250.0,1266.0,
-1655,22-Nov-2025,Samir Majumder,Eftekhar,3-0,1266.0,1001.0,
-1656,22-Nov-2025,Shammam,Nipon,3-1,1253.0,1145.0,
+1655,22-Nov-2025,Samir Majumder,Eftekhar,3-0,1266.0,1000.0,
+1656,22-Nov-2025,Shammam,Nipon,3-1,1252.0,1144.0,
 1657,22-Nov-2025,Samir Majumder,Nipon,3-0,1268.0,1142.0,
 1658,22-Nov-2025,Shammam,Asad Hossain,3-0,1254.0,1097.0,
-1659,22-Nov-2025,Shammam,Eftekhar,3-1,1255.0,1000.0,
-1660,22-Nov-2025,Nipon,Asad Hossain,3-0,1148.0,1091.0,
-1661,22-Nov-2025,Dibya Joti (SBMCH),Sk. Anand,3-0,1268.0,1138.0,
+1659,22-Nov-2025,Shammam,Eftekhar,3-1,1254.0,1000.0,
+1660,22-Nov-2025,Nipon,Asad Hossain,3-0,1147.0,1091.0,
+1661,22-Nov-2025,Dibya Joti (SBMCH),Sk. Anand,3-0,1268.0,1135.0,
 1662,22-Nov-2025,Eshan (Lalbagh),Bayezid,3-0,1173.0,1124.0,
-1663,22-Nov-2025,Sk. Anand,Bayezid,3-1,1145.0,1117.0,
-1664,22-Nov-2025,Ahsan Rahman (FSC),Dibya Joti (SBMCH),3-2,1272.0,1260.0,
+1663,22-Nov-2025,Sk. Anand,Bayezid,3-1,1143.0,1117.0,
+1664,22-Nov-2025,Ahsan Rahman (FSC),Dibya Joti (SBMCH),3-2,1271.0,1260.0,
 1665,22-Nov-2025,Dibya Joti (SBMCH),Bayezid,3-0,1261.0,1115.0,
 1666,22-Nov-2025,Ahsan Rahman (FSC),Eshan (Lalbagh),3-1,1274.0,1170.0,
-1667,22-Nov-2025,Dibya Joti (SBMCH),Eshan (Lalbagh),3-0,1265.0,1167.0,
-1668,22-Nov-2025,Ahsan Rahman (FSC),Sk. Anand,3-0,1276.0,1143.0,
-1669,22-Nov-2025,Ahsan Rahman (FSC),Bayezid,3-2,1278.0,1114.0,
-1670,22-Nov-2025,Eshan (Lalbagh),Sk. Anand,3-2,1173.0,1137.0,
-1671,22-Nov-2025,Dibya Joti (SBMCH),Adri (BU),3-0,1267.0,1148.0,
-1672,22-Nov-2025,Shammam,Imam Hasan (GTT-SS),3-1,1260.0,1211.0,
-1673,22-Nov-2025,Ahsan Rahman (FSC),Arib Akash (AIUB),3-0,1282.0,1211.0,
-1674,22-Nov-2025,Samir Majumder,Shujan Mahmud,3-1,1277.0,1265.0,
-1675,22-Nov-2025,Dibya Joti (SBMCH),Wasif Shaer,3-1,1281.0,1382.0,
-1676,22-Nov-2025,Shammam,Abdullah,3-1,1269.0,1262.0,
-1677,22-Nov-2025,Ahsan Rahman (FSC),Showmik Aziz (GTT-SS),3-2,1291.0,1280.0,
+1667,22-Nov-2025,Dibya Joti (SBMCH),Eshan (Lalbagh),3-0,1264.0,1167.0,
+1668,22-Nov-2025,Ahsan Rahman (FSC),Sk. Anand,3-0,1276.0,1141.0,
+1669,22-Nov-2025,Ahsan Rahman (FSC),Bayezid,3-2,1277.0,1114.0,
+1670,22-Nov-2025,Eshan (Lalbagh),Sk. Anand,3-2,1173.0,1134.0,
+1671,22-Nov-2025,Dibya Joti (SBMCH),Adri (BU),3-0,1266.0,1120.0,
+1672,22-Nov-2025,Shammam,Imam Hasan (GTT-SS),3-1,1260.0,1210.0,
+1673,22-Nov-2025,Ahsan Rahman (FSC),Arib Akash (AIUB),3-0,1281.0,1211.0,
+1674,22-Nov-2025,Samir Majumder,Shujan Mahmud,3-1,1276.0,1265.0,
+1675,22-Nov-2025,Dibya Joti (SBMCH),Wasif Shaer,3-1,1280.0,1382.0,
+1676,22-Nov-2025,Shammam,Abdullah,3-1,1268.0,1261.0,
+1677,22-Nov-2025,Ahsan Rahman (FSC),Showmik Aziz (GTT-SS),3-2,1290.0,1279.0,
 1678,22-Nov-2025,Samir Majumder,Jubayer,3-0,1286.0,1287.0,
-1679,22-Nov-2025,Shammam,Dibya Joti (SBMCH),3-1,1278.0,1272.0,
+1679,22-Nov-2025,Shammam,Dibya Joti (SBMCH),3-1,1277.0,1271.0,
 1680,22-Nov-2025,Ahsan Rahman (FSC),Samir Majumder,3-2,1298.0,1278.0,
-1681,22-Nov-2025,Shammam,Ahsan Rahman (FSC),3-1,1287.0,1289.0,
+1681,22-Nov-2025,Shammam,Ahsan Rahman (FSC),3-1,1286.0,1288.0,
 1682,29-Nov-2025,Fahim Bakhtiar,Adv Sadat,3-2,1292.0,1184.0,
-1683,29-Nov-2025,Sameen Wasif (GTT-SS),Maydul (RUAP),3-0,1237.0,1118.0,
+1683,29-Nov-2025,Sameen Wasif (GTT-SS),Maydul (RUAP),3-0,1234.0,1118.0,
 1684,29-Nov-2025,Adv Sadat,Maydul (RUAP),3-1,1188.0,1113.0,
-1685,29-Nov-2025,Sameen Wasif (GTT-SS),Fahim Bakhtiar,3-2,1248.0,1281.0,
+1685,29-Nov-2025,Sameen Wasif (GTT-SS),Fahim Bakhtiar,3-2,1245.0,1281.0,
 1686,29-Nov-2025,Fahim Bakhtiar,Maydul (RUAP),3-0,1282.0,1112.0,
-1687,29-Nov-2025,Sameen Wasif (GTT-SS),Adv Sadat,3-2,1253.0,1184.0,
-1688,29-Nov-2025,Ahsan Rahman (FSC),Mushfiq (Lalbagh),3-2,1291.0,1174.0,
+1687,29-Nov-2025,Sameen Wasif (GTT-SS),Adv Sadat,3-2,1250.0,1183.0,
+1688,29-Nov-2025,Ahsan Rahman (FSC),Mushfiq (Lalbagh),3-2,1291.0,1173.0,
 1689,29-Nov-2025,Snigdho,Rayan CTS (GTT-G),3-0,1231.0,1064.0,
-1690,29-Nov-2025,Mushfiq (Lalbagh),Rayan CTS (GTT-G),3-2,1177.0,1062.0,
-1691,29-Nov-2025,Snigdho,Ahsan Rahman (FSC),3-2,1242.0,1280.0,
+1690,29-Nov-2025,Mushfiq (Lalbagh),Rayan CTS (GTT-G),3-2,1175.0,1062.0,
+1691,29-Nov-2025,Snigdho,Ahsan Rahman (FSC),3-2,1242.0,1279.0,
 1692,29-Nov-2025,Ahsan Rahman (FSC),Rayan CTS (GTT-G),3-0,1280.0,1061.0,
-1693,29-Nov-2025,Snigdho,Mushfiq (Lalbagh),3-0,1247.0,1173.0,
-1694,29-Nov-2025,Ayan,Hasnu,3-2,1288.0,1174.0,
-1695,29-Nov-2025,Mashuq,Sazzad Saadi,3-0,1246.0,1076.0,
-1696,29-Nov-2025,Hasnu,Sazzad Saadi,3-0,1177.0,1073.0,
-1697,29-Nov-2025,Ayan,Mashuq,3-0,1294.0,1241.0,
-1698,29-Nov-2025,Ayan,Sazzad Saadi,3-0,1294.0,1072.0,
-1699,29-Nov-2025,Mashuq,Hasnu,3-2,1245.0,1173.0,
-1700,29-Nov-2025,Eshan (Lalbagh),Mohsinul Alam (BCBL),3-2,1187.0,1261.0,
-1701,29-Nov-2025,Md. Shahid Hasan Rabbani,Ziaul Huq,3-0,1251.0,1081.0,
+1693,29-Nov-2025,Snigdho,Mushfiq (Lalbagh),3-0,1246.0,1171.0,
+1694,29-Nov-2025,Ayan,Hasnu,3-2,1288.0,1172.0,
+1695,29-Nov-2025,Mashuq,Sazzad Saadi,3-0,1245.0,1071.0,
+1696,29-Nov-2025,Hasnu,Sazzad Saadi,3-0,1175.0,1069.0,
+1697,29-Nov-2025,Ayan,Mashuq,3-0,1293.0,1240.0,
+1698,29-Nov-2025,Ayan,Sazzad Saadi,3-0,1294.0,1068.0,
+1699,29-Nov-2025,Mashuq,Hasnu,3-2,1244.0,1170.0,
+1700,29-Nov-2025,Eshan (Lalbagh),Mohsinul Alam (BCBL),3-2,1186.0,1261.0,
+1701,29-Nov-2025,Md. Shahid Hasan Rabbani,Ziaul Huq,3-0,1249.0,1080.0,
 1702,29-Nov-2025,Eshan (Lalbagh),Ziaul Huq,3-0,1189.0,1078.0,
-1703,29-Nov-2025,Mohsinul Alam (BCBL),Md. Shahid Hasan Rabbani,3-1,1269.0,1243.0,
+1703,29-Nov-2025,Mohsinul Alam (BCBL),Md. Shahid Hasan Rabbani,3-1,1269.0,1242.0,
 1704,29-Nov-2025,Mohsinul Alam (BCBL),Ziaul Huq,3-0,1270.0,1077.0,
-1705,29-Nov-2025,Eshan (Lalbagh),Md. Shahid Hasan Rabbani,3-1,1200.0,1232.0,
-1706,29-Nov-2025,Dibya Joti (SBMCH),Mustafiz (Vivasoft),3-0,1274.0,1150.0,
+1705,29-Nov-2025,Eshan (Lalbagh),Md. Shahid Hasan Rabbani,3-1,1200.0,1231.0,
+1706,29-Nov-2025,Dibya Joti (SBMCH),Mustafiz (Vivasoft),3-0,1273.0,1150.0,
 1707,29-Nov-2025,Abdullah,Tipu (Batman),3-0,1263.0,1125.0,
 1708,29-Nov-2025,Mustafiz (Vivasoft),Tipu (Batman),3-0,1157.0,1119.0,
-1709,29-Nov-2025,Dibya Joti (SBMCH),Abdullah,3-1,1282.0,1256.0,
-1710,29-Nov-2025,Dibya Joti (SBMCH),Tipu (Batman),3-0,1283.0,1117.0,
-1711,29-Nov-2025,Abdullah,Mustafiz (Vivasoft),3-1,1259.0,1154.0,
+1709,29-Nov-2025,Dibya Joti (SBMCH),Abdullah,3-1,1281.0,1256.0,
+1710,29-Nov-2025,Dibya Joti (SBMCH),Tipu (Batman),3-0,1282.0,1117.0,
+1711,29-Nov-2025,Abdullah,Mustafiz (Vivasoft),3-1,1258.0,1154.0,
 1712,29-Nov-2025,Musabbir,Joy (DUFA),3-0,1267.0,1103.0,
 1713,29-Nov-2025,Faisal Ahmed,Sabbir (RUAP),3-0,1151.0,1114.0,
-1714,29-Nov-2025,Joy (DUFA),Sabbir (RUAP),3-2,1112.0,1105.0,
+1714,29-Nov-2025,Joy (DUFA),Sabbir (RUAP),3-2,1111.0,1105.0,
 1715,29-Nov-2025,Shujan Mahmud,Musabbir,3-1,1273.0,1259.0,
 1716,29-Nov-2025,Musabbir,Sabbir (RUAP),3-0,1260.0,1103.0,
 1717,29-Nov-2025,Shujan Mahmud,Faisal Ahmed,3-0,1275.0,1149.0,
-1718,29-Nov-2025,Musabbir,Faisal Ahmed,3-0,1263.0,1147.0,
+1718,29-Nov-2025,Musabbir,Faisal Ahmed,3-0,1262.0,1147.0,
 1719,29-Nov-2025,Shujan Mahmud,Joy (DUFA),3-1,1276.0,1110.0,
 1720,29-Nov-2025,Shujan Mahmud,Sabbir (RUAP),3-0,1277.0,1102.0,
-1721,29-Nov-2025,Joy (DUFA),Faisal Ahmed,3-2,1121.0,1137.0,
-1722,29-Nov-2025,Musabbir,Mashuq,3-2,1270.0,1238.0,
-1723,29-Nov-2025,Dibya Joti (SBMCH),Ahsan Rahman (FSC),3-1,1291.0,1273.0,
-1724,29-Nov-2025,Fahim Bakhtiar,Shujan Mahmud,3-1,1290.0,1270.0,
-1725,29-Nov-2025,Abdullah,Mohsinul Alam (BCBL),3-1,1268.0,1261.0,
-1726,29-Nov-2025,Sameen Wasif (GTT-SS),Musabbir,3-1,1262.0,1261.0,
-1727,29-Nov-2025,Dibya Joti (SBMCH),Eshan (Lalbagh),3-0,1294.0,1197.0,
+1721,29-Nov-2025,Joy (DUFA),Faisal Ahmed,3-2,1120.0,1137.0,
+1722,29-Nov-2025,Musabbir,Mashuq,3-2,1269.0,1237.0,
+1723,29-Nov-2025,Dibya Joti (SBMCH),Ahsan Rahman (FSC),3-1,1290.0,1272.0,
+1724,29-Nov-2025,Fahim Bakhtiar,Shujan Mahmud,3-1,1290.0,1269.0,
+1725,29-Nov-2025,Abdullah,Mohsinul Alam (BCBL),3-1,1267.0,1261.0,
+1726,29-Nov-2025,Sameen Wasif (GTT-SS),Musabbir,3-1,1259.0,1260.0,
+1727,29-Nov-2025,Dibya Joti (SBMCH),Eshan (Lalbagh),3-0,1293.0,1197.0,
 1728,29-Nov-2025,Ayan,Fahim Bakhtiar,3-2,1302.0,1282.0,
 1729,29-Nov-2025,Snigdho,Abdullah,3-1,1256.0,1258.0,
-1730,29-Nov-2025,Dibya Joti (SBMCH),Sameen Wasif (GTT-SS),3-0,1300.0,1256.0,
-1731,29-Nov-2025,Snigdho,Ayan,3-0,1267.0,1291.0,
-1732,29-Nov-2025,Dibya Joti (SBMCH),Snigdho,3-1,1306.0,1261.0,
+1730,29-Nov-2025,Dibya Joti (SBMCH),Sameen Wasif (GTT-SS),3-0,1299.0,1253.0,
+1731,29-Nov-2025,Snigdho,Ayan,3-0,1266.0,1291.0,
+1732,29-Nov-2025,Dibya Joti (SBMCH),Snigdho,3-1,1305.0,1260.0,
 1733,6-Dec-2025,Wasif Shaer,Dr. Helal Uddin Ahmed (OCD),3-2,1384.0,1248.0,
-1734,6-Dec-2025,Sameen Wasif (GTT-SS),Aurio (BU),3-0,1258.0,1130.0,
-1735,6-Dec-2025,Dr. Helal Uddin Ahmed (OCD),Aurio (BU),3-0,1250.0,1128.0,
-1736,6-Dec-2025,Wasif Shaer,Sameen Wasif (GTT-SS),3-1,1386.0,1256.0,
+1734,6-Dec-2025,Sameen Wasif (GTT-SS),Aurio (BU),3-0,1255.0,1130.0,
+1735,6-Dec-2025,Dr. Helal Uddin Ahmed (OCD),Aurio (BU),3-0,1250.0,1127.0,
+1736,6-Dec-2025,Wasif Shaer,Sameen Wasif (GTT-SS),3-1,1386.0,1253.0,
 1737,6-Dec-2025,Wasif Shaer,Aurio (BU),3-1,1386.0,1127.0,
-1738,6-Dec-2025,Sameen Wasif (GTT-SS),Dr. Helal Uddin Ahmed (OCD),3-1,1264.0,1243.0,
-1739,6-Dec-2025,Shahriar Sumit (BB),Mashuq,3-0,1352.0,1236.0,
-1740,6-Dec-2025,Shujan Mahmud,Shamim (RUAP),3-1,1272.0,1138.0,
-1741,6-Dec-2025,Mashuq,Shamim (RUAP),3-0,1239.0,1135.0,
+1738,6-Dec-2025,Sameen Wasif (GTT-SS),Dr. Helal Uddin Ahmed (OCD),3-1,1261.0,1243.0,
+1739,6-Dec-2025,Shahriar Sumit (BB),Mashuq,3-0,1352.0,1235.0,
+1740,6-Dec-2025,Shujan Mahmud,Shamim (RUAP),3-1,1271.0,1138.0,
+1741,6-Dec-2025,Mashuq,Shamim (RUAP),3-0,1238.0,1135.0,
 1742,6-Dec-2025,Shahriar Sumit (BB),Shujan Mahmud,3-0,1356.0,1268.0,
 1743,6-Dec-2025,Shahriar Sumit (BB),Shamim (RUAP),3-0,1357.0,1135.0,
-1744,6-Dec-2025,Shujan Mahmud,Mashuq,3-1,1274.0,1233.0,
-1745,6-Dec-2025,Euro Mehedi (MTTA),Mushfiq (Lalbagh),3-2,1311.0,1171.0,
+1744,6-Dec-2025,Shujan Mahmud,Mashuq,3-1,1274.0,1232.0,
+1745,6-Dec-2025,Euro Mehedi (MTTA),Mushfiq (Lalbagh),3-2,1311.0,1169.0,
 1746,6-Dec-2025,Arib Akash (AIUB),Maydul (RUAP),3-1,1214.0,1109.0,
-1747,6-Dec-2025,Mushfiq (Lalbagh),Maydul (RUAP),3-2,1175.0,1105.0,
+1747,6-Dec-2025,Mushfiq (Lalbagh),Maydul (RUAP),3-2,1174.0,1105.0,
 1748,6-Dec-2025,Euro Mehedi (MTTA),Maydul (RUAP),3-0,1311.0,1104.0,
 1749,6-Dec-2025,Euro Mehedi (MTTA),Arib Akash (AIUB),3-0,1314.0,1211.0,
-1750,6-Dec-2025,Arib Akash (AIUB),Mushfiq (Lalbagh),3-0,1217.0,1169.0,
-1751,6-Dec-2025,Dibya Joti (SBMCH),Ziaul Huq,3-0,1307.0,1077.0,
-1752,6-Dec-2025,Dibya Joti (SBMCH),Nipon,3-1,1308.0,1146.0,
-1753,6-Dec-2025,Nipon,Ziaul Huq,3-0,1151.0,1073.0,
+1750,6-Dec-2025,Arib Akash (AIUB),Mushfiq (Lalbagh),3-0,1217.0,1168.0,
+1751,6-Dec-2025,Dibya Joti (SBMCH),Ziaul Huq,3-0,1306.0,1077.0,
+1752,6-Dec-2025,Dibya Joti (SBMCH),Nipon,3-1,1307.0,1146.0,
+1753,6-Dec-2025,Nipon,Ziaul Huq,3-0,1150.0,1072.0,
 1754,6-Dec-2025,Jubayer,Eftekhar,3-0,1287.0,1000.0,
-1755,6-Dec-2025,Eshan (Lalbagh),Jubayer,3-0,1210.0,1275.0,
-1756,6-Dec-2025,Eshan (Lalbagh),Hasnu,3-2,1216.0,1167.0,
-1757,6-Dec-2025,Jubayer,Hasnu,3-2,1277.0,1164.0,
+1755,6-Dec-2025,Eshan (Lalbagh),Jubayer,3-0,1210.0,1274.0,
+1756,6-Dec-2025,Eshan (Lalbagh),Hasnu,3-2,1215.0,1165.0,
+1757,6-Dec-2025,Jubayer,Hasnu,3-2,1277.0,1162.0,
 1758,6-Dec-2025,Eshan (Lalbagh),Eftekhar,3-2,1216.0,999.0,
-1759,6-Dec-2025,Hasnu,Eftekhar,3-1,1166.0,998.0,
+1759,6-Dec-2025,Hasnu,Eftekhar,3-1,1163.0,998.0,
 1760,6-Dec-2025,Shujan Mahmud,Arib Akash (AIUB),3-0,1279.0,1212.0,
-1761,6-Dec-2025,Sameen Wasif (GTT-SS),Nipon,3-1,1266.0,1148.0,
-1762,6-Dec-2025,Wasif Shaer,Shujan Mahmud,3-0,1389.0,1276.0,
-1763,6-Dec-2025,Dibya Joti (SBMCH),Eshan (Lalbagh),3-0,1311.0,1213.0,
+1761,6-Dec-2025,Sameen Wasif (GTT-SS),Nipon,3-1,1264.0,1148.0,
+1762,6-Dec-2025,Wasif Shaer,Shujan Mahmud,3-0,1388.0,1276.0,
+1763,6-Dec-2025,Dibya Joti (SBMCH),Eshan (Lalbagh),3-0,1310.0,1213.0,
 1764,6-Dec-2025,Jubayer,Euro Mehedi (MTTA),3-0,1287.0,1304.0,
-1765,6-Dec-2025,Sameen Wasif (GTT-SS),Shahriar Sumit (BB),3-2,1279.0,1344.0,
-1766,6-Dec-2025,Wasif Shaer,Dibya Joti (SBMCH),3-2,1392.0,1307.0,
-1767,6-Dec-2025,Jubayer,Sameen Wasif (GTT-SS),3-1,1295.0,1271.0,
+1765,6-Dec-2025,Sameen Wasif (GTT-SS),Shahriar Sumit (BB),3-2,1277.0,1344.0,
+1766,6-Dec-2025,Wasif Shaer,Dibya Joti (SBMCH),3-2,1392.0,1306.0,
+1767,6-Dec-2025,Jubayer,Sameen Wasif (GTT-SS),3-1,1294.0,1269.0,
 1768,6-Dec-2025,Wasif Shaer,Jubayer,3-1,1395.0,1292.0,
-1769,16-Dec-2025,Talha,AR Fahim,3-0,1502.0,1312.0,
+1769,16-Dec-2025,Talha,AR Fahim,3-0,1502.0,1311.0,
 1770,16-Dec-2025,Babul Uddin,Nirjhor,3-2,1584.0,1344.0,
-1771,16-Dec-2025,Samir Majumder,Shammam,3-0,1287.0,1278.0,
-1772,16-Dec-2025,Nilanjon Dhrubo,Ayan,3-0,1325.0,1285.0,
-1773,16-Dec-2025,Dibya Joti (SBMCH),Ishraq Sifat,3-1,1318.0,1341.0,
+1771,16-Dec-2025,Samir Majumder,Shammam,3-0,1286.0,1278.0,
+1772,16-Dec-2025,Nilanjon Dhrubo,Ayan,3-0,1324.0,1285.0,
+1773,16-Dec-2025,Dibya Joti (SBMCH),Ishraq Sifat,3-1,1317.0,1341.0,
 1774,16-Dec-2025,Nafsan (GTT-SS),Arib Akash (AIUB),3-0,1282.0,1208.0,
-1775,16-Dec-2025,Nilanjon Dhrubo,Dibya Joti (SBMCH),3-1,1333.0,1310.0,
+1775,16-Dec-2025,Nilanjon Dhrubo,Dibya Joti (SBMCH),3-1,1332.0,1309.0,
 1776,16-Dec-2025,Nirjhor,Dibya Joti (SBMCH),3-1,1350.0,1304.0,
 1777,16-Dec-2025,AR Fahim,Ayan,3-0,1318.0,1278.0,
-1778,16-Dec-2025,Arib Akash (AIUB),Md. Shahid Hasan Rabbani,3-2,1218.0,1223.0,
-1779,16-Dec-2025,AR Fahim,Dibya Joti (SBMCH),3-1,1325.0,1297.0,
-1780,16-Dec-2025,Talha,Ishraq Sifat,3-0,1503.0,1340.0,
+1778,16-Dec-2025,Arib Akash (AIUB),Md. Shahid Hasan Rabbani,3-2,1217.0,1222.0,
+1779,16-Dec-2025,AR Fahim,Dibya Joti (SBMCH),3-1,1325.0,1296.0,
+1780,16-Dec-2025,Talha,Ishraq Sifat,3-0,1503.0,1339.0,
 1781,16-Dec-2025,Babul Uddin,Shujan Mahmud,3-0,1584.0,1276.0,
-1782,16-Dec-2025,Nilanjon Dhrubo,Samir Majumder,3-0,1338.0,1281.0,
+1782,16-Dec-2025,Nilanjon Dhrubo,Samir Majumder,3-0,1337.0,1281.0,
 1783,16-Dec-2025,Babul Uddin,Ishraq Sifat,3-1,1585.0,1339.0,
-1784,16-Dec-2025,Babul Uddin,Arib Akash (AIUB),3-1,1585.0,1218.0,
-1785,16-Dec-2025,Talha,Dibya Joti (SBMCH),3-0,1504.0,1297.0,
-1786,16-Dec-2025,Samir Majumder,Ayan,3-1,1289.0,1271.0,
-1787,16-Dec-2025,AR Fahim,Nilanjon Dhrubo,3-0,1334.0,1329.0,
+1784,16-Dec-2025,Babul Uddin,Arib Akash (AIUB),3-1,1585.0,1217.0,
+1785,16-Dec-2025,Talha,Dibya Joti (SBMCH),3-0,1504.0,1296.0,
+1786,16-Dec-2025,Samir Majumder,Ayan,3-1,1289.0,1270.0,
+1787,16-Dec-2025,AR Fahim,Nilanjon Dhrubo,3-0,1334.0,1328.0,
 1788,16-Dec-2025,Nirjhor,Ishraq Sifat,3-1,1357.0,1332.0,
-1789,16-Dec-2025,Shammam,Nafsan (GTT-SS),3-0,1287.0,1274.0,
+1789,16-Dec-2025,Shammam,Nafsan (GTT-SS),3-0,1286.0,1274.0,
 1790,16-Dec-2025,Rubel,Rezanur Ashik,3-0,1411.0,1342.0,
 1791,16-Dec-2025,Dipro Rahman (MTTA),Tauhidul Alam (GTT),3-2,1332.0,1485.0,
-1792,16-Dec-2025,Abdullah,Imam Hasan (GTT-SS),3-2,1264.0,1205.0,
+1792,16-Dec-2025,Abdullah,Imam Hasan (GTT-SS),3-2,1263.0,1205.0,
 1793,16-Dec-2025,Tauhidul Alam (GTT),Rezanur Ashik,3-2,1487.0,1340.0,
 1794,16-Dec-2025,Tonya Mro,Rakib Hridoy,3-0,1454.0,1371.0,
 1795,16-Dec-2025,Rifat Chowdhury,Shahriar Sumit (BB),3-0,1476.0,1342.0,
-1796,16-Dec-2025,Ahsan Rahman (FSC),Abu Talha (RTTC),3-0,1274.0,1096.0,
+1796,16-Dec-2025,Ahsan Rahman (FSC),Abu Talha (RTTC),3-0,1273.0,1096.0,
 1797,16-Dec-2025,Tonya Mro,Rifat Chowdhury,3-1,1463.0,1467.0,
-1798,16-Dec-2025,Rakib Hridoy,Shahriar Sumit (BB),3-1,1377.0,1336.0,
+1798,16-Dec-2025,Rakib Hridoy,Shahriar Sumit (BB),3-1,1377.0,1335.0,
 1799,16-Dec-2025,Shahriar Sumit (BB),Abdullah Fahim,3-0,1342.0,1308.0,
 1800,16-Dec-2025,Tonya Mro,Dipro Rahman (MTTA),3-2,1465.0,1330.0,
 1801,16-Dec-2025,Imam Hasan (GTT-SS),Abu Talha (RTTC),3-0,1208.0,1094.0,
 1802,16-Dec-2025,Tonya Mro,Abdullah Fahim,3-0,1466.0,1306.0,
-1803,16-Dec-2025,Tauhidul Alam (GTT),Rakib Hridoy,3-1,1489.0,1375.0,
+1803,16-Dec-2025,Tauhidul Alam (GTT),Rakib Hridoy,3-1,1489.0,1374.0,
 1804,16-Dec-2025,Rifat Chowdhury,Rubel,3-2,1472.0,1406.0,
-1805,16-Dec-2025,Abdullah,Ahsan Rahman (FSC),3-0,1272.0,1265.0,
+1805,16-Dec-2025,Abdullah,Ahsan Rahman (FSC),3-0,1272.0,1264.0,
 1806,16-Dec-2025,Tauhidul Alam (GTT),Rifat Chowdhury,3-1,1496.0,1465.0,
 1807,16-Dec-2025,Shahriar Sumit (BB),Niloy (GTT),3-0,1358.0,1582.0,
 1808,16-Dec-2025,Tonya Mro,Rubel,3-2,1471.0,1402.0,
 1809,16-Dec-2025,Abdullah,Abu Talha (RTTC),3-1,1273.0,1093.0,
-1810,16-Dec-2025,Rubel,Shahriar Sumit (BB),3-2,1407.0,1353.0,
+1810,16-Dec-2025,Rubel,Shahriar Sumit (BB),3-2,1407.0,1352.0,
 1811,16-Dec-2025,Tonya Mro,Niloy (GTT),3-1,1484.0,1569.0,
 1812,16-Dec-2025,Dipro Rahman (MTTA),Rifat Chowdhury,3-0,1344.0,1450.0,
-1813,16-Dec-2025,Rakib Hridoy,Abdullah Fahim,3-0,1379.0,1302.0,
-1814,16-Dec-2025,Imam Hasan (GTT-SS),Eshan (Lalbagh),3-1,1216.0,1205.0,
+1813,16-Dec-2025,Rakib Hridoy,Abdullah Fahim,3-0,1378.0,1302.0,
+1814,16-Dec-2025,Imam Hasan (GTT-SS),Eshan (Lalbagh),3-1,1216.0,1204.0,
 1815,16-Dec-2025,Abdullah Fahim,Rifat Chowdhury,3-0,1317.0,1436.0,
 1816,16-Dec-2025,Talha,Tauhidul Alam (GTT),3-0,1511.0,1488.0,
 1817,16-Dec-2025,Babul Uddin,Rubel,3-0,1586.0,1406.0,
 1818,16-Dec-2025,Samir Majumder,Abdullah,3-0,1296.0,1266.0,
 1819,16-Dec-2025,Tonya Mro,AR Fahim,3-1,1486.0,1332.0,
 1820,16-Dec-2025,Nirjhor,Shahriar Sumit (BB),3-0,1365.0,1345.0,
-1821,16-Dec-2025,Md. Shahid Hasan Rabbani,Abu Talha (RTTC),3-0,1225.0,1091.0,
+1821,16-Dec-2025,Md. Shahid Hasan Rabbani,Abu Talha (RTTC),3-0,1224.0,1091.0,
 1822,16-Dec-2025,Tonya Mro,Nirjhor,3-2,1488.0,1363.0,
 1823,16-Dec-2025,AR Fahim,Shahriar Sumit (BB),3-1,1341.0,1336.0,
 1824,16-Dec-2025,Talha,AR Fahim,3-0,1512.0,1340.0,
 1825,16-Dec-2025,Babul Uddin,Nirjhor,3-0,1586.0,1362.0,
-1826,16-Dec-2025,Samir Majumder,Md. Shahid Hasan Rabbani,3-0,1300.0,1221.0,
-1827,27-Dec-2025,Srijeet,Sakib Khan Redoy,3-1,1152.0,1036.0,
-1828,27-Dec-2025,Sakib Khan Redoy,Aparesh Saha,3-0,1046.0,1062.0,
+1826,16-Dec-2025,Samir Majumder,Md. Shahid Hasan Rabbani,3-0,1300.0,1220.0,
+1827,27-Dec-2025,Srijeet,Sakib Khan Redoy,3-1,1152.0,1034.0,
+1828,27-Dec-2025,Sakib Khan Redoy,Aparesh Saha,3-0,1044.0,1062.0,
 1829,27-Dec-2025,Prithibi (Lalbagh),Srijeet,3-0,1205.0,1147.0,
 1830,27-Dec-2025,Prithibi (Lalbagh),Aparesh Saha,3-0,1207.0,1060.0,
-1831,27-Dec-2025,Prithibi (Lalbagh),Sakib Khan Redoy,3-0,1208.0,1044.0,
+1831,27-Dec-2025,Prithibi (Lalbagh),Sakib Khan Redoy,3-0,1208.0,1043.0,
 1832,27-Dec-2025,Srijeet,Aparesh Saha,3-1,1151.0,1057.0,
-1833,27-Dec-2025,Qazi Asif,Raiyad,3-0,1234.0,1126.0,
-1834,27-Dec-2025,Hasnu,Himel (MTTA),3-1,1170.0,1090.0,
-1835,27-Dec-2025,Raiyad,Himel (MTTA),3-2,1132.0,1084.0,
-1836,27-Dec-2025,Qazi Asif,Hasnu,3-0,1238.0,1165.0,
-1837,27-Dec-2025,Himel (MTTA),Qazi Asif,3-2,1099.0,1224.0,
-1838,27-Dec-2025,Raiyad,Hasnu,3-1,1142.0,1155.0,
-1839,27-Dec-2025,Md. Shahid Hasan Rabbani,Joy (DUFA),3-0,1223.0,1118.0,
+1833,27-Dec-2025,Qazi Asif,Raiyad,3-0,1234.0,1124.0,
+1834,27-Dec-2025,Hasnu,Himel (MTTA),3-1,1168.0,1090.0,
+1835,27-Dec-2025,Raiyad,Himel (MTTA),3-2,1130.0,1084.0,
+1836,27-Dec-2025,Qazi Asif,Hasnu,3-0,1238.0,1163.0,
+1837,27-Dec-2025,Himel (MTTA),Qazi Asif,3-2,1098.0,1224.0,
+1838,27-Dec-2025,Raiyad,Hasnu,3-1,1140.0,1153.0,
+1839,27-Dec-2025,Md. Shahid Hasan Rabbani,Joy (DUFA),3-0,1223.0,1117.0,
 1840,27-Dec-2025,Ashiqur Robin,Shureed,3-0,1193.0,1097.0,
 1841,27-Dec-2025,Joy (DUFA),Shureed,3-1,1124.0,1090.0,
-1842,27-Dec-2025,Ashiqur Robin,Md. Shahid Hasan Rabbani,3-2,1203.0,1214.0,
-1843,27-Dec-2025,Md. Shahid Hasan Rabbani,Shureed,3-1,1216.0,1088.0,
-1844,27-Dec-2025,Ashiqur Robin,Joy (DUFA),3-2,1206.0,1121.0,
-1845,27-Dec-2025,Imam Hasan (GTT-SS),Riddho (SJS),3-2,1219.0,1117.0,
-1846,27-Dec-2025,Tanzil (ULAB),Maydul (RUAP),3-1,1198.0,1101.0,
-1847,27-Dec-2025,Riddho (SJS),Maydul (RUAP),3-0,1124.0,1094.0,
+1842,27-Dec-2025,Ashiqur Robin,Md. Shahid Hasan Rabbani,3-2,1202.0,1213.0,
+1843,27-Dec-2025,Md. Shahid Hasan Rabbani,Shureed,3-1,1215.0,1088.0,
+1844,27-Dec-2025,Ashiqur Robin,Joy (DUFA),3-2,1206.0,1120.0,
+1845,27-Dec-2025,Imam Hasan (GTT-SS),Riddho (SJS),3-2,1219.0,1116.0,
+1846,27-Dec-2025,Tanzil (ULAB),Maydul (RUAP),3-1,1197.0,1101.0,
+1847,27-Dec-2025,Riddho (SJS),Maydul (RUAP),3-0,1123.0,1094.0,
 1848,27-Dec-2025,Imam Hasan (GTT-SS),Tanzil (ULAB),3-0,1226.0,1191.0,
-1849,27-Dec-2025,Imam Hasan (GTT-SS),Maydul (RUAP),3-0,1228.0,1092.0,
+1849,27-Dec-2025,Imam Hasan (GTT-SS),Maydul (RUAP),3-0,1227.0,1092.0,
 1850,27-Dec-2025,Tanzil (ULAB),Riddho (SJS),3-2,1195.0,1119.0,
 1851,27-Dec-2025,Arib Akash (AIUB),Projonmo,3-0,1220.0,1114.0,
-1852,27-Dec-2025,Sharar (SJS),Eshan (Lalbagh),3-1,1124.0,1192.0,
+1852,27-Dec-2025,Sharar (SJS),Eshan (Lalbagh),3-1,1123.0,1191.0,
 1853,27-Dec-2025,Sharar (SJS),Projonmo,3-0,1131.0,1106.0,
-1854,27-Dec-2025,Arib Akash (AIUB),Eshan (Lalbagh),3-1,1227.0,1186.0,
-1855,27-Dec-2025,Arib Akash (AIUB),Sharar (SJS),3-1,1230.0,1128.0,
+1854,27-Dec-2025,Arib Akash (AIUB),Eshan (Lalbagh),3-1,1226.0,1185.0,
+1855,27-Dec-2025,Arib Akash (AIUB),Sharar (SJS),3-1,1229.0,1128.0,
 1856,27-Dec-2025,Projonmo,Eshan (Lalbagh),3-1,1119.0,1173.0,
-1857,27-Dec-2025,Md. Shahid Hasan Rabbani,Raiyad,3-0,1220.0,1138.0,
+1857,27-Dec-2025,Md. Shahid Hasan Rabbani,Raiyad,3-0,1219.0,1136.0,
 1858,27-Dec-2025,Srijeet,Tanzil (ULAB),3-1,1161.0,1184.0,
-1859,27-Dec-2025,Md. Shahid Hasan Rabbani,Prithibi (Lalbagh),3-2,1227.0,1201.0,
+1859,27-Dec-2025,Md. Shahid Hasan Rabbani,Prithibi (Lalbagh),3-2,1226.0,1201.0,
 1860,27-Dec-2025,Arib Akash (AIUB),Imam Hasan (GTT-SS),3-1,1237.0,1220.0,
 1861,27-Dec-2025,Ashiqur Robin,Sharar (SJS),3-0,1210.0,1124.0,
 1862,27-Dec-2025,Srijeet,Qazi Asif,3-1,1173.0,1212.0,
-1863,27-Dec-2025,Md. Shahid Hasan Rabbani,Arib Akash (AIUB),3-1,1236.0,1229.0,
+1863,27-Dec-2025,Md. Shahid Hasan Rabbani,Arib Akash (AIUB),3-1,1235.0,1228.0,
 1864,27-Dec-2025,Ashiqur Robin,Srijeet,3-1,1216.0,1167.0,
 1865,27-Dec-2025,Ashiqur Robin,Md. Shahid Hasan Rabbani,3-2,1225.0,1226.0,
