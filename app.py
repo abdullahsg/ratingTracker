@@ -598,8 +598,12 @@ def main():
         with tab3:
             st.header("🏆 Leaderboard")
             
-            # Generate leaderboard with changes
-            leaderboard_df = rating_engine.generate_leaderboard_with_changes(df)
+            # Generate leaderboard with changes (include initial_ratings players not in data.csv)
+            try:
+                initial_ratings_df = pd.read_csv('initial_ratings.csv')
+            except Exception:
+                initial_ratings_df = None
+            leaderboard_df = rating_engine.generate_leaderboard_with_changes(df, initial_ratings_df)
             
             if not leaderboard_df.empty:
                 # Function to apply styles

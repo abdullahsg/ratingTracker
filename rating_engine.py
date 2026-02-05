@@ -172,10 +172,11 @@ def calculate_championship_stats(data_df):
             
     return titles, runner_ups
 
-def generate_leaderboard_with_changes(data_df):
+def generate_leaderboard_with_changes(data_df, initial_ratings_df=None):
     """
     Generate leaderboard with Rank, Player Name, Last Rating, Matches Played, Won, Win Percentage, Rating Change, and Titles.
     Rating Change = Current Rating - Previous Day's Rating (relative to the latest match date in the dataset).
+    Players from initial_ratings_df who haven't played any matches are also included.
     """
     if data_df.empty:
         return pd.DataFrame()
@@ -281,6 +282,23 @@ def generate_leaderboard_with_changes(data_df):
             'Titles': titles_count
         })
         
+    # Add players from initial_ratings who haven't played any matches
+    if initial_ratings_df is not None:
+        existing_players = {entry['Player Name'] for entry in leaderboard_data}
+        for _, row in initial_ratings_df.iterrows():
+            player_name = str(row['Player']).strip()
+            if player_name not in existing_players:
+                leaderboard_data.append({
+                    'Player Name': player_name,
+                    'Last Rating': row['Rating'],
+                    'Matches Played': 0,
+                    'Won': 0,
+                    'Win Percentage': 0.0,
+                    'Rating Change': 0,
+                    'Is New': False,
+                    'Titles': 0
+                })
+
     df = pd.DataFrame(leaderboard_data)
     if not df.empty:
         # Sort by Last Rating (primary) and Titles (secondary - just in case?) 
