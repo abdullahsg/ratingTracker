@@ -511,7 +511,15 @@ def main():
                     # Reorder columns to show SL No first
                     recent_df = recent_df[['SL No', 'Date', 'Rating', 'Opponent', 'Result', 'Opponent Rating']]
                     
-                    st.dataframe(recent_df, hide_index=True, use_container_width=True)
+                    st.dataframe(
+                        recent_df, 
+                        hide_index=True, 
+                        use_container_width=False,
+                        column_config={
+                            "Rating": st.column_config.NumberColumn("Rating", format="%d"),
+                            "Opponent Rating": st.column_config.NumberColumn("Opponent Rating", format="%d"),
+                        }
+                    )
             
                 else:
                     st.error("Could not create chart for the selected player.")
