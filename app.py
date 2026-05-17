@@ -81,6 +81,7 @@ def extract_player_data(df):
             'date': date,
             'rating': rating,
             'opponent': row['Player 2'],
+            'opponent_rating': row['Rating P2'],
             'result': result
         })
     
@@ -105,6 +106,7 @@ def extract_player_data(df):
             'date': date,
             'rating': rating,
             'opponent': row['Player 1'],
+            'opponent_rating': row['Rating P1'],
             'result': flipped_result
         })
     
@@ -142,8 +144,9 @@ def create_rating_chart(player_name, player_matches):
                       '<b>Rating:</b> %{y}<br>' +
                       '<b>Result:</b> %{customdata[2]}<br>' +
                       '<b>Opponent:</b> %{customdata[1]}<br>' +
+                      '<b>Opponent Rating:</b> %{customdata[3]}<br>' +
                       '<extra></extra>',
-        customdata=list(zip(df['date'].dt.strftime('%Y-%m-%d'), df['opponent'], df['result']))
+        customdata=list(zip(df['date'].dt.strftime('%Y-%m-%d'), df['opponent'], df['result'], df['opponent_rating']))
     ))
     
     fig.update_layout(
@@ -230,8 +233,9 @@ def create_comparison_chart(selected_players, player_data):
                           '<b>Result:</b> %{customdata[2]}<br>' +
                           '<b>Date:</b> %{customdata[0]}<br>' +
                           '<b>Opponent:</b> %{customdata[1]}<br>' +
+                          '<b>Opponent Rating:</b> %{customdata[3]}<br>' +
                           '<extra></extra>',
-            customdata=list(zip(df['date'].dt.strftime('%Y-%m-%d'), df['opponent'], df['result']))
+            customdata=list(zip(df['date'].dt.strftime('%Y-%m-%d'), df['opponent'], df['result'], df['opponent_rating']))
         ))
     
     # Get all unique dates and SL numbers for custom x-axis labels
@@ -500,10 +504,12 @@ def main():
                         'sl_no': 'SL No',
                         'date': 'Date',
                         'rating': 'Rating',
-                        'opponent': 'Opponent'
+                        'opponent': 'Opponent',
+                        'result': 'Result',
+                        'opponent_rating': 'Opponent Rating'
                     })
                     # Reorder columns to show SL No first
-                    recent_df = recent_df[['SL No', 'Date', 'Rating', 'Opponent']]
+                    recent_df = recent_df[['SL No', 'Date', 'Rating', 'Opponent', 'Result', 'Opponent Rating']]
                     
                     st.dataframe(recent_df, hide_index=True, use_container_width=True)
             
